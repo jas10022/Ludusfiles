@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/general_navigatorbar_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:drawableLeft="@drawable/pages_meet_logo"
+            android:drawablePadding="10dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/Start_an_online_meeting_with_below_team_members" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:id="@+id/line_meet_topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_label"
+                android:text="@string/Meet_Topic"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:id="@+id/tv_meet_topic"
+                android:textColor="@color/moxtra_blue"
+                android:layout_centerVertical="true"
+                android:gravity="right"
+                android:layout_toLeftOf="@+id/accessory"
+                android:layout_toRightOf="@+id/tv_label" />
+
+            <ImageView
+                android:id="@+id/accessory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/accessory_disclosure" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="false"
+        android:fastScrollEnabled="true"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="@integer/meet_option_column_num"
+        android:scrollbarStyle="outsideOverlay"
+        android:stretchMode="spacingWidthUniform"
+        android:horizontalSpacing="0dp"
+        android:verticalSpacing="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        tools:listitem="@layout/row_meet_member" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/general_toolbar_bg"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/action_bar_height">
+
+        <Button
+            android:id="@+id/btn_schedule_meet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginLeft="@dimen/header_bar_margin"
+            android:textSize="@dimen/header_bar_action_button_text_size"
+            android:text="@string/Schedule"
+            android:textColor="@color/moxtra_orange"
+            android:visibility="gone"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_start_meet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginRight="@dimen/header_bar_margin"
+            android:textStyle="bold"
+            android:textSize="@dimen/header_bar_action_button_text_size"
+            fontPath="fonts/ProximaNova-Bold.otf"
+            android:text="@string/Start_Meet"
+            android:textColor="@color/moxtra_orange"
+            tools:ignore="MissingPrefix"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_meet_option.xml -->

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/liveshare_invite_attendee" />
+
+    <ImageView
+        android:id="@+id/iv_network_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignRight="@+id/iv_avatar"
+        android:background="@drawable/slow_network_meet_indicator" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_avatar"
+        android:layout_alignLeft="@+id/iv_avatar"
+        android:layout_alignRight="@+id/iv_avatar"
+        android:background="@color/translucent_black_85">
+
+        <ImageView
+            android:id="@+id/iv_audio_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            android:src="@drawable/audio_state_none" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_indicator"
+            android:layout_toRightOf="@+id/iv_audio_state"
+            android:layout_alignWithParentIfMissing="true"
+            android:minHeight="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/Unknown"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_12" />
+
+            <TextView
+                android:id="@+id/tv_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/Unknown"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_10" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_indicator"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/meet_presenter_indicator"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btn_remove_participant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/iv_avatar"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/iv_avatar"
+        android:background="@null"
+        android:src="@drawable/participant_remove"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_response_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:text="@string/Waiting_to_join" />
+
+</RelativeLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/row_participant_grid.xml -->

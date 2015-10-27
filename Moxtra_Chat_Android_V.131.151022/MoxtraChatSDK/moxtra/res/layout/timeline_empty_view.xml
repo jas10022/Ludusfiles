@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.moxtra.binder.widget.TopicListEmptyContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/topiclist_empty_arrow"
+        android:id="@+id/iv_arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:minHeight="60dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"
+        android:gravity="left|center_vertical"
+        android:text="@string/Create_a_Binder"
+        android:id="@+id/textView"
+        android:layout_below="@+id/iv_arrow"
+        android:layout_toLeftOf="@+id/iv_arrow" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/topiclist_empty_features"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Binder_is_a_new_type_of_collaboration_workspace_for_team_chat_content_sharing_meetings_and_tasks_management"
+        android:id="@+id/textView2"
+        android:minLines="4"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_empty_mask"
+        android:scaleType="fitEnd"
+        android:layout_alignParentBottom="true" />
+</com.moxtra.binder.widget.TopicListEmptyContainer><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/timeline_empty_view.xml -->

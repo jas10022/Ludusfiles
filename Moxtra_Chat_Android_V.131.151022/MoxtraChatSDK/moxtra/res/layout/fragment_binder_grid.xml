@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.moxtra.binder.widget.BounceGridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="false"
+        android:fastScrollEnabled="true"
+        android:gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="@integer/row_binder_count"
+        android:paddingTop="15dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:stretchMode="spacingWidthUniform"
+        android:horizontalSpacing="0dp"
+        android:verticalSpacing="15dp" />
+
+    <ProgressBar
+        android:id="@+id/pb_binder_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
+</RelativeLayout>
+
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_binder_grid.xml -->

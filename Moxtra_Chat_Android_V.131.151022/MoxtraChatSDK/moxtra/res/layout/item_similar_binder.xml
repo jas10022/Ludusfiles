@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cover_project"
+        android:layout_centerVertical="true"
+        android:id="@+id/iv_binder_cover" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tv_binder_name"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iv_binder_cover"
+        android:layout_toEndOf="@+id/iv_binder_cover"
+        android:layout_toLeftOf="@+id/btn_open"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:maxHeight="20dp"
+        android:text="@string/Open"
+        android:id="@+id/btn_open"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/blue_button_background"
+        android:textColor="@color/moxtra_blue"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/item_similar_binder.xml -->

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="mx_notification_small_icon">@drawable/ic_notifion_36</item>
+    <item type="string" name="mx_notification_title">@string/app_name</item>
+</resources>

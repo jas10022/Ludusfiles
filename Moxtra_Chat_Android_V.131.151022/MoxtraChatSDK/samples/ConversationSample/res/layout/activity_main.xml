@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.conversationsdk.activity.Phone_MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_chat_settings">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_setup_login_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:onClick="setupButtonPressed"
+                android:text="@string/update_profile" />
+
+            <Button
+                android:id="@+id/btn_start_conversation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_setup_login_model"
+                android:onClick="createChatButtonPressed"
+                android:text="@string/start_conversation" />
+
+            <Button
+                android:id="@+id/btn_create_individual_chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_start_conversation"
+                android:onClick="createIndividualButtonPressed"
+                android:text="@string/start_individual_chat" />
+
+            <Button
+                android:id="@+id/btn_invite_by_unique"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_create_individual_chat"
+                android:onClick="inviteByUniqueButtonPressed"
+                android:text="@string/invite_to_chat" />
+
+            <Button
+                android:id="@+id/btn_delete_chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_invite_by_unique"
+                android:layout_centerHorizontal="true"
+                android:onClick="deleteChatButtonPressed"
+                android:text="Delete this Chat" />
+
+            <Button
+                android:id="@+id/btn_start_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_delete_chat"
+                android:layout_centerHorizontal="true"
+                android:onClick="startMeetButtonPressed"
+                android:text="Start Meet" />
+
+            <Button
+                android:id="@+id/btn_join_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_start_meet"
+                android:layout_centerHorizontal="true"
+                android:onClick="joinMeetButtonPressed"
+                android:text="Join Meet" />
+
+            <Button
+                android:id="@+id/btn_unlink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_join_meet"
+                android:layout_centerHorizontal="true"
+                android:onClick="unlinkButtonPressed"
+                android:text="@string/unlink" />
+
+
+            <Button
+                android:id="@+id/btn_setup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_unlink"
+                android:layout_centerHorizontal="true"
+                android:onClick="setupAccountManagerButtonPressed"
+                android:text="@string/setup_accountmanager"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/open_chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_setup"
+                android:layout_centerHorizontal="true"
+                android:onClick="openChatButtonClicked"
+                android:text="@string/open_chat" />
+
+            <Button
+                android:id="@+id/btn_getusers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/open_chat"
+                android:layout_centerHorizontal="true"
+                android:onClick="getAllMembersInBinder"
+                android:text="@string/get_members" />
+
+            <Button
+                android:id="@+id/btn_get_meet_users"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_getusers"
+                android:layout_centerHorizontal="true"
+                android:onClick="getMeetMembers"
+                android:text="@string/get_meet_members" />
+
+            <Button
+                android:id="@+id/btn_getSessions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_get_meet_users"
+                android:layout_centerHorizontal="true"
+                android:onClick="getAllChatSessions"
+                android:text="@string/get_sessions" />
+
+            <Button
+                android:id="@+id/btn_open_msg_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_getSessions"
+                android:layout_centerHorizontal="true"
+                android:onClick="openMessagePage"
+                android:text="@string/open_msg_activity" />
+
+            <Button
+                android:id="@+id/btn_invite2meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_open_msg_list"
+                android:layout_centerHorizontal="true"
+                android:onClick="inviteToMeet"
+                android:visibility="gone"
+                android:text="@string/invite_to_meet" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_chat_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="chatSettings"
+        android:text="@string/mx_chatmanager_settings" />
+
+</RelativeLayout>

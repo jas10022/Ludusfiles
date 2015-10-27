@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="@android:color/white"
+        android:fastScrollEnabled="true"
+        android:divider="@color/moxtra_gray"
+        android:dividerHeight="1dp"
+        android:id="@android:id/list" />
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/action_bar_height"
+        android:background="@drawable/general_toolbar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+
+        <ViewSwitcher
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:measureAllChildren="false"
+            android:id="@+id/view_switcher"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_mute_all"
+                style="@style/MoxFlatButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/Mute_All" />
+
+            <Button
+                android:id="@+id/btn_reclaim_host"
+                style="@style/MoxFlatButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:text="@string/reclaim_host" />
+
+        </ViewSwitcher>
+    </LinearLayout>
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_participant_list.xml -->

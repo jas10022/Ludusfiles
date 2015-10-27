@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_page_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darker_gray_36">
+
+    <com.moxtra.binder.pageview.PagesViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants" />
+
+    <ViewStub
+        android:id="@+id/MX_ActionPanel_Stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/layout_comments_holder"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/comment_layout_height"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/pb_binder_loading"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center" />
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/layout_video_holder"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom"/>-->
+
+    <com.moxtra.binder.livemeet.MXVideoFrame
+        android:id="@+id/video_container_presenting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="52dp"
+        android:visibility="gone"/>
+
+    <!--<include layout="@layout/page_detail_add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:visibility="visible"/>-->
+
+</FrameLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_liveshare_view.xml -->

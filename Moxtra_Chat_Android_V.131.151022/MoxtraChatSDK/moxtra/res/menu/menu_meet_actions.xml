@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_meet_now"
+        android:title="@string/Meet_Now" />
+
+    <item android:id="@+id/menu_schedule_meet"
+        android:title="@string/Schedule_a_Meet" />
+</menu><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/menu/menu_meet_actions.xml -->

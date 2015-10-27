@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:src="@drawable/backward"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/webclip_nav_bar_height" />
+
+        <ImageButton
+            android:id="@+id/btnForward"
+            android:src="@drawable/forward"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/webclip_nav_bar_height" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/webclip_nav_bar_height"
+            android:layout_weight="1">
+
+            <com.moxtra.binder.widget.ClearableEditText
+                android:id="@+id/txtAddress"
+                android:inputType="textUri"
+                android:imeOptions="actionGo"
+                android:singleLine="true"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <!--<Button-->
+                <!--android:layout_width="@dimen/webclip_nav_bar_height"-->
+                <!--android:layout_height="@dimen/webclip_nav_bar_height"-->
+                <!--android:layout_gravity="right|center_vertical"-->
+                <!--android:background="@drawable/button_delete_gray"-->
+                <!--android:id="@+id/btnClear"-->
+                <!--android:visibility="gone"/>-->
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/btnRefresh"
+            android:src="@drawable/refresh"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/webclip_nav_bar_height" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/clipFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.moxtra.binder.webclip.MXClipWebView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/webview" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/action_bar_height"
+        android:background="@drawable/general_toolbar_bg"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnClip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MoxFlatButton"
+            android:textStyle="bold"
+            android:text="@string/clip_screen" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnBookmark"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MoxFlatButton"
+            android:textStyle="bold"
+            android:text="@string/bookmark" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_webclip.xml -->

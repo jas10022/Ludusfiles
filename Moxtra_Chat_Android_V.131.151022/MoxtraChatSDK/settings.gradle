@@ -1,0 +1,4 @@
+include ':moxtra'
+
+include ':ConversationSample'
+project(':ConversationSample').projectDir = new File('samples/ConversationSample')

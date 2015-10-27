@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+    <solid
+        android:color="@color/orange_darker"/>
+
+    <stroke
+        android:width="2dp"
+        android:color="@color/orange2"/>
+
+</shape><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/orange_border_solid_shape.xml -->

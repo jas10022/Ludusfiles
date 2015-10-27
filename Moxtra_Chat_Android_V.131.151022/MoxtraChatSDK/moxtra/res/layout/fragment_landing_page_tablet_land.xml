@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flipper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+            <include
+                android:layout_centerInParent="true"
+                android:id="@+id/view_guide_pages"
+                android:layout_above="@+id/action_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/layout_guide_pages" />
+
+            <!--<Space-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="@dimen/story_bottom_margin" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/action_bar"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/btn_signup"
+                    style="@style/MoxOrangeButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="@dimen/landing_page_login_width"
+                    android:text="@string/Sign_Up" />
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btn_login"
+                    style="@style/MoxLightGrayButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="@dimen/landing_page_login_width"
+                    android:text="@string/Log_In" />
+            </LinearLayout>
+            
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <fragment
+            android:id="@+id/signup_fragment"
+            android:name="com.moxtra.binder.landingpage.SignupFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <fragment
+            android:id="@+id/login_fragment"
+            android:name="com.moxtra.binder.landingpage.LoginFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+</ViewFlipper><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_landing_page_tablet_land.xml -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:fromYScale="1.0"
+    android:toYScale="1.0"
+    android:fromXScale="0.0"
+    android:toXScale="1.0"
+    android:pivotX="50%"
+    android:fillAfter="false"
+    android:startOffset="200"
+    android:duration="200" />
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/anim/flip_show.xml -->

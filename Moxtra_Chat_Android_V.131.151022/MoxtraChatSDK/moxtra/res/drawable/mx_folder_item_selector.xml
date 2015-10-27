@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/item_border_selected" android:state_selected="true"/>
+    <item android:drawable="@drawable/item_border_selected" android:state_pressed="true"/>
+    <item android:drawable="@drawable/folder_short" android:state_pressed="false" android:state_selected="false"/>
+    <!--<item android:drawable="@drawable/item_border"/>-->
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-files/drawable/mx_folder_item_selector.xml -->

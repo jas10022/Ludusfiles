@@ -1,0 +1,55 @@
+1.3.1
+	- Bug Fix: Security enhancement
+	- Bug Fix: Annotation enhancement	
+
+1.3.0
+	- Support individual chat
+	- Bug Fix: Can’t invite user by uniqueID when starting a meet
+	- Bug Fix: UniqueId was null when clicking the user profile image if the message was from an user via email
+	- Bug Fix: MXAccountManager.getUserInfo was always responding userIdentity as null and isLinked as false
+
+1.2.9
+	- Timeout option in setup user call
+	- New API to get live meet participants list
+	- Bug Fix: double flux issue
+	- Bug Fix: binder cannot be open issue when an email feed is sent
+
+1.2.8
+	- Bug Fix: Updated the openssl version
+
+1.2.7
+	- Tablet Interface Support for Chat SDK
+
+1.2.6
+	- support folders/files
+	- support video conference
+	- Sandbox Support
+	- Bug Fixes
+
+1.2.5
+	- Add getContext() API in MXChatManager
+	- Add GCM Support
+	- Bug Fixes
+
+1.2.4
+	- Add callback ShareResourceCallback() for listen share action in moxtra SDK
+	- Add new API to get the uniqueID of all the members in a binder
+	- Sandbox Environment Support
+	- Bug Fixes
+
+1.2.3
+	- Bug Fixes
+
+1.2.1
+	- Separate the APIs for start and open chat
+	- Invite members to chat API support
+	- Bug fixes
+
+1.2.0
+	- Push notification support
+	- Bug fixes
+
+1.0.0 
+	- Embed chat into App
+	- Start meet from embedded chat
+	- Create clip or annotate on content and share inside chat	

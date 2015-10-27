@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_priority"
+            android:orderInCategory="0"
+            android:icon="@drawable/todo_priority_selected"
+            android:title="@string/Sort_by_Priority" />
+        <item
+            android:id="@+id/menu_due_date"
+            android:orderInCategory="1"
+            android:icon="@drawable/todo_due_date"
+            android:title="@string/Sort_by_Due_Date" />
+        <item
+            android:id="@+id/menu_alphabetically"
+            android:orderInCategory="2"
+            android:icon="@drawable/todo_sort_a_z"
+            android:title="@string/Sort_Alphabetically" />
+        <item
+            android:id="@+id/menu_assignee"
+            android:orderInCategory="3"
+            android:icon="@drawable/assign_to"
+            android:title="@string/Sort_by_Assignee" />
+    </group>
+</menu><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/menu/menu_todo_sort.xml -->

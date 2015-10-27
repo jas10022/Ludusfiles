@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="@color/moxtra_darkgray"
+        android:text="@string/Your_email_address_has_not_been_verified_Confirm_your_email_address_to_access_all_features_of_Moxtra" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/btn_resend_confirmation"
+        style="@style/MoxBlueButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:minWidth="200dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/blue_flat_round_button"
+        android:text="@string/Resend_confirmation_email" />
+
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_resend_confirmation.xml -->

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.moxtra.binder.livemeet.MXMeetRosterView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:moxtra="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/fl_roster"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/fl_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="3dp"
+        android:layout_gravity="center">
+
+        <com.moxtra.binder.widget.RoundedImageView
+            android:id="@+id/riv_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            moxtra:border_color="@android:color/white"
+            moxtra:border_width="1dp"
+            moxtra:corner_radius="22dp"
+            moxtra:round_background="true"/>
+
+        <ImageView
+            android:id="@+id/iv_presenter_role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pageview_toolbar_presenter_indicator"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_audio_state"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/liveshare_toolbar_audio_actived"/>
+</com.moxtra.binder.livemeet.MXMeetRosterView><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/meet_sdk_row_participant.xml -->

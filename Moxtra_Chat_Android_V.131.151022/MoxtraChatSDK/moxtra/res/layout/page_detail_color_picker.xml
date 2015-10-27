@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MXPageDetailColorToolbar"
+    android:id="@+id/color_button_group"
+    android:background="@color/page_detail_bar_background"
+    android:clickable="true"
+    android:visibility="gone">
+
+    <com.moxtra.binder.widget.PageDetailColorButton
+        android:id="@+id/page_detail_color_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/page_detail_button_size"
+        android:minHeight="@dimen/page_detail_button_size"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:button="@null"
+        android:background="@drawable/color_button_bg" />
+
+    <com.moxtra.binder.widget.PageDetailColorButton
+        android:id="@+id/page_detail_color_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/page_detail_button_size"
+        android:minHeight="@dimen/page_detail_button_size"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:button="@null"
+        android:background="@drawable/color_button_bg" />
+
+    <com.moxtra.binder.widget.PageDetailColorButton
+        android:id="@+id/page_detail_color_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/page_detail_button_size"
+        android:minHeight="@dimen/page_detail_button_size"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:button="@null"
+        android:background="@drawable/color_button_bg" />
+
+    <com.moxtra.binder.widget.PageDetailColorButton
+        android:id="@+id/page_detail_color_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/page_detail_button_size"
+        android:minHeight="@dimen/page_detail_button_size"
+        android:checked="true"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:button="@null"
+        android:background="@drawable/color_button_bg" />
+
+    <com.moxtra.binder.widget.PageDetailColorButton
+        android:id="@+id/page_detail_color_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/page_detail_button_size"
+        android:minHeight="@dimen/page_detail_button_size"
+        android:checked="true"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:button="@null"
+        android:background="@drawable/color_button_bg" />
+
+    <com.moxtra.binder.widget.PageDetailColorButton
+        android:id="@+id/page_detail_color_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/page_detail_button_size"
+        android:minHeight="@dimen/page_detail_button_size"
+        android:checked="true"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:button="@null"
+        android:background="@drawable/color_button_bg" />
+
+    <com.moxtra.binder.widget.PageDetailColorButton
+        android:id="@+id/page_detail_color_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/page_detail_button_size"
+        android:minHeight="@dimen/page_detail_button_size"
+        android:checked="true"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:button="@null"
+        android:background="@drawable/color_button_bg" />
+
+</RadioGroup><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/page_detail_color_picker.xml -->

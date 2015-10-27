@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_layout"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/left_fragment"
+            android:layout_width="@dimen/left_sliding_or_pane_min_width"
+            android:layout_height="match_parent" />
+
+        <View
+            android:id="@+id/separate_line"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/left_fragment"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <!--        android:layout_weight="1"-->
+    <FrameLayout
+        android:id="@+id/right_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_toRightOf="@id/left_layout" />
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_tab_binders_tablet.xml -->

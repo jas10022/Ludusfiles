@@ -1,0 +1,99 @@
+apply plugin: 'com.android.application'
+
+buildscript {
+    def gradleVersion = System.env.CUSTOM_GRADLE != null ? System.env.CUSTOM_GRADLE : '1.0.0'
+
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradleVersion"
+    }
+}
+
+ext {
+    buildToolsVersion = System.env.CUSTOM_BUILDTOOLS != null ? System.env.CUSTOM_BUILDTOOLS : (project.hasProperty("CUSTOM_BUILDTOOLS") ? project.CUSTOM_BUILDTOOLS : '21.1.0')
+    useJack = System.env.CUSTOM_JACK != null ? true : (project.hasProperty("CUSTOM_JACK") ? true : false)
+}
+
+android {
+    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+    buildToolsVersion = project.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.example.conversationsdk"
+        minSdkVersion Integer.parseInt(project.ANDROID_BUILD_MIN_SDK_VERSION)
+        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+        versionCode 1
+        versionName "1.0"
+
+        //Be sure to add this below section in your app!
+        multiDexEnabled = true
+        useJack = project.ext.useJack
+    }
+
+    enforceUniquePackageName = false;
+
+    //Add exclude rules to avoid duplicate package error!
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'org/apache/http/entity/mime/version.properties'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    //please set your keystore info here
+    signingConfigs {
+        release {
+            storeFile file('debug.keystore')
+            storePassword 'android'
+            keyPassword 'android'
+            keyAlias 'androiddebugkey'
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled = false
+        }
+
+        release {
+            signingConfig signingConfigs.release
+
+            minifyEnabled = true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dexOptions {
+        preDexLibraries = false
+        javaMaxHeapSize "2g"
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+
+            jniLibs.srcDir 'libs'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':moxtra')
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:recyclerview-v7:21.0.3'
+    compile 'com.google.android.gms:play-services-gcm:7.3.0'
+    compile 'uk.co.chrisjenx:calligraphy:2.0.2'
+    compile 'org.jsoup:jsoup:1.7.3'
+}

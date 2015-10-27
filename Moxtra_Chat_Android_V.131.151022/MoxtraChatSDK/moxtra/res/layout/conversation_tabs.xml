@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/radio_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    style="@style/Widget.Holo.TabWidget"
+    android:orientation="horizontal"
+    tools:showIn="@layout/fragment_conversation">
+
+    <at.bookworm.widget.TabControlButton
+        android:id="@+id/btn_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Chat" />
+
+    <at.bookworm.widget.TabControlButton
+        android:id="@+id/btn_files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Pages" />
+
+    <at.bookworm.widget.TabControlButton
+        android:id="@+id/btn_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/To_Do_" />
+
+    <at.bookworm.widget.TabControlButton
+        android:id="@+id/btn_meet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@string/Meet" />
+</RadioGroup><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/conversation_tabs.xml -->

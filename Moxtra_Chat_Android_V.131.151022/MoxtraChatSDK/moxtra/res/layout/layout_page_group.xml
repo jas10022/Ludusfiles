@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <com.moxtra.binder.widget.SquareImageView
+        android:id="@+id/iv_page0"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:scaleType="centerCrop" />
+
+    <com.moxtra.binder.widget.SquareImageView
+        android:id="@+id/iv_page1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:layout_marginLeft="2dp"
+        android:scaleType="centerCrop" />
+
+    <com.moxtra.binder.widget.SquareImageView
+        android:id="@+id/iv_page2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:layout_marginLeft="2dp"
+        android:scaleType="centerCrop" />
+
+    <com.moxtra.binder.widget.SquareImageView
+        android:id="@+id/iv_page3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_page_group.xml -->

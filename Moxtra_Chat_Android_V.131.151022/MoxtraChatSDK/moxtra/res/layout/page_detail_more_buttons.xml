@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/more_button_group"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/more_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:background="@null"
+        android:src="@drawable/more_todo" />
+
+    <ImageButton
+        android:id="@+id/more_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:background="@null"
+        android:src="@drawable/more_rotate" />
+
+    <ImageButton
+        android:id="@+id/more_copyto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:background="@null"
+        android:src="@drawable/more_copyto" />
+
+    <ImageButton
+        android:id="@+id/more_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:background="@null"
+        android:src="@drawable/more_delete" />
+
+    <ImageButton
+        android:id="@+id/more_add_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:background="@null"
+        android:src="@drawable/more_add_page" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/page_detail_more_buttons.xml -->

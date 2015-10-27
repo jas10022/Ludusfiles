@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.moxtra.binder.widget.ClearableEditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/et_search"
+    style="@style/MXSearchBox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:ems="10"
+    android:hint="@string/Search"
+    android:minHeight="40dp"
+    android:singleLine="true"
+    android:imeOptions="actionSearch"
+    android:textColor="@android:color/black" />
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/search_box.xml -->

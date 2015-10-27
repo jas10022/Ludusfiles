@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray">
+
+    <include layout="@layout/search_box" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0">
+
+        <com.mobeta.android.dslv.DragSortListView
+            xmlns:dslv="http://schemas.android.com/apk/res"
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/divider_gray"
+            android:dividerHeight="1px"
+            android:fastScrollEnabled="true"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="false"
+            dslv:drag_enabled="true"
+            dslv:collapsed_height="2dp"
+            dslv:drag_scroll_start="0.33"
+            dslv:max_drag_scroll_speed="0.5"
+            dslv:float_alpha="0.6"
+            dslv:slide_shuffle_speed="0.3"
+            dslv:track_drag_sort="true"
+            dslv:use_default_controller="false"/>
+
+        <RelativeLayout
+            android:id="@android:id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal|bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="10dp"
+                android:layout_above="@+id/arrow_down"
+                android:drawableTop="@drawable/chat_todo_indicator"
+                android:layout_centerHorizontal="true"
+                android:layout_alignWithParentIfMissing="true"
+                style="@style/MoxDarkerGrayTextView"
+                android:text="@string/Add_a_To_Do_here"
+                android:textSize="22sp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/arrow_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/down_arrow" />
+
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/pb_binder_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/general_toolbar_bg"
+        android:minHeight="@dimen/action_bar_height"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_sort"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/todo_sort"/>
+
+        <com.moxtra.binder.widget.ClearableEditText
+            android:id="@+id/et_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:maxLines="4"
+            android:inputType="text|textMultiLine|textCapSentences"
+            android:layout_weight="1"
+            android:minHeight="@dimen/chat_input_min_height"
+            android:layout_gravity="center_vertical"
+            android:gravity="left|center_vertical"
+            android:hint="@string/Add_a_To_Do_item_" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical"
+            android:text="@string/Send"
+            android:padding="0dp"
+            android:background="@null"
+            android:textColor="@color/moxtra_blue"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_board_task_list.xml -->

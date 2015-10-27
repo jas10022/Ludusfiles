@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    android:orientation="vertical">
+
+    <ViewFlipper
+        android:id="@+id/flipper01"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/lightgray">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <RelativeLayout
+                android:id="@android:id/empty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/arrow_down"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:layout_centerHorizontal="true"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/page_indicator"
+                    android:ems="6"
+                    android:gravity="center"
+                    android:minWidth="200dp"
+                    android:text="@string/Add_content_here"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/darker_gray" />
+
+                <ImageView
+                    android:id="@+id/arrow_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:minHeight="44dp"
+                    android:minWidth="44dp"
+                    android:scaleType="center"
+                    android:src="@drawable/down_arrow" />
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/pb_binder_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminate="false" />
+        </RelativeLayout>
+
+        <com.moxtra.binder.widget.MultiPagesContainer
+            android:id="@+id/multi_pages_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+            <include layout="@layout/dialog_multi_pages" />
+
+        </com.moxtra.binder.widget.MultiPagesContainer>
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/flipper02"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:background="@drawable/general_toolbar_bg">
+
+        <include
+            layout="@layout/mx_file_list_footer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp" />
+
+        <include
+            layout="@layout/mx_file_operation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+    </ViewFlipper>
+
+    <LinearLayout
+        android:id="@+id/add_page_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_files.xml -->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mx="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/last_comment_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <com.moxtra.binder.widget.MXAvatarImageView
+        android:id="@+id/iv_sender_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerCrop"
+        mx:border_color="@color/white"
+        mx:border_width="1dip"
+        mx:corner_radius="3dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_comment_content"
+        android:textColor="@android:color/black"
+        android:layout_alignTop="@+id/iv_sender_avatar"
+        android:text="Test"
+        android:layout_toRightOf="@+id/iv_sender_avatar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_create_date"
+        android:textColor="@android:color/black"
+        android:text="Test"
+        android:layout_toRightOf="@+id/iv_sender_avatar"
+        android:layout_below="@+id/tv_comment_content" />
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/row_todo_comment.xml -->

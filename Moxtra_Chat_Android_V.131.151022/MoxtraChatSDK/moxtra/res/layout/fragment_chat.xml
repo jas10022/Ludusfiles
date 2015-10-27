@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_chat_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:longClickable="false"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/layout_chat_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/lightgray">
+
+        <View
+            android:id="@+id/MX_DummyView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.moxtra.binder.conversation.ChatListView
+                android:id="@+id/lv_chat_content_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stackFromBottom="true"
+                android:transcriptMode="normal"
+                android:listSelector="@android:color/transparent"
+                android:fastScrollEnabled="true"
+                android:scrollbarStyle="outsideOverlay"
+                android:clipToPadding="false"
+                android:paddingBottom="10dp" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <ProgressBar
+            android:id="@+id/pb_binder_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:indeterminate="false" />
+
+        <CheckBox
+            android:id="@+id/show_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_chat_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/general_toolbar_bg"
+        android:minHeight="@dimen/action_bar_height"
+        android:orientation="horizontal">
+
+        <com.moxtra.binder.widget.CheckableImageButton
+            android:id="@+id/iv_addbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/header_bar_margin"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/selector_chat_add" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/layout_right"
+            android:layout_toRightOf="@+id/iv_addbutton">
+
+            <ViewSwitcher
+                android:id="@+id/vs_viewSwitcher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:measureAllChildren="false">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp">
+
+                    <com.moxtra.binder.widget.AutoMentionedTextView
+                        android:id="@+id/et_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:completionThreshold="1"
+                        android:drawablePadding="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:maxLines="4"
+                        android:inputType="text|textMultiLine|textCapSentences"
+                        android:hint="@string/Send_message"
+                        android:minHeight="@dimen/chat_input_min_height"
+                        android:paddingRight="44dp" />
+
+                    <com.moxtra.binder.widget.CheckableImageButton
+                        android:id="@+id/btn_chat_dropdown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:background="@null"
+                        android:src="@drawable/chat_dropdown" />
+                </FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_hold_talk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/chat_selector"
+                    android:text="@string/Hold_to_Talk"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@drawable/hold_to_talk_selector" />
+            </ViewSwitcher>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/layout_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <com.moxtra.binder.widget.CheckableImageButton
+                android:id="@+id/iv_textorvoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/header_bar_margin"
+                android:layout_marginRight="@dimen/header_bar_margin"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:src="@drawable/selector_chat_textorvoice" />
+
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:text="@string/Send"
+                android:padding="0dp"
+                android:background="@null"
+                android:textColor="@color/moxtra_blue"
+                fontPath="fonts/ProximaNova-Bold.otf"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_chat_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="150dp"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_chat.xml -->

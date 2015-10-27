@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_bar_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_height"
+    android:background="@drawable/general_navigatorbar_bg" >
+
+    <ViewSwitcher
+        android:id="@+id/vs_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="left|center_vertical" >
+
+        <Button
+            android:id="@+id/btn_left_text"
+            style="@style/MoxFlatButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="left|center_vertical"
+            android:layout_marginLeft="@dimen/header_bar_margin" />
+
+        <ImageButton
+            android:id="@+id/btn_left_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|left"
+            android:background="@null" />
+    </ViewSwitcher>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/vs_right"
+        android:layout_toRightOf="@+id/vs_left" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/action_bar_title_left_padding"
+            android:textColor="@color/action_bar_title_text"
+            android:textSize="@dimen/header_bar_title_size" 
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:visibility="gone" >
+        </ImageView>
+    </FrameLayout>
+
+    <ViewSwitcher
+        android:id="@+id/vs_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/header_bar_margin">
+
+        <Button
+            android:id="@+id/btn_right_text"
+            style="@style/MoxFlatButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="right|center_vertical"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btn_right_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:background="@null" />
+    </ViewSwitcher>
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/action_bar_default_v2.xml -->

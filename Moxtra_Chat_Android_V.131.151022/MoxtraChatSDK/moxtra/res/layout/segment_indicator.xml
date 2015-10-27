@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Add marquee to resolve long name for biz-group-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/Contacts"
+    android:textSize="@dimen/text_size_18"
+    android:textColor="@color/segment_indicator_text_color"
+    android:gravity="center"
+    android:singleLine="true"
+    android:ellipsize="marquee"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:drawableTop="@drawable/selector_segment_people"
+    android:background="@drawable/selector_segment_indicator" /><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/segment_indicator.xml -->

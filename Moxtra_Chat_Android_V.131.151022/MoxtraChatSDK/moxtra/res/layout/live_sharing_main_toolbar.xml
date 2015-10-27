@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/page_detail_main_toolbar"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:clickable="false"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/action_bar_height" />
+
+    <ImageButton
+        android:id="@+id/page_annotation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_main_button_margin"
+        android:background="@null"
+        android:src="@drawable/meet_annotation" />
+
+    <CheckBox
+        android:id="@+id/page_detail_laser_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_main_button_margin"
+        android:background="@null"
+        android:button="@null"
+        android:drawableLeft="@drawable/selector_meet_annotation_laserpoint" />
+
+    <ImageButton
+        android:id="@+id/page_snap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_main_button_margin"
+        android:background="@null"
+        android:src="@drawable/snap_page" />
+
+    <!--<ImageButton
+        android:id="@+id/detail_page_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_main_button_margin"
+        android:background="@null"
+        android:src="@drawable/detail_page_add" />-->
+
+    <ImageButton
+        android:id="@+id/detail_page_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_main_button_margin"
+        android:background="@null"
+        android:src="@drawable/detail_page_delete" />
+
+</LinearLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/live_sharing_main_toolbar.xml -->

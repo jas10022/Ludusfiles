@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Non focused states -->
+    <item android:state_focused="false" android:state_selected="false" android:state_pressed="false" android:drawable="@drawable/segment_unselected" />
+    <item android:state_focused="false" android:state_selected="true" android:state_pressed="false" android:drawable="@drawable/segment_selected" />
+
+    <!-- Focused states -->
+    <!--
+    <item android:state_focused="true" android:state_selected="false" android:state_pressed="false" android:drawable="@drawable/segment_focused" />
+    <item android:state_focused="true" android:state_selected="true" android:state_pressed="false" android:drawable="@drawable/segment_focused" />
+    -->
+
+    <!-- Pressed -->
+    <!--
+    <item android:state_selected="true" android:state_pressed="true" android:drawable="@drawable/segment_pressed" />
+    <item android:state_pressed="true" android:drawable="@drawable/segment_pressed" />
+    -->
+
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/selector_segment_indicator.xml -->

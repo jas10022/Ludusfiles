@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mx="http://schemas.android.com/apk/res-auto">
+
+    <item android:drawable="@drawable/voice_message" mx:is_checked="true"/>
+    <item android:drawable="@drawable/chat_keyboard" />
+
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/selector_chat_textorvoice.xml -->
