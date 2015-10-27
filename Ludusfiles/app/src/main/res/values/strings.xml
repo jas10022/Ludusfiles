@@ -3,4 +3,32 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="profile">Profile</string>
+    <string name="skills">Skills</string>
+    <string name="feedback">Feedback</string>
+    <string name="important_date">Important Dates</string>
+    <string name="workouts">Workouts</string>
+    <string name="goals">Goals</string>
+    <string name="Ludus">Ludus</string>
+    <string name="title_activity_student_profile">StudentProfile</string>
+    <string name="title_activity_student_skills">StudentSkills</string>
+    <string name="title_activity_student_feedback">StudentFeedback</string>
+    <string name="title_activity_student_important_dates">StudentImportantDates</string>
+    <string name="title_activity_student_workout">StudentWorkout</string>
+    <string name="title_activity_student_goals">StudentGoals</string>
+    <string name="name">Name</string>
+    <string name="dash">-</string>
+    <string name="sport">Sports</string>
+    <string name="coaches">Coaches</string>
+    <string name="city">City</string>
+    <string name="john">John Dae</string>
+    <string name="soccer">Soccer</string>
+    <string name="coach_name">Mae Rabinson</string>
+    <string name="santa_clara">Santa Clara</string>
+    <string name="speed">Speed</string>
+    <string name="stamina">Stamina</string>
+    <string name="power">Power</string>
+    <string name="paragraph">Even though your speed and power has vastly increased, you need to improve your stamina in order too be top competition league.</string>
+
 </resources>

@@ -8,13 +8,37 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name=".StudentHomePage"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentProfile"
+            android:label="@string/title_activity_student_profile" >
+        </activity>
+        <activity
+            android:name=".StudentSkills"
+            android:label="@string/title_activity_student_skills" >
+        </activity>
+        <activity
+            android:name=".StudentFeedback"
+            android:label="@string/title_activity_student_feedback" >
+        </activity>
+        <activity
+            android:name=".StudentImportantDates"
+            android:label="@string/title_activity_student_important_dates" >
+        </activity>
+        <activity
+            android:name=".StudentWorkout"
+            android:label="@string/title_activity_student_workout" >
+        </activity>
+        <activity
+            android:name=".StudentGoals"
+            android:label="@string/title_activity_student_goals" >
         </activity>
     </application>
 
