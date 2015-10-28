@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/ll_title_bkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Your_Meet_Link"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_user_guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Share_the_link_below_so_people_can_join_your_Meet"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tv_invitation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="http://www.moxtra.com/12334444"
+            android:textColor="@color/blue"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_copy_link"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_text_gray_bg"
+            android:text="@string/Copy_Link"
+            android:textColor="@android:color/black"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/btn_invite_by_sms"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_text_gray_bg"
+            android:text="Invite via SMS"
+            android:textColor="@android:color/black"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/btn_invite_by_email"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_text_gray_bg"
+            android:text="Invite via Email"
+            android:textColor="@android:color/black"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/meet_sdk_livechat_header_view.xml -->

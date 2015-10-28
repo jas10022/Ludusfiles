@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.moxtra.binder.widget.LiveSharingActionPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MX_PageDetail_ActionPanel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<LinearLayout
+        android:id="@+id/page_detail_thumbnails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/v_thumbnail_switch"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/translucent_black"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_thumbnail_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/slide_up" />
+
+            <it.sephiroth.android.library.widget.HListView
+                android:id="@+id/list_page_thumbnails"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/page_view_thumb_height"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>-->
+
+    <FrameLayout
+        android:id="@+id/MX_PageDetail_Primary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ToggleButton
+            android:id="@+id/toggle_speaker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toggle_speaker"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/participants_grid_view_paddingTop"
+            android:textOff=""
+            android:textOn=""/>
+
+        <include layout="@layout/live_sharing_main_toolbar" />
+
+        <include layout="@layout/page_detail_arrow_toolbar" />
+
+        <include layout="@layout/page_detail_edit_toolbar" />
+
+        <include layout="@layout/page_detail_color_picker" />
+
+    </FrameLayout>
+
+    <!--Secondary Panel 1-->
+    <include layout="@layout/live_sharing_secondary_panel_1" />
+
+    <!--Secondary Panel 2-->
+    <include layout="@layout/page_detail_secondary_panel_2" />
+
+</com.moxtra.binder.widget.LiveSharingActionPanel><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/live_sharing_action_panel.xml -->

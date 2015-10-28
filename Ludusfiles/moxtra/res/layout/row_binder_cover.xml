@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mx="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_binder_cover_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:orientation="vertical" >
+
+    <com.moxtra.binder.widget.RoundedImageView
+        android:id="@+id/iv_binder_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_container"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="1dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_binder_cover"
+        mx:border_color="@android:color/white"
+        mx:border_width="0dip"
+        mx:corner_radius="5dp" />
+
+    <ImageView
+        android:id="@+id/iv_binder_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/binder_cell_placeholder"
+        android:scaleType="fitXY"
+        android:src="@null" />
+
+    <TextView
+        style="@style/MXRedBadge"
+        android:id="@+id/tv_badge"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:maxLength="3"
+        android:singleLine="true"
+        android:ellipsize="end" />
+
+    <LinearLayout
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:background="@android:color/white"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="-6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <com.moxtra.binder.widget.EllipsizedMultilineTextView
+            android:id="@+id/tv_binder_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:inputType="none"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_12"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/layout_icons"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/img_tv_member_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/member_normal"
+                android:drawablePadding="2dp"
+                android:maxLines="1"
+                android:text="1"
+                android:textSize="@dimen/text_size_10" />
+
+            <TextView
+                android:id="@+id/img_tv_page_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/pages_normal"
+                android:drawablePadding="2dp"
+                android:layout_toRightOf="@+id/img_tv_member_count"
+                android:maxLines="1"
+                android:text="1"
+                android:textSize="@dimen/text_size_10" />
+
+            <TextView
+                android:id="@+id/img_tv_todo_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/todo_normal"
+                android:drawablePadding="2dp"
+                android:layout_toRightOf="@+id/img_tv_page_count"
+                android:maxLines="1"
+                android:text="1"
+                android:textSize="@dimen/text_size_10" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btn_binder_approve"
+                android:layout_width="0dp"
+                android:layout_height="22dp"
+                android:layout_weight="1"
+                android:background="@drawable/binder_approve_background"
+                android:gravity="center"
+                android:text="@string/Accept"
+                android:textSize="@dimen/text_size_10" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_binder_reject"
+                android:layout_width="0dp"
+                android:layout_height="22dp"
+                android:layout_weight="1"
+                android:background="@drawable/binder_reject_background"
+                android:gravity="center"
+                android:text="@string/Decline"
+                android:textSize="@dimen/text_size_10" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/row_binder_cover.xml -->

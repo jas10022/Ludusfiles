@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/page_detail_main_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/action_bar_height"
+    android:clickable="true"
+    android:background="@color/page_detail_bar_background"
+    android:layout_alignParentBottom="true"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/page_annotation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="60dp"
+        android:background="@null"
+        android:src="@drawable/page_annotation" />
+    <!--
+    <CheckBox
+        android:id="@+id/page_detail_laser_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/page_detail_main_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_laserpoint"
+        android:button="@null"
+        android:background="@null" />
+    -->
+
+    <FrameLayout
+        android:id="@+id/comments_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="60dp"
+        android:minHeight="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/page_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/page_detail_main_button_margin"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/page_comments" />
+
+        <TextView
+            android:id="@+id/tv_comments_count"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/blue_badge_bg"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="5dp"
+            android:maxLength="3"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="10sp"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/page_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="60dp"
+        android:layout_marginLeft="@dimen/page_detail_main_button_margin"
+        android:background="@null"
+        android:src="@drawable/detail_page_record" />
+
+    <include layout="@layout/clip_big_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/page_detail_main_button_margin" />
+
+    <ImageButton
+        android:id="@+id/page_thumbnails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="60dp"
+        android:layout_marginLeft="@dimen/page_detail_main_button_margin"
+        android:scaleType="center"
+        android:background="@null"
+        android:src="@drawable/thumbnail_open" />
+
+    <!--<ImageButton
+        android:id="@+id/page_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_main_button_margin"
+        android:scaleType="center"
+        android:background="@null"
+        android:src="@drawable/detail_page_share" />-->
+
+    <!--<ImageButton
+        android:id="@+id/page_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_main_button_margin"
+        android:background="@null"
+        android:src="@drawable/page_more" />-->
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/page_detail_main_toolbar.xml -->

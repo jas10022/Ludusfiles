@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffdddddd"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/Speech_Bubble"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <ImageButton
+                    android:id="@+id/imgb_bubble1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/comment_bubble_thumbnail_1" />
+
+                <ImageButton
+                    android:id="@+id/imgb_bubble2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/comment_bubble_thumbnail_2" />
+
+                <ImageButton
+                    android:id="@+id/imgb_bubble3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/comment_bubble_thumbnail_3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgb_bubble4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/comment_bubble_thumbnail_4" />
+
+                <ImageButton
+                    android:id="@+id/imgb_bubble5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/comment_bubble_thumbnail_5" />
+
+                <ImageButton
+                    android:id="@+id/imgb_bubble6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/comment_bubble_thumbnail_6" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffdddddd"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/Voice_Tag"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgb_voice_tag_voice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:src="@drawable/voice_tag_voice" />
+
+                <ImageButton
+                    android:id="@+id/imgb_good_tag_voice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:src="@drawable/good_tag_voice" />
+
+                <ImageButton
+                    android:id="@+id/imgb_warning_tag_voice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:src="@drawable/warning_tag_voice" />
+
+                <ImageButton
+                    android:id="@+id/imgb_questions_tag_voice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:src="@drawable/question_tag_voice" />
+
+                <ImageButton
+                    android:id="@+id/imgb_like_tag_voice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:src="@drawable/like_tag_voice" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffdddddd"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/Text_Tag"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgb_text_tag_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:src="@drawable/text_tag_text" />
+
+                <ImageButton
+                    android:id="@+id/imgb_good_tag_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:src="@drawable/good_tag_text" />
+
+                <ImageButton
+                    android:id="@+id/imgb_warning_tag_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:src="@drawable/warning_tag_text" />
+
+                <ImageButton
+                    android:id="@+id/imgb_question_tag_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:src="@drawable/question_tag_text" />
+
+                <ImageButton
+                    android:id="@+id/imgb_like_tag_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:src="@drawable/like_tag_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_bubble.xml -->

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:gravity="center_vertical">
+
+        <com.moxtra.binder.widget.ClearableEditText
+            style="@style/MXSearchBox"
+            android:id="@+id/search_query"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="35dp"
+            android:ems="20"
+            android:layout_margin="@dimen/list_item_margin"
+            android:hint="@string/Search_or_type_email_to_invite"
+            android:imeOptions="actionSearch"
+            android:singleLine="true" />
+
+        <!--<com.moxtra.binder.widget.ClearableEditText-->
+            <!--android:id="@+id/search-_query"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:minHeight="40dp"-->
+            <!--android:layout_margin="@dimen/list_item_margin" />-->
+        <!--<com.moxtra.binder.widget.ClearableEditText-->
+            <!--style="@style/MXSearchBox"-->
+            <!--android:id="@+id/search_query"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:minHeight="35dp"-->
+            <!--android:hint="@string/Search"-->
+            <!--android:drawableLeft="@drawable/search_icon"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:layout_margin="@dimen/list_item_margin"/>-->
+    </LinearLayout>
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fastScrollAlwaysVisible="false"
+        android:fastScrollEnabled="true"
+        android:descendantFocusability="beforeDescendants"
+        android:background="@android:color/white"
+        android:divider="@color/divider_gray"
+        android:dividerHeight="1px" />
+
+</LinearLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_people_list.xml -->

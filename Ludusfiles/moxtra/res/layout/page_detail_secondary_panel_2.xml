@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MX_PageDetail_Secondary2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginBottom="50dp"
+    android:layout_marginLeft="@dimen/page_detail_button_margin"
+    android:layout_marginRight="@dimen/page_detail_button_margin">
+
+    <com.moxtra.binder.widget.PageDetailColorButton
+        android:id="@+id/page_detail_selected_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/color_button_bg"
+        android:button="@null"
+        android:minHeight="@dimen/page_detail_button_size"
+        android:minWidth="@dimen/page_detail_button_size" />
+</RelativeLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/page_detail_secondary_panel_2.xml -->

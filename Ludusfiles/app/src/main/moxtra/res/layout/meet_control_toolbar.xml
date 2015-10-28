@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_height"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="5dp"
+    android:background="@android:color/black">
+
+    <ImageButton
+        android:id="@+id/btn_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:src="@drawable/liveshare_audio" />
+
+    <ImageButton
+        android:id="@+id/btn_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:src="@drawable/stateful_liveshare_video" />
+
+    <ImageButton
+        android:id="@+id/btn_meet_invite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="@null"
+        android:visibility="gone"
+        android:src="@drawable/liveshare_invite" />
+
+    <ImageButton
+        android:id="@+id/btn_plist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:src="@drawable/liveshare_participants" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <!--<com.moxtra.binder.widget.Indicator
+            android:id="@+id/btn_livechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/liveshare_chat" />-->
+        <ImageButton
+            android:id="@+id/btn_livechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/liveshare_chat"
+            android:background="@null"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/tv_badge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:maxLength="2"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:visibility="visible"
+            android:text="99"
+            android:layout_alignTop="@id/btn_livechat"
+            android:layout_alignRight="@id/btn_livechat"
+            android:background="@drawable/badge_bg"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_10" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btn_sharing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:src="@drawable/stateful_liveshare_screenshare" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/meet_control_toolbar.xml -->

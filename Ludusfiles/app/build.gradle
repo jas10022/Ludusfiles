@@ -22,4 +22,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.1'
+    compile project(':moxtra')
+    compile 'org.jsoup:jsoup:1.7.3'
+    compile 'com.belerweb:pinyin4j:2.5.0'
 }

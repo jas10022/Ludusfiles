@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/photo"
+        android:title="@string/Choose_Photo"/>
+    <item
+        android:id="@+id/video"
+        android:title="@string/Choose_Video"/>
+
+</menu><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/menu/menu_addview_gallery.xml -->

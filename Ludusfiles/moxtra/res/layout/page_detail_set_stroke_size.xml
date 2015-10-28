@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/page_detail_stroke_slider_width"
+    android:layout_height="@dimen/page_detail_stroke_slider_height"
+    android:background="@drawable/pen_size_holder"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <SeekBar
+        android:id="@+id/seek_stroke_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:max="19"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/stroke_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="10" />
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/page_detail_set_stroke_size.xml -->

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        style="@style/MXChatBeginning"
+        android:layout_gravity="center"
+        android:background="@drawable/squarebubble_gray"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/iv_edit"
+            android:minLines="3"
+            android:text="@string/This_is_the_beginning_of_the_binder" />
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_description"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <ImageView
+            android:id="@+id/iv_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/separator"
+            android:layout_alignRight="@id/separator"
+            android:layout_marginBottom="-10dp"
+            android:layout_marginRight="-10dp"
+            android:src="@drawable/binder_topic_edit" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/separator"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_add_members"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/chat_add_member"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Invite_Members"
+                android:textColor="@color/moxtra_blue" />
+
+            <TextView
+                android:id="@+id/tv_email_to_binder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/chat_binder_email"
+                android:drawablePadding="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical"
+                android:text="@string/Email_to_Binder"
+                android:textColor="@color/moxtra_blue" />
+
+            <TextView
+                android:id="@+id/tv_add_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/chat_add_service"
+                android:drawablePadding="5dp"
+                android:visibility="gone"
+                android:gravity="center_vertical"
+                android:text="@string/Add_Service_Integration"
+                android:textColor="@color/moxtra_blue" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/row_chat_beginning.xml -->

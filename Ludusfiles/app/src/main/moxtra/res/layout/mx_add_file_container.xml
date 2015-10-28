@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/action_bar_height"
+        android:background="@drawable/general_toolbar_bg">
+
+        <com.moxtra.binder.widget.CheckableImageButton
+            android:id="@+id/btn_add_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="@null"
+            android:src="@drawable/add_page_button" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/add_page_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:orientation="vertical" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-files/layout/mx_add_file_container.xml -->

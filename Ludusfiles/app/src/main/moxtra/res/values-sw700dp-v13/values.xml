@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values-sw700dp/booleans.xml -->
+    <eat-comment/>
+    <bool name="is_tablet">true</bool>
+    <bool name="is_two_panes">true</bool>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values-sw700dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="pop_dialog_height">550dp</dimen>
+    <dimen name="pop_dialog_width">360dp</dimen>
+</resources>

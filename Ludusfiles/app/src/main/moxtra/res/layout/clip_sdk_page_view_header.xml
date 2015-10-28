@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.moxtra.binder.pageview.PageViewToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/clip_sdk_pageview_toolbar_background_normal" >
+
+    <Button
+        android:id="@+id/btn_back"
+        style="@style/MoxBarBlueBackButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left" />
+
+    <ViewSwitcher
+        android:id="@+id/vs_rec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="right" >
+
+            <TextView
+                android:id="@+id/txt_page_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:gravity="center_vertical|center_horizontal"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="Page 1"
+                android:textColor="@color/gray_dark" >
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_file_action_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/button_more" />
+        </LinearLayout>
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginRight="0dp"
+            layout="@layout/page_detail_record_panel" />
+    </ViewSwitcher>
+
+</com.moxtra.binder.pageview.PageViewToolbar><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/clip_sdk_page_view_header.xml -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/middlegray"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight">
+
+    <View android:id="@+id/v_space"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chat_todo_indicator"
+        android:visibility="visible"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/v_space" />
+
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:gravity="center_vertical|left"
+        android:id="@+id/tv_display_name"
+        android:text="display_name"
+        android:textColor="@android:color/white"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_searchresult_binder_todo.xml -->

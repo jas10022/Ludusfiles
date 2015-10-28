@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<alpha
+		android:interpolator="@android:anim/decelerate_interpolator"
+		android:fromAlpha="1.0" android:toAlpha="0.0"
+		android:duration="300"
+	/>
+</set><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/anim/disappear.xml -->

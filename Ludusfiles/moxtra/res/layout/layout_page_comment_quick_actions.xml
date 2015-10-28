@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:minWidth="260dp"
+    android:orientation="vertical" >
+
+    <Button
+        style="@style/MoxGrayButtonStyle"
+        android:id="@+id/btn_comment_delete"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+    	android:minWidth="260dp"
+        android:background="@drawable/button_text_gray_bg"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+		android:textColor="@android:color/black"
+        android:textSize="18sp" 
+        android:textStyle="bold"
+        android:text="@string/Delete" />
+    
+    <Button
+        style="@style/MoxGrayButtonStyle"
+        android:id="@+id/btn_comment_modify"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+    	android:minWidth="160dp"
+        android:background="@drawable/button_text_gray_bg"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+		android:textColor="@android:color/black"
+        android:textSize="18sp" 
+        android:textStyle="bold"
+        android:text="@string/Modify" />
+
+    
+    <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_page_comment_quick_actions.xml -->

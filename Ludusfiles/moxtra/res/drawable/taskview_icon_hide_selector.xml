@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:drawable="@drawable/todo_checkbox__pressed" android:state_checked="false" android:state_pressed="true" />-->
+    <item android:drawable="@drawable/section_collapsed_darkgray" android:state_checked="false" />
+    <!--<item android:drawable="@drawable/todo_checkbox_checked_pressed" android:state_checked="true" android:state_pressed="true" />-->
+    <item android:drawable="@drawable/section_expanded_darkgray" android:state_checked="true" />
+    <item android:drawable="@drawable/section_collapsed_darkgray" />
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/taskview_icon_hide_selector.xml -->

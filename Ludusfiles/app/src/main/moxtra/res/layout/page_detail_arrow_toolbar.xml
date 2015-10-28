@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MXPageDetailArrowToolbar"
+    android:id="@+id/annotation_arrow_group"
+    android:clickable="true"
+    android:visibility="visible">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_rect"
+        android:visibility="invisible"
+        android:button="@null"
+        android:checked="true"
+        android:background="@null" />
+
+    <RadioButton
+        android:id="@+id/annotation_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_line"
+        android:button="@null"
+        android:background="@null" />
+
+    <RadioButton
+        android:id="@+id/annotation_oval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_oval"
+        android:button="@null"
+        android:background="@null" />
+
+    <RadioButton
+        android:id="@+id/annotation_rectangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_rect"
+        android:button="@null"
+        android:background="@null" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_rect"
+        android:visibility="invisible"
+        android:button="@null"
+        android:checked="true"
+        android:background="@null" />
+
+</RadioGroup>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/page_detail_arrow_toolbar.xml -->

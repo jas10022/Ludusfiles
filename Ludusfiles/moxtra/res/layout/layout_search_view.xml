@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button_text_gray_bg"
+        android:text="@string/Cancel"
+        android:textColor="@android:color/background_dark"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <FrameLayout
+            android:id="@+id/layout_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:layout_toLeftOf="@id/btn_cancel"
+            android:background="@drawable/search_bar"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/et_filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="none"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:background="@color/transparent_color"
+                android:textSize="12sp" >
+            </EditText>
+
+            <ImageView
+                android:id="@+id/iv_delete"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/icon_clear"
+                android:visibility="visible" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/icon_search"
+            android:layout_marginLeft="5dp"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_search_view.xml -->

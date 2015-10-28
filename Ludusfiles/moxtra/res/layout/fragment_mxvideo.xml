@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.moxtra.binder.livemeet.MXVideoFrame xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fl_video_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.moxtra.binder.livemeet.MXVideoFrame>
+
+    <ToggleButton
+        android:id="@+id/toggle_speaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/participants_grid_view_paddingTop"
+        android:background="@drawable/toggle_speaker"
+        android:textOff=""
+        android:textOn="" />
+</FrameLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_mxvideo.xml -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+android:accountType and android:label should be same in MXDeviceAccount.
+-->
+<account-authenticator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountType="com.moxtra.binder.ACCOUNT"
+    android:icon="@drawable/ic_moxtra_app_launcher"
+    android:smallIcon="@drawable/ic_moxtra_app_launcher"
+    android:label="@string/moxtra_app_name" /><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/xml/authenticator.xml -->

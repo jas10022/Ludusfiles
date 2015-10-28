@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:background="@android:color/background_dark"
+        android:layout_below="@+id/arrow"
+        android:layout_height="wrap_content">
+        <Button android:id="@+id/btnSnapArea"
+            android:text="@string/Snap_Area"
+            style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/white" />
+        <Button android:id="@+id/btnSnapPage"
+            android:text="@string/Snap_Page"
+            style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/white" />
+        <Button android:id="@+id/btnCancel"
+            android:text="@string/Cancel"
+            style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/arrow"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tooltip_arrow_down"/>
+
+</LinearLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/popup_clip_control.xml -->

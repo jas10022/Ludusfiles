@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/computer_win_disable" android:state_enabled="false" />
+    <item android:drawable="@drawable/computer_win" android:state_enabled="true" />
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/selector_computer_win.xml -->

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/translucent_activity_bg">
+
+    <ImageView
+        android:id="@+id/arrow_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coachmark_arrow_up"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/coachmark_highlight1"
+        android:layout_marginTop="30dp" />
+
+    <FrameLayout
+        android:id="@+id/coachmark_highlight1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/coachmark_highlight">
+
+        <Button
+            android:id="@+id/btn_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/common_meet_bg"
+            android:text="@string/Meet"
+            android:textColor="@android:color/white" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/text_coachmark1"
+        android:layout_width="@dimen/coach_mark_up_textview_min_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrow_up"
+        android:layout_alignRight="@+id/arrow_up"
+        android:background="@drawable/coachmark_text_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Start_a_voice_call"
+            android:textColor="@android:color/white"
+            android:id="@+id/label_title1" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"
+            android:text="@string/With_document_sharing_and_screen_share"
+            android:textColor="@android:color/white"
+            android:id="@+id/label_subtitle1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/text_coachmark2"
+        android:layout_width="@dimen/coach_mark_down_textview_min_width"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/arrow_down"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/coachmark_text_bg"
+        android:layout_alignRight="@+id/arrow_down"
+        android:visibility="gone"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Enable_To_Do"
+            android:textColor="@android:color/white"
+            android:id="@+id/label_title2" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"
+            android:text="@string/Add_to_do_items_in_your_current_conversation"
+            android:textColor="@android:color/white"
+            android:id="@+id/label_subtitle2" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/arrow_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/coachmark_arrow_down"
+        android:layout_toLeftOf="@+id/coachmark_highlight2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp" />
+
+    <FrameLayout
+        android:id="@+id/coachmark_highlight2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/iv_addbutton"
+        android:background="@drawable/coachmark_highlight"
+        android:layout_marginRight="10dp">
+
+        <ToggleButton
+            android:id="@+id/iv_todo_switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_todo_switcher"
+            android:textOff=""
+            android:textOn="" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_addbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/selector_chat_add"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/coach_mark_02.xml -->

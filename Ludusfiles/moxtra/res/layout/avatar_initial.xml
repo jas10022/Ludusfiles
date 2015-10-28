@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:background="@drawable/avatar_initial_bg"
+    android:visibility="gone"
+    android:gravity="center"
+    android:singleLine="true"
+    android:textAppearance="?android:attr/textAppearanceSmall" /><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/avatar_initial.xml -->

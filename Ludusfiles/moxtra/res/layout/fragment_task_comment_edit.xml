@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/et_comment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/task_note_background"
+    android:gravity="top|left"
+    android:inputType="text|textMultiLine|textCapSentences" />
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_task_comment_edit.xml -->

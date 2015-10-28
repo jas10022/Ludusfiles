@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_text"
+    android:layout_width="match_parent"
+    android:layout_height="18dp"
+    android:background="@drawable/input_single_default"
+    android:singleLine="true"
+    android:textSize="12sp" >
+
+</EditText><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_input_dialog_edittext.xml -->

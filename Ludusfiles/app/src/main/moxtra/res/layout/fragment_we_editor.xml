@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.moxtra.binder.webnote.MXWebView
+        android:id="@+id/cw_wv_editor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:fadeScrollbars="true"
+        android:scrollbars="none"
+        android:background="@drawable/general_toolbar_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/we_empty_divider"
+            android:showDividers="middle"
+            android:minHeight="@dimen/action_bar_height"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/cw_btn_unordered_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_unorderedlist" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_ordered_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_orderedlist" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_h1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_h1" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_h2" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_fg_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_textcolor" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_bg_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_bgcolor" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_bold" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_italic" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_strike_through"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_strikethrough" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_underline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_underline" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_hr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_horizontalrule" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_left_align"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_leftjustify" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_center_align"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_centerjustify" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_right_align"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_rightjustify" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_full_align"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_forcejustify" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_indent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_indent" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_outdent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_outdent" />
+
+            <ImageButton
+                android:id="@+id/cw_btn_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/we_link" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_we_editor.xml -->

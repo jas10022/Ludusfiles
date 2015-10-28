@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/tab_middle_fill" android:state_pressed="true" android:state_checked="true"/>
+    <item android:drawable="@drawable/tab_middle_fill" android:state_pressed="false" android:state_checked="true"/>
+    <item android:drawable="@drawable/tab_middle_fill" android:state_pressed="true" android:state_checked="false"/>
+    <item android:drawable="@drawable/tab_middle_frame" android:state_pressed="false" android:state_checked="false"/>
+
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/segment_blue_middle_button.xml -->

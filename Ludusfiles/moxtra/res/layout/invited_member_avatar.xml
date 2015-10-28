@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mx="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_member"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.moxtra.binder.widget.MXAvatarImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        mx:border_color="@android:color/white"
+        mx:border_width="1dip"
+        mx:round_background="true" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxEms="3"
+        android:textSize="@dimen/text_size_10"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="@string/Unknown" />
+
+</LinearLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/invited_member_avatar.xml -->

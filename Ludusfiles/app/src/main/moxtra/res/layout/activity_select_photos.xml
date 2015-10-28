@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+The MIT License (MIT)
+
+Copyright (c) 2013 Chute
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MX_RootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearlayoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:background="@drawable/general_navigatorbar_bg"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonBack"
+            style="@style/MoxFlatButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/AGIPC_Albums"
+            android:textColor="@android:color/black"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/buttonCancel"
+            style="@style/MoxFlatButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@android:string/cancel">
+
+        </Button>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="2dp"
+        android:layout_weight="1" >
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/moxtra_gray"
+            android:fadingEdgeLength="0dip"
+            android:fastScrollEnabled="true"
+            android:columnWidth="100dip"
+            android:gravity="center"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:horizontalSpacing="5dip"
+            android:verticalSpacing="5dip"
+            tools:listitem="@layout/adapter_select_photos" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearLayoutButtons"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:background="@drawable/general_toolbar_bg">
+
+        <!--<TextView
+            android:id="@+id/tv_number_selected"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="5dp"/>-->
+        <CheckBox
+            android:id="@+id/chk_original_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:button="@null"
+            android:textColor="@android:color/black"
+            android:drawableLeft="@drawable/stateful_member_check"
+            android:text="@string/Original_Size" />
+
+        <Button
+            android:id="@+id/buttonOk"
+            style="@style/MoxFlatButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="@string/Select">
+
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/activity_select_photos.xml -->

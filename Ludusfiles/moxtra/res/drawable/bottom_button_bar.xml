@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:state_enabled="true" android:drawable="@drawable/bottom_button_bar_pressed" />
+    <item android:drawable="@drawable/bottom_button_bar_normal" />
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/drawable/bottom_button_bar.xml -->

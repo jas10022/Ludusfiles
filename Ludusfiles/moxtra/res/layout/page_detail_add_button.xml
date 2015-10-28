@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MX_PageDetail_Add_Bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/add_page_top_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/action_bar_height"
+        android:background="@drawable/general_toolbar_bg">
+
+        <ImageButton
+            android:id="@+id/add_page_close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/header_bar_margin"
+            android:background="@null"
+            android:src="@drawable/add_page_close" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/add_page_container"
+        android:layout_below="@+id/add_page_top_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:minHeight="100dp"
+        android:orientation="vertical" />
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/page_detail_add_button.xml -->

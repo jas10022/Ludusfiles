@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="@dimen/action_bar_height"
+    android:background="@android:color/black"
+    android:gravity="center_vertical">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_switch_to_floating"
+        android:background="@null"
+        android:src="@drawable/liveshare_collaps" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1.0">
+
+        <ImageView
+            android:id="@+id/iv_rec_indication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/record_circle" />
+
+        <TextView
+            android:id="@+id/tv_call_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_rec_indication"
+            android:drawableRight="@drawable/liveshare_dropdown"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="111 111 111"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/orange2" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/meet_control_toolbar_tablet"
+        android:id="@+id/action_bar_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/black"/>
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/meet_control_headerbar_tablet.xml -->

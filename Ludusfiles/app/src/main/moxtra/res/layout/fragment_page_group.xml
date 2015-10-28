@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drag_layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.moxtra.binder.widget.BounceGridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:fastScrollEnabled="true"
+        android:horizontalSpacing="5dip"
+        android:numColumns="@integer/row_pages_count"
+        android:scrollbarStyle="outsideOverlay"
+        android:padding="@dimen/pages_thumb_grid_padding"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dip" />
+
+</FrameLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_page_group.xml -->

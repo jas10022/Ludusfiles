@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:fastScrollEnabled="true"
+        android:background="@android:color/white"
+        android:dividerHeight="0dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+    <LinearLayout
+        android:id="@+id/layout_send_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/general_toolbar_bg"
+        android:gravity="center"
+        android:minHeight="@dimen/action_bar_height">
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <com.moxtra.binder.widget.ClearableEditText
+            android:id="@+id/edt_send_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:inputType="text|textMultiLine|textCapSentences"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:hint="@string/Add_a_comment" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:visibility="gone"
+            android:background="@null"
+            android:textStyle="bold"
+            android:textColor="@color/moxtra_blue"
+            android:text="@string/Send" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_task_comments.xml -->

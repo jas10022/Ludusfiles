@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MX_RootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/general_navigatorbar_bg"
+        android:minHeight="@dimen/action_bar_height">
+
+        <ImageButton
+            android:id="@+id/nav_slide_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/nav_slide_button" />
+
+        <TextView
+            android:id="@+id/binder_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_centerInParent="true"
+            android:drawableRight="@drawable/abc_spinner_ab_default_holo_light"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black" />
+
+        <ViewFlipper
+            android:id="@+id/flipper_network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="@dimen/timeline_margin_right"
+                android:layout_gravity="right|center_vertical" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:background="@null"
+                android:src="@drawable/slow_network_indicator" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/global_search_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:src="@drawable/nav_search_button" />
+
+                <ImageButton
+                    android:id="@+id/create_conversation_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/create_conversation" />
+
+            </LinearLayout>
+
+        </ViewFlipper>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<include layout="@layout/search_box" />-->
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/et_search"
+                android:clipToPadding="false"
+                android:divider="@color/lightgray"
+                android:dividerHeight="1dp"
+                android:fastScrollAlwaysVisible="false"
+                android:fastScrollEnabled="true"
+                android:footerDividersEnabled="true"
+                android:headerDividersEnabled="false" />
+
+            <include layout="@layout/timeline_empty_view" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/filter_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:background="@drawable/translucent_activity_bg">
+
+            <ListView
+                android:id="@+id/filter_list"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_timeline_list.xml -->

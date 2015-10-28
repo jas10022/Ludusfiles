@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/iv_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@drawable/thumbnail_border"
+        android:maxHeight="@dimen/max_page_height"
+        android:maxWidth="@dimen/max_page_width" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_thumbnail"
+        android:layout_alignRight="@id/iv_thumbnail"
+        android:layout_margin="5dp"
+        android:src="@drawable/whiteboard_indicator" />
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_whiteboard_thumbnail.xml -->

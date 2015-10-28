@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/list_selector">
+
+    <ImageView
+        android:id="@+id/group_indicator_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pages_thumb_frame_pagegroup" />
+
+    <include
+        android:id="@+id/group_page_thumbnail"
+        layout="@layout/layout_page_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/tv_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_above="@+id/page_info_container"
+        android:layout_below="@+id/group_page_thumbnail"
+        android:textColor="@android:color/white"
+        android:singleLine="false" />
+
+    <LinearLayout
+        android:id="@+id/page_info_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_page_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Group 1"
+            android:textColor="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/btn_group_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/page_group_setting" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/iv_page_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/stateful_pages_thumb"
+        android:button="@null"
+        android:visibility="visible"
+        android:clickable="false"
+        android:focusable="false" />
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/page_grid_item_group.xml -->

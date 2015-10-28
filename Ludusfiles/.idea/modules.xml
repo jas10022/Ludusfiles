@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ludusfiles.iml" filepath="$PROJECT_DIR$/Ludusfiles.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moxtra/moxtra.iml" filepath="$PROJECT_DIR$/moxtra/moxtra.iml" />
     </modules>
   </component>
 </project>

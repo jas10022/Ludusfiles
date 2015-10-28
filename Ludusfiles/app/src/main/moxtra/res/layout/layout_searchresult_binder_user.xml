@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:moxtra="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:background="@color/middlegray">
+
+    <View android:id="@+id/v_space"
+        android:layout_width="30dp"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:visibility="visible"/>
+
+    <com.moxtra.binder.widget.MXAvatarImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        moxtra:border_color="@color/white"
+        moxtra:border_width="1dip"
+        moxtra:corner_radius="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:visibility="visible"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/v_space" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/iv_avatar"
+        android:layout_centerVertical="true">
+        <LinearLayout
+            android:id="@+id/ll_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@+id/iv_avatar"
+            android:layout_alignParentRight="true">
+            <TextView
+                android:textAppearance="?android:textAppearanceSmall"
+                android:gravity="center_vertical|left"
+                android:id="@+id/tv_display_name"
+                android:text="display_name"
+                android:textColor="@android:color/white"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:singleLine="true"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:textAppearance="?android:textAppearanceSmall"
+                android:gravity="center_vertical|left"
+                android:id="@+id/tv_email"
+                android:textColor="@android:color/white"
+                android:text="email_label"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_searchresult_binder_user.xml -->

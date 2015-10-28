@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/row_cell_height"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="@dimen/timeline_item_padding"
+        android:paddingLeft="@dimen/timeline_item_padding"
+        android:paddingRight="@dimen/timeline_item_padding"
+        android:text="@string/DIAL"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/timeline_item_padding"
+        android:paddingRight="@dimen/timeline_item_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_cell_height"
+        android:layout_marginTop="@dimen/timeline_item_padding"
+        android:paddingLeft="@dimen/timeline_item_padding"
+        android:paddingRight="@dimen/timeline_item_padding"
+        android:paddingTop="@dimen/timeline_item_padding"
+        android:paddingBottom="@dimen/timeline_item_padding">
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:text="@string/Meet_id"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/tv_meet_id"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_cell_height"
+        android:paddingLeft="@dimen/timeline_item_padding"
+        android:paddingRight="@dimen/timeline_item_padding"
+        android:paddingTop="@dimen/timeline_item_padding"
+        android:paddingBottom="@dimen/timeline_item_padding">
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:text="@string/Participant_id"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/tv_participant_id"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_dial_in.xml -->

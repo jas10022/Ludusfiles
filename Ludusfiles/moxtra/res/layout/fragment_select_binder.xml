@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_tiled_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:orientation="horizontal">
+
+        <com.moxtra.binder.widget.ClearableEditText
+            android:id="@+id/et_search"
+            style="@style/MXSearchBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:minHeight="40dp"
+            android:ems="10"
+            android:hint="@string/Search"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+        <RelativeLayout
+            android:id="@+id/row_current_binder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/iv_current_binder"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                fontPath="fonts/ProximaNova-Bold.otf"
+                android:text="@string/Current_binder"
+                android:id="@+id/tv_current_binder"
+                android:textColor="@color/moxtra_blue"
+                tools:ignore="MissingPrefix"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/accessory_disclosure"
+                android:id="@+id/iv_current_binder" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@android:color/darker_gray" />
+
+
+        <RelativeLayout
+            android:id="@+id/row_create_binder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/iv_create_binder"
+                android:text="@string/Create_a_Binder"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/tv_create_binder"
+                android:textColor="@color/moxtra_blue" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/accessory_disclosure"
+                android:id="@+id/iv_create_binder" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/label_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/moxtra_gray"
+        android:padding="@dimen/header_bar_margin"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0">
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/list_bg_color"
+            android:divider="@color/lightgray"
+            android:dividerHeight="1dp"
+            android:drawSelectorOnTop="false"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="true"
+            android:focusable="false"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:listSelector="#000000ff" />
+
+        <ProgressBar
+            android:id="@+id/progress_load"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center" />
+    </FrameLayout>
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_select_binder.xml -->

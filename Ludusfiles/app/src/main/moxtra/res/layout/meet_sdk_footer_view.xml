@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.moxtra.binder.livemeet.MXSDKMeetFooterActionsBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:moxtra="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_footerbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:clickable="false"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_hide_toolbar"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="1dp"
+                android:clickable="false"
+                android:src="@drawable/ic_moxtra_app_launcher"/>
+
+            <TextView
+                android:id="@+id/tv_meet_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/iv_hide_toolbar"
+                android:background="@android:color/darker_gray"
+                android:gravity="center"
+                android:minHeight="25dp"
+                android:minWidth="250dp"
+                android:text="https://www.moxtra.com/12345678">
+            </TextView>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/meet_sdk_powered_by_moxtra_r"
+                android:orientation="vertical">
+
+                <ViewSwitcher
+                    android:id="@+id/switcher_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.0"
+                    android:inAnimation="@anim/slidein_from_left"
+                    android:outAnimation="@anim/slideout_to_left">
+
+                    <LinearLayout
+                        android:id="@+id/rl_sync_mode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_invite_member"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginRight="4dp"
+                            android:src="@drawable/meet_sdk_toolbark_add_participant"/>
+
+                        <include layout="@layout/meet_sdk_row_participant"/>
+
+                        <com.moxtra.binder.livemeet.MXParticipantsHListView
+                            android:id="@+id/lv_participants"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_vertical"/>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_non_sync_mode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/btn_sync_up"
+                            style="@style/MoxBarRightButtonStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:background="@drawable/button_gray_circle_bg"
+                            android:text="@string/Sync_with_presenter"
+                            android:textColor="@android:color/black"/>
+                    </RelativeLayout>
+                </ViewSwitcher>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v_hide_toolbar"
+                android:layout_width="113dp"
+                android:layout_height="38dp"
+                android:layout_gravity="right">
+            </View>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/orange_navi_background"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.moxtra.binder.widget.Indicator
+                android:id="@+id/btn_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"/>
+
+            <ImageView
+                android:id="@+id/iv_audio_session"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="4dp"
+                android:src="@drawable/meet_sdk_toolbar_audio_off"/>
+
+            <ImageView
+                android:id="@+id/btn_desktop_share"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/meet_sdk_toolbar_screen_sharing"/>
+
+            <LinearLayout
+                android:id="@+id/ll_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:visibility="invisible"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/tv_meet_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="Meet ID:"
+                    android:textColor="@android:color/white"/>
+
+                <TextView
+                    android:id="@+id/tv_meet_topic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="Hosted by:"
+                    android:textColor="@android:color/white"
+                    android:textIsSelectable="false"
+                    android:textSize="11sp">
+                </TextView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/ll_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="3dp"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/btn_end_live"
+                    style="@style/MoxBarRightButtonStyle"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_gray_circle_bg_light"
+                    android:text="@string/Leave"
+                    android:textColor="@android:color/white"
+                    android:textSize="11sp"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.moxtra.binder.livemeet.MXSDKMeetFooterActionsBar><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/meet_sdk_footer_view.xml -->

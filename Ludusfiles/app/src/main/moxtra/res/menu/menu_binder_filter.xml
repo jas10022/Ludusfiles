@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_all_binders"
+            android:icon="@drawable/filter_binder"
+            android:title="@string/All_Binders" />
+        <item
+            android:id="@+id/menu_favorites"
+            android:icon="@drawable/filter_favorites"
+            android:title="@string/Favorites" />
+        <item
+            android:id="@+id/menu_unread"
+            android:icon="@drawable/filter_unread"
+            android:title="@string/Unread" />
+    </group>
+</menu><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/menu/menu_binder_filter.xml -->

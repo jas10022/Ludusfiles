@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/general_background"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Moxtra Note is ready to save to your local Photo Library. Or share this public link with more people."
+        android:drawableLeft="@drawable/play_button"/>
+
+    <Button
+        android:id="@+id/copy_link"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/sdk_blue_button"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Copy Public Link "/>
+
+    <Button
+        android:id="@+id/sms_link"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/sdk_blue_button"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="SMS Public Link "/>
+
+    <Button
+        android:id="@+id/email_link"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/sdk_blue_button"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Email Public Link "/>
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/clip_sdk_fragment_note_share.xml -->

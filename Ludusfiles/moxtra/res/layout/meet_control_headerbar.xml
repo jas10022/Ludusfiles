@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/action_bar_height"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:id="@+id/top_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_switch_to_floating"
+            android:background="@null"
+            android:src="@drawable/liveshare_collaps" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+
+            <ImageView
+                android:id="@+id/iv_rec_indication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tv_call_id"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/record_circle" />
+
+            <TextView
+                android:id="@+id/tv_call_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableRight="@drawable/liveshare_dropdown"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="111 111 111"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/orange2" />
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/End"
+            android:background="@null"
+            android:id="@+id/btn_exit"
+            android:textColor="#ffff0000"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/meet_control_headerbar.xml -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/values-xlarge-v4/values.xml -->
+    <eat-comment/>
+    <bool name="is_tablet">true</bool>
+    <dimen name="action_bar_text_button_height">40dp</dimen>
+    <dimen name="action_bar_text_button_textsize">14sp</dimen>
+    <dimen name="action_bar_text_button_width">60dp</dimen>
+    <dimen name="action_bar_title">20dp</dimen>
+    <dimen name="action_bar_title_left_padding">13dp</dimen>
+    <dimen name="profile_avatar_height">200dp</dimen>
+    <dimen name="sliding_avatar_height">120dp</dimen>
+    <dimen name="story_height">700dp</dimen>
+    <item format="float" name="circle_height" type="integer">600</item>
+    <item format="float" name="circle_left_offset" type="integer">100</item>
+    <item format="float" name="circle_max_radius" type="integer">150</item>
+    <item format="float" name="circle_top_offset" type="integer">750</item>
+    <item format="float" name="circle_width" type="integer">600</item>
+</resources>

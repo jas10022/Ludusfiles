@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_facebook_login"
+        style="@style/MoxFacebookButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Facebook"
+        android:textColor="@color/moxtra_darkgray" />
+
+    <Button
+        android:id="@+id/btn_google_account_login"
+        style="@style/MoxGoogleButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Google"
+        android:textColor="@color/moxtra_darkgray"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_other_login"
+        style="@style/MoxOtherButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Other"
+        android:textColor="@color/moxtra_darkgray"
+        android:visibility="gone" />
+
+</LinearLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/international_third_party_login_phone.xml -->

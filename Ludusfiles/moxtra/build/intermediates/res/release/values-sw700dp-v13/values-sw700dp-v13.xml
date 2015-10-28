@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/values-sw700dp-v13/values.xml -->
+    <eat-comment/>
+    <bool name="is_tablet">true</bool>
+    <bool name="is_two_panes">true</bool>
+    <dimen name="pop_dialog_height">550dp</dimen>
+    <dimen name="pop_dialog_width">360dp</dimen>
+</resources>

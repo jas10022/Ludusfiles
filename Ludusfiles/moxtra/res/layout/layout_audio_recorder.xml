@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.moxtra.binder.widget.MXAudioRecorderPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/audio_rec_panel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/btn_start_rec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:visibility="visible"
+        android:src="@drawable/voice_tag_recorder" />
+
+    <FrameLayout
+        android:id="@+id/fl_rec_recording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/voice_holder"
+            android:layout_gravity="center"/>
+        <ImageButton
+            android:id="@+id/btn_pause_rec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="@null"
+            android:src="@drawable/voice_pause" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="88dp"
+            android:minWidth="88dp"
+            android:layout_marginRight="1dp"
+            android:indeterminateDrawable="@drawable/recording_progress_blue"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/tv_rec_time"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:text="00:01"/>
+
+        <ImageButton
+            android:id="@+id/btn_stop_rec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:background="@null"
+            android:src="@drawable/voice_stop" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_rec_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/voice_tag_play_holder"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/btn_play_rec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="@null"
+            android:src="@drawable/voice_play" />
+
+        <TextView
+            android:id="@+id/tv_replay_time"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:text="00:01"/>
+
+        <ImageButton
+            android:id="@+id/btn_delete_rec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:background="@null"
+            android:src="@drawable/voice_delete" />
+    </FrameLayout>
+</com.moxtra.binder.widget.MXAudioRecorderPanel><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_audio_recorder.xml -->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/moxtra_blue" android:state_checked="true" />
+    <item android:color="@android:color/black" />
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/color/select_all_text_color_selector.xml -->

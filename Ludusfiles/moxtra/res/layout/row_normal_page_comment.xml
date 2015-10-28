@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:moxtra="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight">
+
+    <com.moxtra.binder.widget.RoundedImageView
+        android:id="@+id/iv_user_avator"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/user_default_avatar_small"
+        moxtra:border_color="@color/white"
+        moxtra:border_width="1dp"
+        moxtra:corner_radius="50dp"
+        moxtra:round_background="true" />
+
+    <TextView
+        android:id="@+id/tv_owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/iv_user_avator"
+        android:textColor="@android:color/darker_gray"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_user_avator"
+        android:layout_below="@+id/tv_owner"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_user_avator"
+        android:layout_below="@+id/tv_content"
+        android:visibility="gone"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/Add_a_comment"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textCursorDrawable="@null" />
+
+</RelativeLayout>
+
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/row_normal_page_comment.xml -->

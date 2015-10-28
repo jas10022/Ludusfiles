@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:moxtra="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:background="@color/middlegray">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/avatar_container"
+        android:layout_centerVertical="true">
+
+        <FrameLayout
+            android:id="@+id/fl_avatar_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/white_border_round_shape">
+
+            <com.moxtra.binder.widget.MXAvatarImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:scaleType="centerCrop"
+                android:layout_margin="2dp"
+                moxtra:border_color="@color/white"
+                moxtra:border_width="1dip"
+                moxtra:corner_radius="20dp"
+                android:visibility="visible"/>
+        </FrameLayout>
+
+
+        <com.moxtra.binder.widget.RoundedImageView
+            android:id="@+id/iv_binder_cover"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignTop="@+id/layout_badge"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_default_thumb_image"
+            moxtra:border_color="@android:color/white"
+            moxtra:corner_radius="4dp"
+            moxtra:round_background="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <TextView
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="center_vertical|left"
+        android:id="@+id/tv_display_name"
+        android:text="display_name"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@+id/right_container"
+        android:layout_toRightOf="@+id/avatar_container"
+        android:layout_centerVertical="true" />
+
+    <FrameLayout
+        android:id="@+id/right_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/iv_expand"
+            android:textColor="#222222"
+            android:text="email_label"
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/search_expand"
+            android:visibility="visible"/>
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:visibility="gone"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+    </FrameLayout>
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_searchresult_binder.xml -->

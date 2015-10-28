@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_pressed="false" android:drawable="@drawable/blue_navi_back" />
+    <item android:state_enabled="true" android:state_pressed="false" android:drawable="@drawable/blue_navi_back" />
+    <item android:state_enabled="true" android:state_pressed="true" android:drawable="@drawable/blue_navi_back_pressed" />
+    <item android:state_enabled="false" android:state_pressed="true" android:drawable="@drawable/blue_navi_back_pressed" />
+</selector>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/blue_navigation_back.xml -->

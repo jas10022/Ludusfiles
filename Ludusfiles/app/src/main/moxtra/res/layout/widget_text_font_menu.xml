@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_text_font_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/general_toolbar_bg">
+
+        <ImageButton
+            android:id="@+id/btn_font"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/text_font" />
+
+        <ImageButton
+            android:id="@+id/btn_font_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/text_font_bold" />
+
+        <ImageButton
+            android:id="@+id/btn_font_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/text_font_italic" />
+
+        <ImageButton
+            android:id="@+id/btn_font_small"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/text_font_small" />
+
+        <ImageButton
+            android:id="@+id/btn_font_big"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/text_font_bigger" />
+
+        <ImageButton
+            android:id="@+id/btn_font_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/text_left" />
+
+        <View android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/btn_font_done"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:text="@string/Done"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@null"/>
+</LinearLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/widget_text_font_menu.xml -->

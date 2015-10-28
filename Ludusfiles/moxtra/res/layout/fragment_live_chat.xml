@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:fastScrollEnabled="true"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:focusable="false"
+        android:divider="@drawable/comment_separetor"
+        android:listSelector="#00000000"
+        android:stackFromBottom="true"
+        android:transcriptMode="normal" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:hint="@string/Send_message"
+            android:gravity="center_vertical"
+            android:textCursorDrawable="@null"
+            android:layout_toLeftOf="@+id/btn_send"
+            android:layout_alignWithParentIfMissing="true"
+            android:maxLines="6" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_textorvoice"
+            android:layout_alignWithParentIfMissing="true"
+            android:visibility="gone"
+            android:text="@string/Send"
+            android:padding="0dp"
+            android:background="@null"
+            android:textColor="@color/moxtra_blue"
+            fontPath="fonts/ProximaNova-Bold.otf"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_live_chat.xml -->

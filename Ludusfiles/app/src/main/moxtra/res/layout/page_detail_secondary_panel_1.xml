@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MX_PageDetail_Secondary1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true">
+
+    <Button
+        android:id="@+id/page_annotation_done"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/page_annotation_done"
+        android:minWidth="60dp"
+        android:text="@string/Done"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_margin="@dimen/page_detail_secondary1_button_margin"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/page_title_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/page_detail_bar_background"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:minHeight="@dimen/action_bar_height">
+
+        <ImageButton
+            android:id="@+id/page_detail_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:src="@drawable/page_close" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_page_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@android:color/white" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/page_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:src="@drawable/page_more" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/undo_redo_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/undo_redo_holder"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/page_detail_undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/selector_undo" />
+
+        <ImageButton
+            android:id="@+id/page_detail_redo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/selector_redo" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/page_detail_selected_tool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_secondary1_button_margin"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:src="@drawable/annotation_draw_selected"
+        android:visibility="gone" />
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/page_detail_secondary_panel_1.xml -->

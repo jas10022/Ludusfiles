@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/add_page_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/action_bar_height"
+        android:background="@drawable/general_toolbar_bg"
+        android:visibility="gone">
+
+        <com.moxtra.binder.widget.CheckableImageButton
+            android:id="@+id/btn_add_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/add_page_close"
+            android:layout_marginRight="@dimen/header_bar_margin" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_mainview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <com.moxtra.binder.widget.IconPageIndicator
+        android:id="@+id/addview_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="20dp"
+        android:background="@color/moxtra_gray" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_addview_viewpager.xml -->

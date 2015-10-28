@@ -1,0 +1,2805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/meet_duration_hours.xml -->
+    <eat-comment/>
+    <string-array name="hours">
+        <item>0 hr</item>
+        <item>1 hr</item>
+        <item>2 hrs</item>
+        <item>3 hrs</item>
+        <item>4 hrs</item>
+        <item>5 hrs</item>
+        <item>6 hrs</item>
+        <item>7 hrs</item>
+        <item>8 hrs</item>
+        <item>9 hrs</item>
+        <item>10 hrs</item>
+        <item>11 hrs</item>
+        <item>12 hrs</item>
+        <item>13 hrs</item>
+        <item>14 hrs</item>
+        <item>15 hrs</item>
+        <item>16 hrs</item>
+        <item>17 hrs</item>
+        <item>18 hrs</item>
+        <item>19 hrs</item>
+        <item>20 hrs</item>
+        <item>21 hrs</item>
+        <item>22 hrs</item>
+        <item>23 hrs</item>
+    </string-array>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/meet_duration_minutes.xml -->
+    <eat-comment/>
+    <string-array name="minutes">
+        <item>0 min</item>
+        <item>15 mins</item>
+        <item>30 mins</item>
+        <item>45 mins</item>
+    </string-array>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/vpi__attrs.xml -->
+    <eat-comment/>
+    <attr format="boolean" name="centered"/>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/hlv_attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="hlv_absHListViewStyle"/>
+    <attr format="reference" name="hlv_expandableListViewStyle"/>
+    <attr format="dimension" name="hlv_listPreferredItemWidth"/>
+    <attr format="reference" name="hlv_listViewStyle"/>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="dimension" name="radius"/>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/vpi__attrs.xml -->
+    <eat-comment/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/vpi__defaults.xml -->
+    <eat-comment/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/booleans.xml -->
+    <eat-comment/>
+    <bool name="is_landscape">false</bool>
+    <bool name="is_portrait">true</bool>
+    <bool name="is_tablet">false</bool>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="action_bar_title_shadow">#ff233a4d</color>
+    <color name="action_bar_title_text">#ff000000</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/color.xml -->
+    <eat-comment/>
+    <color name="background">#272727</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/uitableview_colors.xml -->
+    <eat-comment/>
+    <color name="base_end_color_default">#FFFFFF</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/uitableview2_colors.xml -->
+    <eat-comment/>
+    <color name="base_end_color_line_default">#FFFFFFFF</color>
+    <color name="base_end_color_line_pressed">#FF2570BA</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/uitableview_colors.xml -->
+    <eat-comment/>
+    <color name="base_end_color_pressed">#ff2570ba</color>
+    <color name="base_start_color_default">#FFFFFF</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/uitableview2_colors.xml -->
+    <eat-comment/>
+    <color name="base_start_color_line_default">#FFFFFFFF</color>
+    <color name="base_start_color_line_pressed">#FF3590C4</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/uitableview_colors.xml -->
+    <eat-comment/>
+    <color name="base_start_color_pressed">#ff3590c4</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="blue">#ff1463e2</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/uitableview2_colors.xml -->
+    <eat-comment/>
+    <color name="cell_border">#FFD3D3D3</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="chat_tab_bar_bg">#5a000000</color>
+    <color name="color_black">#000000</color>
+    <color name="color_black_light">#99000000</color>
+    <color name="color_blue_sky">#5e7d87</color>
+    <color name="color_gray">#736F6E</color>
+    <color name="color_gray_light">#99C9C9C9</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="dark">#000000</color>
+    <color name="darker_blue">#ff00393c</color>
+    <color name="darker_gray_36">#ff363738</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/color.xml -->
+    <eat-comment/>
+    <color name="deepcolor">#faaa5f</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/vpi__defaults.xml -->
+    <eat-comment/>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="divider_gray">#BFBFBF</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/color.xml -->
+    <eat-comment/>
+    <color name="gray">#A6A6A0</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="gray_bg">#ffd8dcdf</color>
+    <color name="gray_dark">#ff222222</color>
+    <color name="gray_middle">#ff999999</color>
+    <color name="highlight">#FF38c0f4</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_checked">@color/highlight</color>
+    <color name="holo_focused">#4000B6E6</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_pressed">#8000B6E6</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="left_sliding_bg">#cfff</color>
+    <color name="light">#ffffff</color>
+    <color name="light_blue">#ff0082d5</color>
+    <color name="light_blue2">#ff11a2f5</color>
+    <color name="lightgray">#eeeeee</color>
+    <color name="list_bg_color">#ffffffff</color>
+    <color name="list_cell_bg">#64168080</color>
+    <color name="list_cell_selected">#ffe5f4ff</color>
+    <color name="list_item_bottom_bar_bg">#333333</color>
+    <color name="meetlist_item_bg">#99d8d8d8</color>
+    <color name="middlegray">#888888</color>
+    <color name="moxtra_blue">#ff0082d5</color>
+    <color name="moxtra_clear_color">#00000000</color>
+    <color name="moxtra_darkgray">#545454</color>
+    <color name="moxtra_gray">#ffeeeeee</color>
+    <color name="moxtra_orange">#ffff8400</color>
+    <color name="moxtra_red">#ffff0000</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/color.xml -->
+    <eat-comment/>
+    <color name="naming">#ABABAB</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="new_binder_text_bg_color">#fff7fcff</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-ambilwarna/values/colors.xml -->
+    <eat-comment/>
+    <color name="new_color">#AAAAFF</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="normal">#b0b0b0</color>
+    <color name="orange">#FFA500</color>
+    <color name="orange2">@color/moxtra_orange</color>
+    <color name="orange_darker">#ff402200</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/color.xml -->
+    <eat-comment/>
+    <color name="orange_yellow">#9b9ba0</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="page_detail_bar_background">#dd000000</color>
+    <color name="popover_title_color">#ff000000</color>
+    <color name="popover_title_color_tablet">#ffffffff</color>
+    <color name="popover_title_shadow_color">#ffdddddd</color>
+    <color name="popover_title_shadow_color_tablet">#00222222</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-ambilwarna/values/colors.xml -->
+    <eat-comment/>
+    <color name="prev_color">#FFAAAA</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/color.xml -->
+    <eat-comment/>
+    <color name="red">#FF0000</color>
+    <color name="remote_connect_text">#FFe78018</color>
+    <color name="remote_disconnect_text">#FF901821</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/uitableview_colors.xml -->
+    <eat-comment/>
+    <color name="rounded_container_border">#ffb7babb</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/color.xml -->
+    <eat-comment/>
+    <color name="shadowcolor">#333333</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="slide_select_item_bg">#ff55a5f5</color>
+    <color name="task_note_background">#fffff3</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/uitableview2_colors.xml -->
+    <eat-comment/>
+    <color name="text_color_default">@color/moxtra_blue</color>
+    <color name="text_color_header">#4C566C</color>
+    <color name="text_color_pressed">@android:color/black</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="text_dialog_message">#ff333333</color>
+    <color name="text_dialog_message_shadow">#fff6f6f6</color>
+    <color name="text_overdue_red">#ffb3312d</color>
+    <color name="text_taskdetails_blue_text">#ff3a73a6</color>
+    <color name="text_tasklist_title">@color/light_blue</color>
+    <color name="text_tasklist_title_activated">#ffffffff</color>
+    <color name="textview_text_disabled">#aa5d5d5d</color>
+    <color name="theme_blue">#1881D5</color>
+    <color name="tomato">#FF6347</color>
+    <color name="trans_gray">#a0999999</color>
+    <color name="translucent_black">#88000000</color>
+    <color name="translucent_black_85">#d8000000</color>
+    <color name="transparent_color">#00ffffff</color>
+    <color name="transparent_grid_bg">#00e1e1e1</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/vpi__colors.xml -->
+    <eat-comment/>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="white">#ffffffff</color>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/color.xml -->
+    <eat-comment/>
+    <color name="yellow">#FFF000</color>
+    <declare-styleable name="AbsHListView"><attr name="android:listSelector"/><attr name="android:smoothScrollbar"/><attr name="android:drawSelectorOnTop"/><attr name="android:cacheColorHint"/><attr name="android:scrollingCache"/><attr name="android:choiceMode"/><attr format="boolean" name="hlv_stackFromRight"/><attr name="hlv_transcriptMode"><enum name="disabled" value="0"/><enum name="normal" value="1"/><enum name="alwaysScroll" value="2"/></attr></declare-styleable>
+    <declare-styleable name="ActionSheet"><attr format="color|reference" name="actionSheetBackground"/><attr format="color|reference" name="cancelButtonBackground"/><attr format="color|reference" name="otherButtonTopBackground"/><attr format="color|reference" name="otherButtonMiddleBackground"/><attr format="color|reference" name="otherButtonBottomBackground"/><attr format="color|reference" name="otherButtonSingleBackground"/><attr format="color|reference" name="cancelButtonTextColor"/><attr format="color|reference" name="otherButtonTextColor"/><attr format="dimension|reference" name="actionSheetPadding"/><attr format="dimension|reference" name="otherButtonSpacing"/><attr format="dimension|reference" name="cancelButtonMarginTop"/><attr format="dimension|reference" name="actionSheetTextSize"/></declare-styleable>
+    <declare-styleable name="ActionSheets"><attr format="reference" name="actionSheetStyle"/></declare-styleable>
+    <declare-styleable name="BlurView"><attr name="radius"/></declare-styleable>
+    <declare-styleable name="CheckableImageButton"><attr format="boolean" name="is_checked"/><attr name="personality"><enum name="radio" value="0"/><enum name="check" value="1"/></attr></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="DragSortListView"><attr format="dimension" name="collapsed_height"/><attr format="float" name="drag_scroll_start"/><attr format="float" name="max_drag_scroll_speed"/><attr format="color" name="float_background_color"/><attr name="remove_mode"><enum name="clickRemove" value="0"/><enum name="flingRemove" value="1"/></attr><attr format="boolean" name="track_drag_sort"/><attr format="float" name="float_alpha"/><attr format="float" name="slide_shuffle_speed"/><attr format="integer" name="remove_animation_duration"/><attr format="integer" name="drop_animation_duration"/><attr format="boolean" name="drag_enabled"/><attr format="boolean" name="sort_enabled"/><attr format="boolean" name="remove_enabled"/><attr name="drag_start_mode"><enum name="onDown" value="0"/><enum name="onMove" value="1"/><enum name="onLongPress" value="2"/></attr><attr format="integer" name="drag_handle_id"/><attr format="integer" name="fling_handle_id"/><attr format="integer" name="click_remove_id"/><attr format="boolean" name="use_default_controller"/></declare-styleable>
+    <declare-styleable name="ExpandableHListView"><attr name="hlv_indicatorGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr name="hlv_childIndicatorGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr format="reference|color" name="hlv_childDivider"/><attr format="reference" name="hlv_groupIndicator"/><attr format="reference" name="hlv_childIndicator"/><attr format="dimension" name="hlv_indicatorPaddingLeft"/><attr format="dimension" name="hlv_indicatorPaddingTop"/><attr format="dimension" name="hlv_childIndicatorPaddingLeft"/><attr format="dimension" name="hlv_childIndicatorPaddingTop"/></declare-styleable>
+    <declare-styleable name="FlowLayout"><attr format="dimension" name="horizontalSpacing"/><attr format="dimension" name="verticalSpacing"/><attr format="integer" name="cols"/></declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams"><attr format="boolean" name="layout_breakLine"/><attr format="dimension" name="layout_horizontalSpacing"/></declare-styleable>
+    <declare-styleable name="Gallery"><attr name="android:galleryItemBackground"/></declare-styleable>
+    <declare-styleable name="HListView"><attr name="android:entries"/><attr name="android:divider"/><attr format="dimension" name="hlv_dividerWidth"/><attr format="boolean" name="hlv_headerDividersEnabled"/><attr format="boolean" name="hlv_footerDividersEnabled"/><attr format="reference|color" name="hlv_overScrollHeader"/><attr format="reference|color" name="hlv_overScrollFooter"/><attr format="integer" name="hlv_measureWithChild"/></declare-styleable>
+    <declare-styleable name="LinearListView"><attr name="android:entries"/><attr format="dimension" name="dividerThickness"/></declare-styleable>
+    <declare-styleable name="MoxtraSwitch"><attr format="reference" name="left"/><attr format="reference" name="right"/><attr format="string" name="defaultChecked"/></declare-styleable>
+    <declare-styleable name="MultipleOrientationSlidingDrawer"><attr name="orientation"><enum name="top" value="0"/><enum name="left" value="1"/><enum name="bottom" value="2"/><enum name="right" value="3"/></attr><attr format="reference" name="handle"/><attr format="reference" name="content"/><attr format="dimension" name="bottomOffset"/><attr format="dimension" name="topOffset"/><attr format="boolean" name="allowSingleTap"/><attr format="boolean|color" name="animateOnClick"/></declare-styleable>
+    <declare-styleable name="RoundedImageView"><attr format="dimension" name="corner_radius"/><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="round_background"/><attr format="boolean" name="is_oval"/><attr name="android:scaleType"/></declare-styleable>
+    <declare-styleable name="SearchBoxView"><attr format="color|reference" name="textColor"/><attr format="string" name="searchHint"/><attr format="reference" name="search_icon"/><attr format="reference" name="clear_icon"/><attr format="boolean" name="my_index"/></declare-styleable>
+    <declare-styleable name="SegmentedControlButton"><attr format="string" name="segmentedControlButtonStyle"/><attr format="boolean" name="segTextAllCaps"/><attr format="color" name="segLineColor"/><attr format="dimension" name="segLineHeightUnselected"/><attr format="dimension" name="segLineHeightSelected"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <declare-styleable name="TabControlButton"><attr format="string" name="tabControlButtonStyle"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="action_bar_height">48dp</dimen>
+    <dimen name="action_bar_margin_left">5dp</dimen>
+    <dimen name="action_bar_text_button_height">30dp</dimen>
+    <dimen name="action_bar_text_button_textsize">17dp</dimen>
+    <dimen name="action_bar_text_button_width">60dp</dimen>
+    <dimen name="action_bar_title">13dp</dimen>
+    <dimen name="action_bar_title_left_padding">13dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_search_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="alert_dialog_header_height">30dp</dimen>
+    <dimen name="alert_dialog_message_size">@dimen/text_size_14</dimen>
+    <dimen name="alert_dialog_title_text_size">@dimen/text_size_18</dimen>
+    <dimen name="alter_dialog_width">290dp</dimen>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-ambilwarna/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="ambilwarna_button_margin">2dp</dimen>
+    <dimen name="ambilwarna_color_height">30dp</dimen>
+    <dimen name="ambilwarna_color_width">60dp</dimen>
+    <dimen name="ambilwarna_hsvHeight">240dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">240dp</dimen>
+    <dimen name="ambilwarna_hueWidth">30dp</dimen>
+    <dimen name="ambilwarna_spacer">8dp</dimen>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="banner_layout_height">120dp</dimen>
+    <dimen name="binder_list_grid_padding">0dp</dimen>
+    <dimen name="calendar_height">260dp</dimen>
+    <dimen name="center_button_height">55dp</dimen>
+    <dimen name="center_button_width">60dp</dimen>
+    <dimen name="chat_avatar_margin">20dp</dimen>
+    <dimen name="chat_avatar_size">40dp</dimen>
+    <dimen name="chat_input_min_height">36dp</dimen>
+    <dimen name="coach_mark_down_textview_min_width">334px</dimen>
+    <dimen name="coach_mark_up_textview_min_width">282px</dimen>
+    <dimen name="comment_layout_height">250dp</dimen>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/vpi__defaults.xml -->
+    <eat-comment/>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="dialog_min_width">350dp</dimen>
+    <dimen name="edittext_padding_left">70dp</dimen>
+    <dimen name="edittext_padding_right">5dp</dimen>
+    <dimen name="feed_item_height">100dp</dimen>
+    <dimen name="feed_item_height_cover">170dp</dimen>
+    <dimen name="feed_item_height_nocover">100dp</dimen>
+    <dimen name="feed_item_width">280dp</dimen>
+    <dimen name="footer_bar_button_margin">10dp</dimen>
+    <dimen name="form_padding">25dp</dimen>
+    <dimen name="fragment_comments_min_width">480dp</dimen>
+    <dimen name="guide_page_height">400dp</dimen>
+    <dimen name="guide_page_margin">0dp</dimen>
+    <dimen name="header_bar_action_button_text_size">@dimen/text_size_20</dimen>
+    <dimen name="header_bar_margin">10dp</dimen>
+    <dimen name="header_bar_title_size">@dimen/text_size_21</dimen>
+    <dimen name="height_downloading_progress">10dp</dimen>
+    <dimen name="height_loading_indicator">60dp</dimen>
+    <dimen name="landing_page_button_width">300dp</dimen>
+    <dimen name="landing_page_login_width">260dp</dimen>
+    <dimen name="left_sliding_or_pane_min_width">300dp</dimen>
+    <dimen name="list_item_margin">15dp</dimen>
+    <dimen name="login_page_width">320dp</dimen>
+    <dimen name="login_signup_min_width">300dp</dimen>
+    <dimen name="login_signup_padding">25dp</dimen>
+    <dimen name="margin_textbox">13dp</dimen>
+    <dimen name="max_page_height">138dp</dimen>
+    <dimen name="max_page_width">138dp</dimen>
+    <dimen name="member_avatar_cell_height">96.0dp</dimen>
+    <dimen name="member_avatar_cell_width">92.0dp</dimen>
+    <dimen name="min_textbox_height">60dp</dimen>
+    <dimen name="min_textbox_width">100dp</dimen>
+    <dimen name="min_toolbar_size">30dp</dimen>
+    <dimen name="page_detail_button_margin">10dp</dimen>
+    <dimen name="page_detail_button_size">44dp</dimen>
+    <dimen name="page_detail_main_button_margin">10dp</dimen>
+    <dimen name="page_detail_secondary1_button_margin">10dp</dimen>
+    <dimen name="page_detail_stroke_slider_height">42dp</dimen>
+    <dimen name="page_detail_stroke_slider_width">233dp</dimen>
+    <dimen name="page_detail_title_margin">60dp</dimen>
+    <dimen name="page_item_bottom_margin">5dp</dimen>
+    <dimen name="page_item_height">197dp</dimen>
+    <dimen name="page_item_width">156dp</dimen>
+    <dimen name="page_thumbnail_header_height">100dp</dimen>
+    <dimen name="page_view_thumb_height">80dp</dimen>
+    <dimen name="page_view_thumb_height_2">74dp</dimen>
+    <dimen name="page_view_thumb_width">60dp</dimen>
+    <dimen name="pages_thumb_grid_padding">10dp</dimen>
+    <dimen name="participants_grid_view_paddingBottom">58dp</dimen>
+    <dimen name="participants_grid_view_paddingTop">58dp</dimen>
+    <dimen name="pop_dialog_height">550dp</dimen>
+    <dimen name="pop_dialog_width">360dp</dimen>
+    <dimen name="profile_avatar_height">100dp</dimen>
+    <dimen name="profile_cell_padding">10dp</dimen>
+    <dimen name="quad_left_right_margin">15dp</dimen>
+    <dimen name="quad_max_diameter">360dp</dimen>
+    <dimen name="quad_thumbnail_radius">48dp</dimen>
+    <dimen name="quick_action_min_width">260dp</dimen>
+    <dimen name="row_binder_cover_height">108dp</dimen>
+    <dimen name="row_binder_cover_name_height">30dp</dimen>
+    <dimen name="row_binder_interspace">5dp</dimen>
+    <dimen name="row_binder_item_height">225dp</dimen>
+    <dimen name="row_binder_item_width">150dp</dimen>
+    <dimen name="row_cell_height">48dp</dimen>
+    <dimen name="row_cell_icon_height">44dp</dimen>
+    <dimen name="row_cell_padding">10dp</dimen>
+    <dimen name="row_cell_top_padding">40dp</dimen>
+    <dimen name="row_drop_icon_height">35dp</dimen>
+    <dimen name="row_drop_item_height">45dp</dimen>
+    <dimen name="segment_control_height">40dp</dimen>
+    <dimen name="segment_min_width">70dp</dimen>
+    <dimen name="segmented_control_default_height">41dp</dimen>
+    <dimen name="shadow_width">8dp</dimen>
+    <dimen name="signup_title_height">100dp</dimen>
+    <dimen name="sliding_avatar_height">60dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="story1_iphone_margin">-44px</dimen>
+    <dimen name="story2_ipad_margin_horizontal">57px</dimen>
+    <dimen name="story2_ipad_margin_vertical">48px</dimen>
+    <dimen name="story3_bigpen_margin">-28px</dimen>
+    <dimen name="story3_iphone_margin_horizontal">96px</dimen>
+    <dimen name="story3_iphone_margin_vertical">28px</dimen>
+    <dimen name="story4_ipad_margin_vertical">57px</dimen>
+    <dimen name="story4_iphone_small1_width">21px</dimen>
+    <dimen name="story_bottom_margin">40dp</dimen>
+    <dimen name="story_page_height">370dp</dimen>
+    <dimen name="story_page_title_margin">10dp</dimen>
+    <dimen name="story_page_width">290dp</dimen>
+    <dimen name="story_top_margin">60dp</dimen>
+    <dimen name="tab_bar_default_height">48dip</dimen>
+    <dimen name="table_cell_item_height">50dp</dimen>
+    <dimen name="task_details_panel_width">300dp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_21">21sp</dimen>
+    <dimen name="text_size_9sp">9sp</dimen>
+    <dimen name="timeline_item_padding">5dp</dimen>
+    <dimen name="timeline_margin_right">5dp</dimen>
+    <dimen name="timeline_separator_padding_phone">8dp</dimen>
+    <dimen name="timeline_separator_padding_tablet">20dp</dimen>
+    <dimen name="topmargin_downloading_progress">60dp</dimen>
+    <dimen name="user_avatar_size">48dp</dimen>
+    <dimen name="webclip_nav_bar_height">40dp</dimen>
+    <dimen name="width_downloading_progress">260dp</dimen>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/colors.xml -->
+    <eat-comment/>
+    <drawable name="dialog_bg">#8000ffff</drawable>
+    <drawable name="full_trans_activity_bg">#10000000</drawable>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="mx_notification_small_icon" type="drawable">@drawable/ic_notification</item>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/color.xml -->
+    <eat-comment/>
+    <drawable name="semi_black">#80000000</drawable>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/colors.xml -->
+    <eat-comment/>
+    <drawable name="translucent_activity_bg">#a0000000</drawable>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="BG_VIEW_ID" type="id">10</item>
+    <item name="CANCEL_BUTTON_ID" type="id">100</item>
+    <item name="grid_pull" type="id"/>
+    <item name="gridview" type="id"/>
+    <item name="selected_view" type="id"/>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/integers.xml -->
+    <eat-comment/>
+    <item format="float" name="circle_height" type="integer">700</item>
+    <item format="float" name="circle_left_offset" type="integer">0</item>
+    <item format="float" name="circle_max_radius" type="integer">600</item>
+    <item format="float" name="circle_top_offset" type="integer">250</item>
+    <item format="float" name="circle_width" type="integer">700</item>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/vpi__defaults.xml -->
+    <eat-comment/>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="grid_pick_photo_count">3</integer>
+    <integer name="meet_option_column_num">3</integer>
+    <integer name="page_detail_title_max_ems">10</integer>
+    <integer name="page_detail_title_min_ems">8</integer>
+    <integer name="pages_thumb_grid_columns">2</integer>
+    <integer name="row_binder_count">2</integer>
+    <integer name="row_binder_interspace">10</integer>
+    <integer name="row_feeds_count">1</integer>
+    <integer name="row_grid_count">2</integer>
+    <integer name="row_pages_count">2</integer>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/plurals.xml -->
+    <eat-comment/>
+    <plurals name="activities">
+        <item quantity="other">"%d activities"</item>
+        <item quantity="one">"1 activity"</item>
+    </plurals>
+    <plurals name="binders">
+        <item quantity="other">"%d binders"</item>
+        <item quantity="one">"1 binder"</item>
+    </plurals>
+    <plurals name="label_completed_tasks_heading">
+        <item quantity="other">"%s Completed Items"</item>
+        <item quantity="one">"1 Completed Item"</item>
+    </plurals>
+    <plurals name="members">
+        <item quantity="other">"%d members"</item>
+        <item quantity="one">"1 member"</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">"%d new messages"</item>
+        <item quantity="one">"1 new message"</item>
+    </plurals>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="AGIPC_Albums">"Albums"</string>
+    <string name="AGIPC_DeselectAll">"Deselect All"</string>
+    <string name="AGIPC_Loading">"Loading…"</string>
+    <string name="AGIPC_SelectAll">"Select All"</string>
+    <string name="A_Binder_is_a_team_workspace_for_communication_and_collaboration">"A Binder is a team workspace for communication and collaboration."</string>
+    <string name="A_Binder_is_a_workspace_for_team_collaboration_and_communication">"A Binder is a workspace for team collaboration and communication."</string>
+    <string name="A_confirmation_email_was_sent_to_Click_on_the_link_in_the_email_to_activate_your_account">"A confirmation email was sent to %1$s. Click on the link in the email to activate your account."</string>
+    <string name="A_title_is_required_to_publish_to_YouTube">"A title is required to publish to YouTube."</string>
+    <string name="Accept">"Accept"</string>
+    <string name="Accepted">"Accepted"</string>
+    <string name="Access_your_Google_contacts">"Access your Google contacts."</string>
+    <string name="Account_Login">"Account Login"</string>
+    <string name="Account_Sign_Up">"Account Sign Up"</string>
+    <string name="Account_Type">"Account Type"</string>
+    <string name="Activities">"Activities"</string>
+    <string name="Add">"Add"</string>
+    <string name="Add_App">"Add App"</string>
+    <string name="Add_Attachment">"Add Attachment"</string>
+    <string name="Add_Contact">"Add Contact"</string>
+    <string name="Add_Contacts">"Add Contacts"</string>
+    <string name="Add_Contacts_or_Teams">"Add Contacts/Teams"</string>
+    <string name="Add_File">"Add File"</string>
+    <string name="Add_Files">"Add Files"</string>
+    <string name="Add_Member">"Add Member"</string>
+    <string name="Add_New_Binder">"Add New Binder"</string>
+    <string name="Add_Service_Integration">"Add Service Integration"</string>
+    <string name="Add_Team_Members">"Add Team Members"</string>
+    <string name="Add_Topic">"Add Topic"</string>
+    <string name="Add_a_To_Do">"Add a To-Do"</string>
+    <string name="Add_a_To_Do_here">"Add a To-Do here."</string>
+    <string name="Add_a_To_Do_item">"Add a To-Do item"</string>
+    <string name="Add_a_To_Do_item_">"Add a To-Do item…"</string>
+    <string name="Add_a_comment">"Add a comment…"</string>
+    <string name="Add_a_contact_via_email">"Add a contact via email"</string>
+    <string name="Add_a_file">"Add a file"</string>
+    <string name="Add_content_here">"Add content here."</string>
+    <string name="Add_description">"Add description"</string>
+    <string name="Add_description_">"Add description…"</string>
+    <string name="Add_people_to_your_binder">"Add people to your binder."</string>
+    <string name="Add_title_annotation_Moxtra_Clip_when_adding_pages">"Add title/annotation/Moxtra Clip when adding pages."</string>
+    <string name="Add_to_Business_Library">"Add to Business Library"</string>
+    <string name="Add_to_Contacts">"Add to Contacts"</string>
+    <string name="Add_to_calendar">"Add to calendar"</string>
+    <string name="Add_to_do_items_in_your_current_conversation">"Add to-do items in your current conversation"</string>
+    <string name="Add_voice_and_annotations_on_top_of_your_pages_to_better_express_your_points">"Add voice and annotations on top of your pages to better express your points."</string>
+    <string name="AddressBook">"Address\nBook"</string>
+    <string name="Address_Book">"Address Book"</string>
+    <string name="Agenda">"Agenda"</string>
+    <string name="AirDrop">"AirDrop"</string>
+    <string name="All_Binders">"All Binders"</string>
+    <string name="All_Fonts">"All Fonts"</string>
+    <string name="All_comments_on_these_pages_will_be_lost">"All comments on these pages will be lost?"</string>
+    <string name="All_rights_reserved">"All rights reserved."</string>
+    <string name="Annotate_Together">"Annotate Together"</string>
+    <string name="Annotate_sign_voice_over_comment_on_your_files">"Annotate, sign, voice over and comment on your files"</string>
+    <string name="Annotation">"Annotation"</string>
+    <string name="Anyone_can_search_for_and_view">"Anyone can search for and view"</string>
+    <string name="Anyone_with_a_link_can_view">"Anyone with a link can view"</string>
+    <string name="Application_Need_Upgrade">"Application Need Upgrade"</string>
+    <string name="Are_you_sure_to_Logout">"Are you sure to Logout?"</string>
+    <string name="Are_you_sure_you_want_to_Logout">"Are you sure you want to Logout?"</string>
+    <string name="Are_you_sure_you_want_to_logout">"Are you sure you want to logout?"</string>
+    <string name="Assign_roles_to_members">"Assign roles to members"</string>
+    <string name="Assign_to">"Assign to"</string>
+    <string name="Assigned_to_">Assigned to %1$s</string>
+    <string name="Assigned_to_me">"Assigned to me"</string>
+    <string name="Attachments">"Attachments"</string>
+    <string name="Attendee">"%1$d Attendee"</string>
+    <string name="Attendees">"%1$d Attendees"</string>
+    <string name="Audio">"[Audio]"</string>
+    <string name="Audio_connection_failed_Please_try_again">"Audio connection failed. Please try again."</string>
+    <string name="Audio_device_is_in_use_Please_close_the_apps_that_are_using_the_audio_device_and_try_again">"Audio device is in use. Please close the apps that are using the audio device and try again."</string>
+    <string name="Auth_Exception">"Auth Exception"</string>
+    <string name="Authentication_Failed">"Authentication Failed"</string>
+    <string name="Auto">"Auto"</string>
+    <string name="BAA">"View"</string>
+    <string name="BAM">"%1$s has posted a Voice Message in \"%2$s\""</string>
+    <string name="BCA">"View"</string>
+    <string name="BCM">"%1$s: %2$s"</string>
+    <string name="BDA">"View"</string>
+    <string name="BDM">"%1$s deleted \"%2$s\""</string>
+    <string name="BEM">"\"%1$s\" sent an email to \"%2$s\""</string>
+    <string name="BFA">"View"</string>
+    <string name="BFDA">"View"</string>
+    <string name="BFDM">"%1$s deleted content from \"%2$s\""</string>
+    <string name="BFM">"%1$s has added a document to \"%2$s\""</string>
+    <string name="BIA">"Join"</string>
+    <string name="BIM">"%1$s invited you to join \"%2$s\""</string>
+    <string name="BJA">"View"</string>
+    <string name="BJM">"%1$s joined \"%2$s\""</string>
+    <string name="BLA">"View"</string>
+    <string name="BLM">"%1$s left \"%2$s\""</string>
+    <string name="BMA">"View"</string>
+    <string name="BMM">"%1$s has added a audio to \"%2$s\""</string>
+    <string name="BNA">"View"</string>
+    <string name="BNM">"%1$s has added a Moxtra Clip to \"%2$s\""</string>
+    <string name="BPA">"View"</string>
+    <string name="BPM">"%1$s has added a photo to \"%2$s\""</string>
+    <string name="BVA">"View"</string>
+    <string name="BVM">"%1$s has added a video to \"%2$s\""</string>
+    <string name="Back">"Back"</string>
+    <string name="Back_Camera">"Back Camera"</string>
+    <string name="Bind">"Bind"</string>
+    <string name="Binder">"Binder"</string>
+    <string name="Binder_Email_Address">"Binder Email Address"</string>
+    <string name="Binder_Name">"Binder Name"</string>
+    <string name="Binder_Owner">"Binder Owner"</string>
+    <string name="Binder_Page">"Binder Page"</string>
+    <string name="Binder_Properties">"Binder Properties"</string>
+    <string name="Binder_Settings">"Binder Settings"</string>
+    <string name="Binder_Shelf">"Binder Shelf"</string>
+    <string name="Binder_Topic">"Binder Topic"</string>
+    <string name="Binder_description">"Binder description"</string>
+    <string name="Binder_is_a_new_type_of_collaboration_workspace_for_team_chat_content_sharing_meetings_and_tasks_management">"Binder is a new type of collaboration workspace for team chat, content sharing, meetings and tasks management."</string>
+    <string name="Binder_is_deleted">"Binder \"%1$s\" is deleted"</string>
+    <string name="Binder_is_removed_from_Business_Library">"Binder \"%1$s\" is removed from Business Library "</string>
+    <string name="Binders">"Binders"</string>
+    <string name="Binders___">"Binders (%1$d)"</string>
+    <string name="Border_Size">"Border Size (%1$dpt)"</string>
+    <string name="Box">"Box"</string>
+    <string name="Bring_group_of_people_together_for_quick_discussion">"Bring group of people together for quick discussion."</string>
+    <string name="Bring_to_front">"Bring to front"</string>
+    <string name="Bubble_Setting">"Bubble Setting"</string>
+    <string name="Bubbles">"Bubbles"</string>
+    <string name="Bubbles_and_Tags">"Bubbles &amp; Tags"</string>
+    <string name="Business">"Business"</string>
+    <string name="Business_Directory">"Business Directory"</string>
+    <string name="Business_Directory_">"Business Directory (%1$d)"</string>
+    <string name="Business_Library">"Business Library"</string>
+    <string name="By_clicking_Sign_Up_I_agree_to_the_Terms_of_Service_and_Privacy_Policy">"By clicking Sign Up, I agree to the\n Terms of Service and Privacy Policy"</string>
+    <string name="By_signing_up_I_agree_to_the_Terms_of_Service_and_Privacy_Policy_Have_an_account_Log_in_here">"By signing up, I agree to the Terms of Service and Privacy Policy.\nHave an account? Log in here."</string>
+    <string name="By_tapping_Create_Account_I_agree_to_the_Terms_of_Services_and_Privacy_Policy">"By tapping Create Account, I agree to the Terms of Services and Privacy Policy."</string>
+    <string name="By_tapping_Publish_you_are_representing_that_this_video_does_not_violate_YouTube_s_Terms_of_Use_and_that_you_own_all_copyrights_in_this_video_of_have_authorization_to_upload_it">"By tapping \"Publish\". you are representing that this video does not violate YouTube's Terms of Use and that you own all copyrights in this video of have authorization to upload it."</string>
+    <string name="CDA">"View"</string>
+    <string name="CDM">"%1$s has deleted chat"</string>
+    <string name="CIA">"View"</string>
+    <string name="CIM">"%1$s: Please join the chat"</string>
+    <string name="CJA">"View"</string>
+    <string name="CJM">"%1$s has joined the chat"</string>
+    <string name="CLA">"View"</string>
+    <string name="CLM">"%1$s has left the chat"</string>
+    <string name="Calendar">"Calendar"</string>
+    <string name="Call">"Call"</string>
+    <string name="Call_All">"Call All"</string>
+    <string name="Call_ID">"Meet ID: %1$s"</string>
+    <string name="Call_using_Internet_Audio">"Call using Internet Audio"</string>
+    <string name="Calling_">"Calling…"</string>
+    <string name="Camera">"Camera"</string>
+    <string name="Can_not_connect_to_Moxtra_Server_Try_again_later">"Can not connect to Moxtra Server. Try again later!"</string>
+    <string name="Can_t_create_a_new_binder_when_you_are_offline">"Can't create a new binder when you are offline."</string>
+    <string name="Can_t_create_new_binder_when_you_are_offline">"Can't create new binder when you offline."</string>
+    <string name="Can_t_open_this_file">"Can't open this file"</string>
+    <string name="Cancel">"Cancel"</string>
+    <string name="Cancel_Meet">"Cancel Meet"</string>
+    <string name="Cancelled">"Cancelled"</string>
+    <string name="Categories">"Categories"</string>
+    <string name="Category">"Category"</string>
+    <string name="Category_Name">"Category Name"</string>
+    <string name="Category_name">"Category name"</string>
+    <string name="Change">"Change"</string>
+    <string name="Change_Cover_Image">"Change Cover Image"</string>
+    <string name="Change_Password">"Change Password"</string>
+    <string name="Change_team_name">"Change Team Name"</string>
+    <string name="Change_to_Presenter">"Change to Presenter"</string>
+    <string name="Chat">"Chat"</string>
+    <string name="Chat_Binder">"Chat Binder"</string>
+    <string name="Chat_is_deleted">"Chat is deleted"</string>
+    <string name="Chat_to_Stay_Connected">"Chat to Stay Connected"</string>
+    <string name="Chat_with_any_one_even_with_people_who_has_no_Moxtra_account">"Chat with any one, even with people who has no Moxtra account."</string>
+    <string name="Choose_Cover">"Choose Cover"</string>
+    <string name="Choose_Photo">"Choose Photo"</string>
+    <string name="Choose_Picture">"Choose Picture"</string>
+    <string name="Choose_Type">"Choose Type"</string>
+    <string name="Choose_Video">"Choose Video"</string>
+    <string name="Choose_from_Avatar">"Choose from Avatar"</string>
+    <string name="Choose_from_Binder">"Choose from Binder"</string>
+    <string name="Choose_from_Photos">"Choose from Photos"</string>
+    <string name="Click_on_the_email_we_sent_to_to_verify_your_account_">"Click on the email we sent to %1$s to verify your account."</string>
+    <string name="Clip">"Clip-%1$s"</string>
+    <string name="Close">"Close"</string>
+    <string name="Close_Camera">"Close Camera"</string>
+    <string name="Collaborate_Whenever">"Collaborate Whenever"</string>
+    <string name="Collaboration_Reimagined_">"Collaboration. Reimagined."</string>
+    <string name="Comments">"Comments"</string>
+    <string name="Completed">"Completed"</string>
+    <string name="Confirm">"Confirm"</string>
+    <string name="Confirm_your_email_address_to_access_all_features_of_Moxtra_Look_for_the_confirmation_email_sent_to">"Confirm your email address to access all features of Moxtra. Look for the confirmation email sent to [%1$s]"</string>
+    <string name="Connect_and_collaborate_with_your_team_in_new_way">"Connect and collaborate with your team in new way."</string>
+    <string name="Connect_over_content_">"Connect over content."</string>
+    <string name="Connecting">"Connecting…"</string>
+    <string name="Connecting_">"Connecting..."</string>
+    <string name="Contacts">"Contacts"</string>
+    <string name="Contacts_">"Contacts (%1$d)"</string>
+    <string name="Conversation">"Conversation"</string>
+    <string name="Coping">"Copying…"</string>
+    <string name="Copy">"Copy"</string>
+    <string name="Copy_Done">"Copy Done"</string>
+    <string name="Copy_Failed">"Copy Failed"</string>
+    <string name="Copy_From">"Copy From:"</string>
+    <string name="Copy_Link">"Copy Link"</string>
+    <string name="Copy_Meet_Link">"Copy Meet Link"</string>
+    <string name="Copy_Page">"Copy Page"</string>
+    <string name="Copy_Pages">"Copy Pages"</string>
+    <string name="Copy_Public_Link">"Copy Public Link"</string>
+    <string name="Copy_To_">"Copy To:"</string>
+    <string name="Copy_here">"Copy here"</string>
+    <string name="Copy_or_Move">"Copy/Move"</string>
+    <string name="Copy_successfully">"Copy successfully."</string>
+    <string name="Copy_to">"Copy to"</string>
+    <string name="Copy_to_Clipboard">"Copy to Clipboard"</string>
+    <string name="Copying">"Copying…"</string>
+    <string name="Copyright">"Copyright"</string>
+    <string name="Cover_Image">"Cover Image"</string>
+    <string name="Create">"Create"</string>
+    <string name="Create_Account">"Create Account"</string>
+    <string name="Create_Binder">"Create Binder"</string>
+    <string name="Create_Category">"Create Category…"</string>
+    <string name="Create_Group">"Create Group"</string>
+    <string name="Create_New_Folder">"Create New Folder"</string>
+    <string name="Create_Note">"Create Note"</string>
+    <string name="Create_Team">"Create Team"</string>
+    <string name="Create_a_Binder">"Create a Binder"</string>
+    <string name="Create_a_Binder_for_this_Chat">"Create a Binder for this Chat"</string>
+    <string name="Create_a_New_File">"Create a New File"</string>
+    <string name="Create_a_new_Moxtra_account_with">"Create a new Moxtra account with:\n%1$s"</string>
+    <string name="Create_a_new_binder">"Create a new binder"</string>
+    <string name="Create_and_Moving">"Create &amp; Moving…"</string>
+    <string name="Create_new_Binder">"Create new Binder"</string>
+    <string name="Created_at">"Created at: %1$s"</string>
+    <string name="Created_binder_failed">"Created binder failed"</string>
+    <string name="Created_by">"Created by %1$s,"</string>
+    <string name="Created_team_failed">"Created team failed"</string>
+    <string name="Current_Binder">"Current Binder"</string>
+    <string name="Current_Binder_for_Duplication">"Current Binder for Duplication"</string>
+    <string name="Current_Page">"Current Page"</string>
+    <string name="Current_binder">"Current binder"</string>
+    <string name="Customize_title_and_cover_image">"Customize title &amp; cover image"</string>
+    <string name="Cut">"Cut"</string>
+    <string name="DIAL">"DIAL:"</string>
+    <string name="Data_not_available">"Data not available"</string>
+    <string name="Date">"Date"</string>
+    <string name="Decline">"Decline"</string>
+    <string name="Default_Category">"Default Category"</string>
+    <string name="Delete">"Delete"</string>
+    <string name="Delete_Chat">"Delete Chat"</string>
+    <string name="Delete_Conversation">"Delete Conversation"</string>
+    <string name="Delete_File">"Delete File"</string>
+    <string name="Delete_Folder">"Delete Folder"</string>
+    <string name="Delete_Photo">"Delete Photo"</string>
+    <string name="Delete_category">"Delete category:\"%1$s\"?"</string>
+    <string name="Delete_the_comment">"Delete the comment?"</string>
+    <string name="Delete_this_audio">"Delete this audio?"</string>
+    <string name="Delete_this_binder">"Delete this binder"</string>
+    <string name="Delete_this_file">"Delete this file"</string>
+    <string name="Delete_this_file_">"Delete this file?"</string>
+    <string name="Delete_this_team">"Delete This Team"</string>
+    <string name="Deleted">"Deleted."</string>
+    <string name="Description">"Description"</string>
+    <string name="Desktop">"Desktop"</string>
+    <string name="Desktops">"Desktops"</string>
+    <string name="Dial">"Dial"</string>
+    <string name="Dial_confirm">"Would you like to dial into Meet automatically?"</string>
+    <string name="Dial_in">"Dial in"</string>
+    <string name="Dial_return">"After dialing into Meet, please return to %1$s."</string>
+    <string name="Dismiss">"Dismiss"</string>
+    <string name="Do_More_Together">"Do More, Together"</string>
+    <string name="Do_you_copy_the_comments_on_these_pages">"Do you copy the comments on these pages?"</string>
+    <string name="Do_you_move_the_comments_along_with_these_pages">"Do you move the comments along with these pages?"</string>
+    <string name="Do_you_want_cancel">"Do you want cancel?"</string>
+    <string name="Do_you_want_to_delete_permanently">"Do you want to delete \"%1$s\" permanently?"</string>
+    <string name="Do_you_want_to_delete_the_current_page">"Do you want to delete the current page?"</string>
+    <string name="Do_you_want_to_delete_the_file">"Do you want to delete the file?"</string>
+    <string name="Do_you_want_to_delete_the_folder">"Do you want to delete the folder?"</string>
+    <string name="Do_you_want_to_delete_the_selected_files">"Do you want to delete the selected files?"</string>
+    <string name="Do_you_want_to_delete_the_selected_page">"Do you want to delete the selected page(s)?"</string>
+    <string name="Do_you_want_to_delete_the_to_do_item">"Do you want to delete the to-do item?"</string>
+    <string name="Do_you_want_to_delete_this_scheduled_meeting_">"Do you want to delete this scheduled meeting?"</string>
+    <string name="Do_you_want_to_end_your_Meet">"Do you want to end your Meet?"</string>
+    <string name="Do_you_want_to_erase_all">"Do you want to erase all?"</string>
+    <string name="Do_you_want_to_leave">"Do you want to leave \"%1$s\"?"</string>
+    <string name="Do_you_want_to_leave_chat">"Do you want to leave chat?"</string>
+    <string name="Do_you_want_to_leave_the_Meet">"Do you want to leave the Meet?"</string>
+    <string name="Do_you_want_to_remove_from_Meet">"Do you want to remove %1$s from Meet?"</string>
+    <string name="Do_you_want_to_remove_this_page_from_the_Meet_session">"Do you want to remove this page from the Meet session?"</string>
+    <string name="Do_you_want_to_remove_this_page_from_the_platform">"Do you want to remove this page from the platform?"</string>
+    <string name="Do_you_want_to_send_invitation_again">"Do you want to send invitation again?"</string>
+    <string name="Do_you_want_to_stop_screen_share">"Do you want to stop screen share?"</string>
+    <string name="Do_you_want_to_stop_sharing_this_binder_with">"Do you want to stop sharing this binder with %1$s?"</string>
+    <string name="Domain">"Domain"</string>
+    <string name="Done">"Done"</string>
+    <string name="Double_Tap_to_select_all_pages">"Double-Tap to select all pages"</string>
+    <string name="Double_tap_to_select_all">"Double-tap to select all"</string>
+    <string name="Double_tap_to_unselect_all">"Double-tap to unselect all"</string>
+    <string name="Download">"Download"</string>
+    <string name="Download_failed_please_try_again">"Download %1$s failed, please try again."</string>
+    <string name="Download_link_for_Moxtra_Desktop_App">"Download link for Moxtra Desktop App"</string>
+    <string name="Downloading">"Downloading"</string>
+    <string name="Downloading_of">"Downloading %1$d of %2$d"</string>
+    <string name="Dropbox">"Dropbox"</string>
+    <string name="Due_on_">Due on %1$s</string>
+    <string name="Duplicate_Binder">"Duplicate Binder"</string>
+    <string name="Duration">"Duration: %1$s"</string>
+    <string name="Edit">"Edit"</string>
+    <string name="Edit_Category">"Edit Category"</string>
+    <string name="Edit_signature">"Edit signature"</string>
+    <string name="Editor">"Editor"</string>
+    <string name="Email">"Email"</string>
+    <string name="Email_Address">"Email Address"</string>
+    <string name="Email_Binder_Link">"Email Binder Link"</string>
+    <string name="Email_Download_Link">"Email Download Link"</string>
+    <string name="Email_Feedback">"Email Feedback"</string>
+    <string name="Email_Link">"Email Link"</string>
+    <string name="Email_Meet_Link">"Email Meet Link"</string>
+    <string name="Email_Public_Link">"Email Public Link"</string>
+    <string name="Email_as_Attachment">"Email as Attachment"</string>
+    <string name="Email_as_attachment">"Email as attachment"</string>
+    <string name="Email_link">"Email link"</string>
+    <string name="Email_resent">"Email resent."</string>
+    <string name="Email_to_Binder">"Email to Binder"</string>
+    <string name="Email_with_Annotation_Pages">"Email with Annotation Pages"</string>
+    <string name="Email_with_Attachment">"Email with Attachment"</string>
+    <string name="Enable">"Enable"</string>
+    <string name="Enable_To_Do">"Enable To-Do"</string>
+    <string name="Enable_Voice">"Enable Voice"</string>
+    <string name="Enable_Voice_">"Enable Voice…"</string>
+    <string name="Enable_Voice_failed_please_try_again">"Enable Voice failed, please try again."</string>
+    <string name="End">"End"</string>
+    <string name="End_and_Save">"End &amp; Save"</string>
+    <string name="Ending_Meet">"Ending Meet…"</string>
+    <string name="Ends">"Ends"</string>
+    <string name="Enter_Email">"Enter Email:"</string>
+    <string name="Enter_Email_Address">"Enter Email Address"</string>
+    <string name="Enter_Folder_Name">"Enter Folder Name"</string>
+    <string name="Enter_Passcode">"Enter Passcode"</string>
+    <string name="Enter_Password">"Enter Password"</string>
+    <string name="Enter_email_address_or_phone_number_to_create_an_account_or_to_log_in">"Enter email address or phone number to create an account or to log in"</string>
+    <string name="Enter_email_to_add">"Enter email to add"</string>
+    <string name="Enter_email_to_invite">"Enter email to invite"</string>
+    <string name="Enter_emails_separated_by_space">"Enter emails separated by space"</string>
+    <string name="Enter_name_or_email_to_invite">"Enter name or email to invite"</string>
+    <string name="Enter_text_here">"Enter text here…"</string>
+    <string name="Enter_title_here">"Enter title here…"</string>
+    <string name="Enter_your_Google_account">"Enter your Google account:"</string>
+    <string name="Erase">"Erase"</string>
+    <string name="Error">"Error"</string>
+    <string name="Evernote">"Evernote"</string>
+    <string name="Export">"Export"</string>
+    <string name="Export_as_Images">"Export as Images"</string>
+    <string name="Export_as_PDF">"Export as PDF"</string>
+    <string name="Export_to_Evernote">"Export to Evernote"</string>
+    <string name="Export_to_Evernote_failed">"Export to Evernote failed"</string>
+    <string name="Express_However">"Express However."</string>
+    <string name="FAQ">"FAQ"</string>
+    <string name="Facebook">"Facebook"</string>
+    <string name="Fail_To_Link_Account">"Fail To Link Account"</string>
+    <string name="Fail_to_update_Email">"Fail to update Email"</string>
+    <string name="Failed">"Failed"</string>
+    <string name="Failed_to_Logout">"Failed to Logout!"</string>
+    <string name="Failed_to_convert_uploaded_file_to_pages">"Failed to convert uploaded file to pages."</string>
+    <string name="Failed_to_convert_uploaded_file_to_pages_">"Failed to convert uploaded file %1$s to pages."</string>
+    <string name="Failed_to_copy">"Failed to copy"</string>
+    <string name="Failed_to_delete_the_binder">"Failed to delete the binder!"</string>
+    <string name="Failed_to_delete_the_current_page_Please_try_again">"Failed to delete the current page. Please try again."</string>
+    <string name="Failed_to_forward">"Failed to forward"</string>
+    <string name="Failed_to_initialize_video_session">"Failed to initialize video session."</string>
+    <string name="Failed_to_load_the_file">"Failed to load the file."</string>
+    <string name="Failed_to_move">"Failed to move"</string>
+    <string name="Failed_to_save">"Failed to save"</string>
+    <string name="Failed_to_schedule_this_Meet_please_try_again">"Failed to schedule this Meet, please try again."</string>
+    <string name="Failed_to_start_Meet">"Failed to start Meet"</string>
+    <string name="Failed_to_start_Meet_">"Failed to start Meet."</string>
+    <string name="Failure">"Failure"</string>
+    <string name="Favorites">"Favorites"</string>
+    <string name="Feedback">"Feedback"</string>
+    <string name="File_is_too_big_to_upload_Files_need_to_be_under_MB_">"File is too big to upload. Files need to be under %1$d MB."</string>
+    <string name="Files">"Files"</string>
+    <string name="First_Name">"First Name"</string>
+    <string name="First_page_as_binder_cover">"First Page as Cover"</string>
+    <string name="Flattened_Copy">"Flattened Copy"</string>
+    <string name="Folder_Name">"Folder Name"</string>
+    <string name="Folders">"Folders"</string>
+    <string name="Font">"Font"</string>
+    <string name="Forgot_Password">"Forgot Password?"</string>
+    <string name="Forward">"Forward"</string>
+    <string name="Forward_to">"Forward to"</string>
+    <string name="Forward_to_">"Forward to:"</string>
+    <string name="Forwarded_successfully">"Forwarded successfully."</string>
+    <string name="Forwarding">"Forwarding…"</string>
+    <string name="Free">"Free"</string>
+    <string name="Front_Camera">"Front Camera"</string>
+    <string name="GKImoveAndScale">"GKImoveAndScale"</string>
+    <string name="Gallery">"Gallery"</string>
+    <string name="Generating_the_link_to_share_Please_wait">"Generating the link to share. Please wait.."</string>
+    <string name="Geotag">"Geotag"</string>
+    <string name="Get_on_the_same_page">"Get on the same page"</string>
+    <string name="Get_on_the_same_page_Host_and_attend_real_time_meeting_with_voice_and_screensharing_even_while_on_the_go_Anytime_anywhere_anyhow">"Get on the same page. Host and attend real-time meeting with voice and screensharing, even while on-the-go. Anytime, anywhere, anyhow."</string>
+    <string name="Get_things_done_for_business_and_personal_projects">"Get things done for business and personal projects."</string>
+    <string name="Google">"Google"</string>
+    <string name="Google_Drive">"Google Drive"</string>
+    <string name="Google_Log_In">"Google Log In"</string>
+    <string name="Google_contacts">"Google contacts"</string>
+    <string name="Group">"Group"</string>
+    <string name="Group_Chat">"Group Chat"</string>
+    <string name="Hi_I_am_using_Moxtra_A_fun_way_to_interact_Download_it_at_and_add_me">"Hi! I am using Moxtra (A fun way to interact). Download it at %1$s and add me: %2$s"</string>
+    <string name="Hold_to_Talk">"Hold to Talk"</string>
+    <string name="Home">"Home"</string>
+    <string name="Host">"Host"</string>
+    <string name="Host_">"Host: %s"</string>
+    <string name="Hosted_by">"Hosted by %1$s"</string>
+    <string name="I_d_like_to_invite_you_to_a_Meet_Click_the_link_to_join_">"I'd like to invited you to a Meet. Click the link to join. &lt;a href=\"%1$s\">%2$s&lt;a/a>\r\n\r\n&lt;abr>&lt;abr>"</string>
+    <string name="I_d_like_to_share_a_Moxtra_Binder_with_you">"I'd like to share a Moxtra Binder with you: %1$s"</string>
+    <string name="I_d_like_to_share_a_Moxtra_Binder_with_you_with_link">"I'd like to share a Moxtra Binder with you: &lt;a href=\"%1$s\">%2$s&lt;/a>\r\n\r\n&lt;br>&lt;br> &lt;font size=1>Made with &lt;a href=https://www.moxtra.com>Moxtra&lt;/a>&lt;/font>"</string>
+    <string name="I_d_like_to_share_a_Moxtra_binder_with_you">"I'd like to share a Moxtra binder with you: %1$s"</string>
+    <string name="I_d_like_to_share_a_Moxtra_binder_with_you_with_link">"I'd like to share a Moxtra binder with you. \r\n &lt;a href=\"%1$s\">%2$s&lt;/a>"</string>
+    <string name="I_d_like_to_share_a_file_from_Moxtra_Binder_with_you">"I'd like to share a file from Moxtra Binder with you: %1$s"</string>
+    <string name="I_d_like_to_share_a_file_with_you">"I'd like to share a file with you. \r\n\r\n&lt;br>&lt;br> &lt;font size=1>Made with &lt;a href=https://www.moxtra.com>Moxtra&lt;/a>&lt;/font>"</string>
+    <string name="I_d_like_to_share_my_binder">"I'd like to share my binder \"%1$s\""</string>
+    <string name="I_d_like_to_share_some_Moxtra_Binder_pages_with_you">"I'd like to share some Moxtra Binder pages with you: %1$s"</string>
+    <string name="I_d_like_to_share_some_Moxtra_Binder_pages_with_you_">"I'd like to share some Moxtra Binder pages with you. \r\n\r\n&lt;br>&lt;br> &lt;font size=1>Made with &lt;a href=https://www.moxtra.com>Moxtra&lt;/a>&lt;/font>"</string>
+    <string name="I_d_like_to_share_some_Moxtra_Binder_pages_with_you_with_link">"I'd like to share some Moxtra Binder pages with you: &lt;a href=\"%1$s\">%2$s&lt;/a>\r\n\r\n&lt;br>&lt;br> &lt;font size=1>Made with &lt;a href=https://www.moxtra.com>Moxtra&lt;/a>&lt;/font>"</string>
+    <string name="I_d_like_to_share_some_Moxtra_Binder_resources_with_you_with_link">"I'd like to share some Moxtra Binder resources with you: &lt;a href=\"%1$s\">%2$s&lt;/a>\r\n\r\n&lt;br>&lt;br> &lt;font size=1>Made with &lt;a href=https://www.moxtra.com>Moxtra&lt;/a>&lt;/font>"</string>
+    <string name="I_d_like_to_share_the_file_with_you_with_link">"I'd like to share the file \"%1$s\" with you: &lt;a href=\"%2$s\">%3$s&lt;/a>\r\n\r\n&lt;br>&lt;br> &lt;font size=1>Made with &lt;a href=https://www.moxtra.com>Moxtra&lt;/a>&lt;/font>"</string>
+    <string name="I_would_like_to_share_a_Meet_Record_with_you">"I would like to share a Meet Record with you: %1$s"</string>
+    <string name="I_would_like_to_share_a_Moxtra_Clip_with_you">"I would like to share a Moxtra Clip with you: %1$s"</string>
+    <string name="I_would_like_to_share_a_Moxtra_Clip_with_you_with_link">"I would like to share a Moxtra Clip with you: &lt;a href=\"%1$s\">%2$s&lt;/a>"</string>
+    <string name="I_would_like_to_share_a_Moxtra_Clip_with_you_with_link_">"I would like to share a Moxtra Clip with you: &lt;a href=\"%1$s\">%2$s&lt;/a>\r\n\r\n&lt;br>&lt;br> &lt;font size=1>Made with &lt;a href=https://www.moxtra.com>Moxtra&lt;/a>&lt;/font>"</string>
+    <string name="Image_File">"Image"</string>
+    <string name="Image_with_Annotation">"Image with Annotation"</string>
+    <string name="Image_without_Annotation">"Image without Annotation"</string>
+    <string name="Images">"Images"</string>
+    <string name="Import">"Import"</string>
+    <string name="Import_">"Import…"</string>
+    <string name="Import_Contacts">"Import Contacts"</string>
+    <string name="Important_messages_updates_and_alerts_from_anywhere">"Important messages, updates, and alerts from anywhere."</string>
+    <string name="Importing_is_in_progress_Large_files_or_slow_network_connection_may_cause_longer_time_to_complete_this_operation">"Importing is in progress. Large files or slow network connection may cause longer time to complete this operation"</string>
+    <string name="In_Progress">"In Progress"</string>
+    <string name="Incorrect_email_or_password_">"Incorrect email or password."</string>
+    <string name="Incorrect_email_or_password_Please_verify_and_try_again">"Incorrect email or password. Please verify and try again."</string>
+    <string name="Input_File_Name">"Input File Name"</string>
+    <string name="Install_Moxtra_Desktop_App_on_your_Mac_or_Windows_PC_to_make_your_desktop_remotely_accessible">"Install Moxtra Desktop App on your Mac or Windows PC to make your desktop remotely accessible"</string>
+    <string name="Instantly_Start_or_Join_a_Meet">"Instantly Start or Join a Meet"</string>
+    <string name="Interact_over_Content">"Interact over Content"</string>
+    <string name="Invalid_Evernote_Format">"Invalid Evernote Format"</string>
+    <string name="Invalid_email">"Invalid email. (%1$s)"</string>
+    <string name="Invalid_email_address">"Invalid email address (%1$s)"</string>
+    <string name="Invitation_To">"Invitation_To"</string>
+    <string name="Invitation_has_been_sent">"Invitation has been sent."</string>
+    <string name="Invitation_send">"Invitation send"</string>
+    <string name="Invitation_sent">"Invitation sent"</string>
+    <string name="Invitation_to_your_Facebook_friends_failed_Please_try_later">"Invitation to your Facebook friends failed. Please try later."</string>
+    <string name="Invitations">"Invitations"</string>
+    <string name="Invitations_Received">"Invitations Received"</string>
+    <string name="Invitations_Sent">"Invitations Sent (%1$d)"</string>
+    <string name="Invite">"Invite"</string>
+    <string name="Invite_Attendees">"Invite Attendees"</string>
+    <string name="Invite_Contact">"Invite Contact"</string>
+    <string name="Invite_Later">"Invite Later"</string>
+    <string name="Invite_Members">"Invite Members"</string>
+    <string name="Invite_Now">"Invite Now"</string>
+    <string name="Invite_Team_Members">"Invite Team Members"</string>
+    <string name="Invite_again">"Invite again"</string>
+    <string name="Invite_by">"Invite by"</string>
+    <string name="Invite_by_">"Invite by:"</string>
+    <string name="Invite_people_to_join_your_Meet_Participants_can_view_the_content_only_during_the_Meet">"Invite people to join your Meet. \r\nParticipants can view the content only during the Meet."</string>
+    <string name="Invite_team_members_to_join_your_existing_binders">"Invite team members to join your existing binders."</string>
+    <string name="Invite_to_Binder">"Invite to Binder"</string>
+    <string name="Invite_to_Chat">"Invite to Chat"</string>
+    <string name="Invite_to_Meet">"Invite to Meet"</string>
+    <string name="Invite_via_Email">"Invite via Email"</string>
+    <string name="Invite_via_SMS">"Invite via SMS"</string>
+    <string name="Invited">"Invited"</string>
+    <string name="Inviting">"Inviting …"</string>
+    <string name="Join">"Join"</string>
+    <string name="Join_Audio">"Join Audio"</string>
+    <string name="Join_Failed">"Join Failed"</string>
+    <string name="Join_Meet">"Join Meet"</string>
+    <string name="Join_Meet_failed_Please_check_Meet_ID_and_try_again">"Join Meet failed. Please check Meet ID and try again."</string>
+    <string name="Join_Video">"Join Video"</string>
+    <string name="Join_as">"Join as: %1$s"</string>
+    <string name="Join_my_Meet">"Join my Meet"</string>
+    <string name="Joining">"Joining…"</string>
+    <string name="Keep_Both">"Keep Both"</string>
+    <string name="Keep_everyone_engaged">"Keep everyone engaged"</string>
+    <string name="Keep_your_conversations_and_content_together">"Keep your conversations and content together."</string>
+    <string name="Keep_your_group_conversations_and_content_together">"Keep your group conversations and content together."</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings_no_i10n.xml -->
+    <eat-comment/>
+    <string name="Kingsoft_KuaiPan">"金山快盘"</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Last_Name">"Last Name"</string>
+    <string name="Latest_message">"Latest message"</string>
+    <string name="Leave">"Leave"</string>
+    <string name="Leave_Audio">"Leave Audio"</string>
+    <string name="Leave_Chat">"Leave Chat"</string>
+    <string name="Leave_Conversation">"Leave Conversation"</string>
+    <string name="Leave_Video">"Leave Video"</string>
+    <string name="Leave_this_binder">"Leave this binder"</string>
+    <string name="Leave_this_team">"Leave This Team"</string>
+    <string name="Leaving_Meet">"Leaving Meet…"</string>
+    <string name="Let_the_conversation_flow_Get_instant_feedback_on_your_content_and_engage_both_individuals_and_groups">"Let the conversation flow. Get instant feedback on your content and engage both individuals and groups."</string>
+    <string name="Library_Binder">"Library Binder"</string>
+    <string name="Linking_will_allow_this_app_to_access_and_modify_files_in_your_WebDAV">"Linking will allow this app to access and modify files in your WebDAV"</string>
+    <string name="List_Notebooks_failed">"List Notebooks failed."</string>
+    <string name="List_Notes_failed">"List Notes failed."</string>
+    <string name="List_file_list_failed">"List file list failed"</string>
+    <string name="Load_more_files_">"Load more files ..."</string>
+    <string name="Loading">"Loading…"</string>
+    <string name="Loading_">"Loading …"</string>
+    <string name="Local">"Local"</string>
+    <string name="Local_Contacts">"Local Contacts"</string>
+    <string name="Location">"Location"</string>
+    <string name="Log_In">"Log In"</string>
+    <string name="Log_In_">"Log In…"</string>
+    <string name="Log_In_Failed">"Log In Failed"</string>
+    <string name="Log_In_with_Facebook">"Log In with Facebook"</string>
+    <string name="Log_in_as">"Log in as:"</string>
+    <string name="Log_in_here">"Log in here"</string>
+    <string name="Log_out">"Log out…"</string>
+    <string name="Logging_In">"Logging In…"</string>
+    <string name="Login_failed">"Login failed"</string>
+    <string name="Logout">"Logout"</string>
+    <string name="MAA">"View"</string>
+    <string name="MAM">"%1$s accepted: %2$s @ %3$s"</string>
+    <string name="MCA">"View"</string>
+    <string name="MCM">"Meet Canceled: %2$s @ %3$s"</string>
+    <string name="MDA">"View"</string>
+    <string name="MDM">"%1$s declined: %2$s @ %3$s"</string>
+    <string name="MIA">"Join"</string>
+    <string name="MIM">"%1$s: Meeting in progress. Please join."</string>
+    <string name="MUA">"View"</string>
+    <string name="MUM">"Meet Timing Updated: %2$s @ %3$s"</string>
+    <string name="MVA">"Accept"</string>
+    <string name="MVM">"Meet Invitation from %1$s: %2$s @ %3$s"</string>
+    <string name="Mail">"Mail"</string>
+    <string name="Mail_Attachment">"Mail Attachment"</string>
+    <string name="Mail_service_not_available">"Mail service not available."</string>
+    <string name="Make_Presenter">"Make Presenter"</string>
+    <string name="Make_as_Editor">"Make as Editor"</string>
+    <string name="Make_as_Viewer">"Make as Viewer"</string>
+    <string name="Make_things_happen_on_the_go_">"Make things happen, on the go."</string>
+    <string name="Make_things_happen_on_the_go_for_your_life_and_business_">"Make things happen on the go for your life and business."</string>
+    <string name="Mark_As_Read">"Mark As Read"</string>
+    <string name="Me">"Me"</string>
+    <string name="Meet">"Meet"</string>
+    <string name="Meet_ID">"Meet ID"</string>
+    <string name="Meet_ID_">"Meet ID: %1$s"</string>
+    <string name="Meet_In_Progress">"Meet In Progress..."</string>
+    <string name="Meet_Info">"Meet Info"</string>
+    <string name="Meet_Link">"Meet Link"</string>
+    <string name="Meet_Notes">"Meet Notes"</string>
+    <string name="Meet_Now">"Meet Now"</string>
+    <string name="Meet_Record">"Meet Record"</string>
+    <string name="Meet_Topic">"Meet Topic"</string>
+    <string name="Meet_all_members">"Meet all members"</string>
+    <string name="Meet_at">"Meet at %s"</string>
+    <string name="Meet_ended">"Meet ended."</string>
+    <string name="Meet_expired">"Meet expired"</string>
+    <string name="Meet_id">"Meet ID: "</string>
+    <string name="Meet_in_Real_Time">"Meet in Real-Time"</string>
+    <string name="Meet_in_real_time_Get_on_the_same_page_Share_your_content_with_anyone_regardless_of_location_or_device_Anytime_anywhere_anyhow">"Meet in real-time. Get on the same page. Share your content with anyone, regardless of location or device. Anytime, anywhere, anyhow."</string>
+    <string name="Meet_request_sent">"Meet request sent"</string>
+    <string name="Meet_when_necessary">"Meet when necessary"</string>
+    <string name="Meeting_will_be_expire_in_5_minutes">"Meeting will be expire in 5 minutes"</string>
+    <string name="Member">"Member"</string>
+    <string name="Member_Login">"Member Login"</string>
+    <string name="Member_Role">"Member Role"</string>
+    <string name="Members">"Members"</string>
+    <string name="Message">"Message"</string>
+    <string name="Message_Instantly">"Message Instantly"</string>
+    <string name="Mobile_Collaboration_for_Teams_and_Projects">"Mobile Collaboration for Teams &amp; Projects"</string>
+    <string name="Mobile_Contacts">"Mobile Contacts"</string>
+    <string name="Mobile_and_web_messaging_keeps_your_team_in_sync">"Mobile and web messaging keeps your team in sync."</string>
+    <string name="Modified">"Modified %1$s"</string>
+    <string name="Modify">"Modify"</string>
+    <string name="More">"More…"</string>
+    <string name="More_">"More …"</string>
+    <string name="More_Contacts">"More Contacts"</string>
+    <string name="More_info_required">"More info required"</string>
+    <string name="Move_Pages">"Move Pages"</string>
+    <string name="Move_To">"Move To:"</string>
+    <string name="Move_group_and_delete_chat_attachments">"Move, group, and delete chat attachments"</string>
+    <string name="Move_here">"Move here"</string>
+    <string name="Move_successfully">"Move successfully."</string>
+    <string name="Move_to">"Move to"</string>
+    <string name="Moving">"Moving…"</string>
+    <string name="MoxtraContacts">"Moxtra\nContacts"</string>
+    <string name="Moxtra_Binder_Page">"Moxtra Binder Page"</string>
+    <string name="Moxtra_Binders">"Moxtra Binders"</string>
+    <string name="Moxtra_Clip">"Moxtra Clip"</string>
+    <string name="Moxtra_Clip_">"Moxtra Clip - %1$s"</string>
+    <string name="Moxtra_Clip_Duration_">"Moxtra Clip Duration:"</string>
+    <string name="Moxtra_Clip_Name">"Moxtra Clip Name:"</string>
+    <string name="Moxtra_Clip_Recorded_Successfully">"Moxtra Clip Recorded Successfully"</string>
+    <string name="Moxtra_Clip_creation_failed">"Moxtra Clip creation failed"</string>
+    <string name="Moxtra_Contacts">"Moxtra Contacts"</string>
+    <string name="Moxtra_Desktop_App_is_available_for_download_from">"Moxtra Desktop App is available for download from: %1$s"</string>
+    <string name="Moxtra_Email">"Moxtra Email"</string>
+    <string name="Moxtra_Meet">"Moxtra Meet"</string>
+    <string name="Moxtra_OAuth">"Moxtra OAuth"</string>
+    <string name="Mute">"Mute"</string>
+    <string name="Mute_All">"Mute All"</string>
+    <string name="My_Account">"My Account"</string>
+    <string name="My_Categories">"My Categories"</string>
+    <string name="My_Category">"Default Category"</string>
+    <string name="My_Contacts">"My Contacts"</string>
+    <string name="My_Private_Binder">"My Private Binder"</string>
+    <string name="My_Profile">"My Profile"</string>
+    <string name="My_Profile_">"My Profile (%1$s)"</string>
+    <string name="My_Shared_Binder">"My Shared Binder"</string>
+    <string name="My_To_Do">"My To-Do"</string>
+    <string name="My_profile">"My profile"</string>
+    <string name="NO">"NO"</string>
+    <string name="Name">"Name"</string>
+    <string name="Name_Your_Binder">"Name Your Binder"</string>
+    <string name="Name_Your_Team">"Name Your Team"</string>
+    <string name="Network_connectivity_is_required_to_complete_the_task">"Network connectivity is required to complete the task"</string>
+    <string name="New">"New"</string>
+    <string name="New_Binder">"New Binder"</string>
+    <string name="New_Category">"New Category"</string>
+    <string name="New_Chat">"New Chat"</string>
+    <string name="New_Folder">"New Folder"</string>
+    <string name="New_Group_Chat">"New Group Chat"</string>
+    <string name="New_Page">"New Page"</string>
+    <string name="New_To_Do_added">"New To-Do added."</string>
+    <string name="New_binder">"New binder"</string>
+    <string name="Next">"Next"</string>
+    <string name="No_Meets_scheduled_for_today">"No Meets scheduled for today."</string>
+    <string name="No_Moxtra_Clip_found">"No Moxtra Clip found"</string>
+    <string name="No_Name">"No Name"</string>
+    <string name="No_Response">"No Response"</string>
+    <string name="No_action_type_found">"No action type found"</string>
+    <string name="No_application_was_found_to_handle_the_url">"No application was found to handle the url:"</string>
+    <string name="No_clipboard_found_for_name">"No clipboard found for name:"</string>
+    <string name="No_data_found_on_clipboard_with_name">"No data found on clipboard with name:"</string>
+    <string name="No_data_was_found">"No data was found"</string>
+    <string name="No_do_not_ask_again">"No, don't ask again"</string>
+    <string name="No_files_found">"No files found"</string>
+    <string name="No_meet_today">"No meet today"</string>
+    <string name="No_more_entries">"No more entries"</string>
+    <string name="No_one">"No one"</string>
+    <string name="No_privilege_to_access_your_Contacts">"No privilege to access your Contacts"</string>
+    <string name="No_todo_yet">"No to-do yet!"</string>
+    <string name="Not_Now">"Not Now"</string>
+    <string name="Not_Verified">"Not Verified"</string>
+    <string name="Not_now">"Not now"</string>
+    <string name="Note">"Note"</string>
+    <string name="Note_Duration">"Note Duration:"</string>
+    <string name="Notebook">"Notebook"</string>
+    <string name="Notes">"Notes"</string>
+    <string name="Notice">"Notice"</string>
+    <string name="Now">"Now"</string>
+    <string name="Null">"Null"</string>
+    <string name="OK">"OK"</string>
+    <string name="Off">"Off"</string>
+    <string name="On">"On"</string>
+    <string name="Only_specific_YouTube_users_can_view">"Only specific YouTube users can view"</string>
+    <string name="Open">"Open"</string>
+    <string name="Open_contact_list_to_add_new_contacts_or_to_create_a_new_team">"Open contact list to add new contacts, or to create a new team."</string>
+    <string name="Open_in">"Open in…"</string>
+    <string name="Open_in_Original_File">"Open in Original File…"</string>
+    <string name="Open_in_with_Annotation">"Open in with Annotation…"</string>
+    <string name="Operation_Failed">"Operation Failed"</string>
+    <string name="Optional">"(Optional)"</string>
+    <string name="Or_log_in_with">"Or log in with"</string>
+    <string name="Original_Content">"Original Content"</string>
+    <string name="Original_File_Link">"Original File Link"</string>
+    <string name="Original_Size">"Original Size"</string>
+    <string name="Other">"Other"</string>
+    <string name="Other_Binders">"Other Binders:"</string>
+    <string name="Other_login_options">"Other login options"</string>
+    <string name="Owned">"Owned"</string>
+    <string name="Owner">"Owner"</string>
+    <string name="Owner_">"Owner: %1$s"</string>
+    <string name="Owner_Chat_Owner">"Owner: Chat Owner"</string>
+    <string name="PA">"View"</string>
+    <string name="PAA">"View"</string>
+    <string name="PAM">"%1$s has added annotation to \"%2$s\""</string>
+    <string name="PCA">"View"</string>
+    <string name="PCM">"%1$s: %2$s"</string>
+    <string name="PDA">"View"</string>
+    <string name="PDF">"PDF"</string>
+    <string name="PDF_File">"PDF"</string>
+    <string name="PDM">"%1$s has deleted content from \"%2$s\""</string>
+    <string name="PM">"%1$s has added a page to \"%2$s\""</string>
+    <string name="Page">"Page %1$d"</string>
+    <string name="Page_Caption">"Page Caption"</string>
+    <string name="Page_Link">"Page Link"</string>
+    <string name="Page_Properties">"Page Properties"</string>
+    <string name="Pages">"Pages"</string>
+    <string name="Pages_are_not_ready_for_sharing_Please_try_again">"Pages are not ready for sharing. Please try again."</string>
+    <string name="Pages_related_with_this_file_also_will_be_deleted">"Pages related with this file also will be deleted"</string>
+    <string name="Participant_id">"Participant ID: "</string>
+    <string name="Participants">"Participants"</string>
+    <string name="Password">"Password"</string>
+    <string name="Paste">"Paste"</string>
+    <string name="Paused">"Paused"</string>
+    <string name="Pen_Size">"Pen Size (%1$dpt)"</string>
+    <string name="Pen_Weight">"Pen Weight (%1$dpt)"</string>
+    <string name="Pen_size">"Pen size (%1$dpt)"</string>
+    <string name="Pending">"Pending"</string>
+    <string name="Pending_Invitations">"Pending Invitations"</string>
+    <string name="Pendings">"Pendings"</string>
+    <string name="Pendings_">"Pendings (%1$d)"</string>
+    <string name="Pendings_and_Invitations">"Pendings &amp; Invitations"</string>
+    <string name="Percent_Participant">"%1$d Participant"</string>
+    <string name="Percent_Participants">"%1$d Participants"</string>
+    <string name="Phone">"Phone"</string>
+    <string name="Phone_Number">"Phone Number"</string>
+    <string name="Picture">"Picture"</string>
+    <string name="Play">"Play"</string>
+    <string name="Please_click_BACK_again_to_exit">"Please click BACK again to exit"</string>
+    <string name="Please_download_the_latest_version_of_the_app">"Please download the latest version of the app"</string>
+    <string name="Please_enter_a_name_for_the_Note">"Please enter a name for the Note"</string>
+    <string name="Please_enter_a_title">"Please enter a title"</string>
+    <string name="Please_enter_a_valid_server_address_and_password_and_try_again_">"Please enter a valid server address and password, and try again."</string>
+    <string name="Please_enter_email">"Please enter email"</string>
+    <string name="Please_join_my_Binder">"Please join my Binder"</string>
+    <string name="Please_join_my_Chat">"Please join my Chat."</string>
+    <string name="Please_join_my_Meet">"Please join my Meet"</string>
+    <string name="Please_join_my_Meet_">"Please join my Meet: %1$s"</string>
+    <string name="Please_join_my_Meet__">"Please join my Meet: %1$s/%2$s"</string>
+    <string name="Please_join_my_binder">"Please join my binder."</string>
+    <string name="Please_join_my_meet">"Please join my meet."</string>
+    <string name="Please_use_a_shorter_category_name">"Please use a shorter category name."</string>
+    <string name="Please_use_space_to_separate_multiple_email_addresses">"Please use space to separate multiple email addresses."</string>
+    <string name="Please_wait">"Please wait."</string>
+    <string name="Please_wait_">"Please wait…"</string>
+    <string name="Post_Print">"Post, Print,…"</string>
+    <string name="Post_on_Facebook">"Post on Facebook"</string>
+    <string name="Post_to_Salesforce">"Post to Salesforce"</string>
+    <string name="Post_to_YouTube">"Post to YouTube"</string>
+    <string name="Power_Messaging_to_Get_Things_Done">"Power Messaging to Get Things Done"</string>
+    <string name="Power_messaging_with_document_sharing_annotation_to_do_and_realtime_voice_call">"Power messaging with document sharing, annotation, to-do and realtime voice call…"</string>
+    <string name="Powered_by_Moxtra">"Powered by Moxtra"</string>
+    <string name="Powered_by_Moxtra_Inc">"Powered by Moxtra, Inc."</string>
+    <string name="Preparing_message">"Preparing message."</string>
+    <string name="Preview">"Preview"</string>
+    <string name="Preview_not_available">"Preview not available"</string>
+    <string name="Print">"Print"</string>
+    <string name="Print_Page">"Print Page(s)"</string>
+    <string name="Privacy_Policy">"Privacy Policy"</string>
+    <string name="Private">"Private"</string>
+    <string name="Private_Group_Share">"Private Group Share."</string>
+    <string name="Profile">"Profile"</string>
+    <string name="Project_Binder">"Project Binder"</string>
+    <string name="Public">"Public"</string>
+    <string name="Public_Link">"Public Link"</string>
+    <string name="Public_share_link_is_not_ready_yet_please_try_later">"Public share link is not ready yet, please try later."</string>
+    <string name="Publish">"Publish"</string>
+    <string name="Publish_to_YouTube">"Publish to YouTube"</string>
+    <string name="Publish_video">"Publish video."</string>
+    <string name="Pull_to_get_more">"Pull to get more…"</string>
+    <string name="Pull_to_refresh">"Pull to refresh …"</string>
+    <string name="Push_Notification">"Push Notification"</string>
+    <string name="Real_time_voice_call_with_screen_sharing_and_presentation">"Real time voice call with screen sharing and presentation"</string>
+    <string name="Reason_unknown">"Reason unknown."</string>
+    <string name="Reconnecting">"Reconnecting…"</string>
+    <string name="Reconnecting_Audio">"Reconnecting Audio"</string>
+    <string name="Reconnecting_Audio_">"Reconnecting Audio..."</string>
+    <string name="Record">"Record"</string>
+    <string name="Recording">"Recording"</string>
+    <string name="Recording_Moxtra_Clip_failed">"Recording Moxtra Clip failed."</string>
+    <string name="Recording_in_progress">"Recording in progress"</string>
+    <string name="Recording_in_progress_Please_stop_the_recording_before_you_continue">"Recording in progress. Please stop the recording before you continue"</string>
+    <string name="Regular">"Regular"</string>
+    <string name="Reinvite">"Reinvite"</string>
+    <string name="Release_now">"Release now!"</string>
+    <string name="Release_to_refresh">"Release to refresh …"</string>
+    <string name="Remind_me">"Remind me"</string>
+    <string name="Remove">"Remove"</string>
+    <string name="Remove_from_Contacts">"Remove from Contacts"</string>
+    <string name="Remove_from_Library">"Remove from Library"</string>
+    <string name="Removed_the_assignee">"Removed the assignee."</string>
+    <string name="Rename">"Rename"</string>
+    <string name="Rename_Category">"Rename Category"</string>
+    <string name="Rename_File">"Rename File"</string>
+    <string name="Rename_Folder">"Rename Folder"</string>
+    <string name="Rename_Group">"Rename Group"</string>
+    <string name="Reopened">"Reopened"</string>
+    <string name="Replace">"Replace"</string>
+    <string name="Reply">"Reply"</string>
+    <string name="Repositories">"Repositories"</string>
+    <string name="Request_Failed">"Request Failed"</string>
+    <string name="Required">"Required"</string>
+    <string name="Resend">"Resend"</string>
+    <string name="Resend_confirmation_email">"Resend confirmation email"</string>
+    <string name="Reset">"Reset"</string>
+    <string name="Resource_are_not_ready_for_sharing_Please_try_again">"Resource are not ready for sharing. Please try again."</string>
+    <string name="Restart">"Restart"</string>
+    <string name="Resume_Record">"Resume Record"</string>
+    <string name="Retry">"Retry"</string>
+    <string name="Return">"Return"</string>
+    <string name="Review">"Review"</string>
+    <string name="Review_Moxtra_on_App_Store">"Review Moxtra on Google Play"</string>
+    <string name="Review_on_App_Store">"Review on Google Play"</string>
+    <string name="Roles">"Roles"</string>
+    <string name="Root_Folder">"Root Folder"</string>
+    <string name="Rotate">"Rotate"</string>
+    <string name="Rotate_Page">"Rotate Page"</string>
+    <string name="Rotate_Page_Warning">"Annotation can't be rotated. After you rotate this page, your annotation position may not be right. You have to manually adjust it. Are you still want to rotate it?"</string>
+    <string name="Rotated_degrees">"Rotated %1$d degrees"</string>
+    <string name="SMS">"SMS"</string>
+    <string name="SMS_Public_Link">"SMS Public Link"</string>
+    <string name="SMS_Text_Link">"SMS Text Link"</string>
+    <string name="SMS_Text_not_available">"SMS Text not available."</string>
+    <string name="Save">"Save"</string>
+    <string name="Save_Recording">"Save Recording"</string>
+    <string name="Save_and_Share">"Save &amp; Share"</string>
+    <string name="Save_here">"Save here"</string>
+    <string name="Save_to">"Save to"</string>
+    <string name="Save_to_">"Save to:"</string>
+    <string name="Save_to_Album">"Save to Album"</string>
+    <string name="Save_to_Camera_Roll">"Save to Camera Roll"</string>
+    <string name="Saved_successfully">"Saved successfully."</string>
+    <string name="Saving">"Saving…"</string>
+    <string name="Schedule">"Schedule"</string>
+    <string name="Schedule_Meet_successfully">"Scheduled a Meet successfully."</string>
+    <string name="Schedule_a_Meet">"Schedule a Meet"</string>
+    <string name="Schedule_your_Meet">"Schedule your Meet"</string>
+    <string name="Screen_sharing_is_in_progress_">"Screen sharing is in progress."</string>
+    <string name="Screen_sharing_paused">"Screen sharing paused."</string>
+    <string name="Screen_sharing_resumed">"Screen sharing resumed."</string>
+    <string name="Search">"Search"</string>
+    <string name="Search_or_enter_email_to_invite">"Search or enter email to invite"</string>
+    <string name="Search_or_type_email_to_invite">"Search or type email to invite…"</string>
+    <string name="Select">"Select"</string>
+    <string name="Select_All">"Select All"</string>
+    <string name="Select_All_Files">"Select All Files"</string>
+    <string name="Select_All_Pages">"Select All Pages"</string>
+    <string name="Select_Contacts">"Select Contacts"</string>
+    <string name="Select_Files">"Select Files"</string>
+    <string name="Select_Folder">"Select Folder"</string>
+    <string name="Select_Notebook">"Select Notebook"</string>
+    <string name="Select_Page">"Select Page"</string>
+    <string name="Select_Pages">"Select Pages"</string>
+    <string name="Select_an_Album">"Select an Album"</string>
+    <string name="Select_binder">"Select binder"</string>
+    <string name="Select_binder_to_start">"Select binder to start:"</string>
+    <string name="Select_category">"Select category"</string>
+    <string name="Select_email_or_phone_to_send_invitation">"Select email or phone to send invitation"</string>
+    <string name="Select_your_photos">"Select your photos"</string>
+    <string name="Selected">"Selected"</string>
+    <string name="Selected_page_have_been_exported_to_Evernote">"Selected page(s) have been exported to Evernote."</string>
+    <string name="Selected_page_have_been_saved_to_your_photo_album">"Selected page(s) have been saved to your photo album"</string>
+    <string name="Send">"Send"</string>
+    <string name="Send_Feedback">"Send Feedback"</string>
+    <string name="Send_Messages_Silently">"Send Messages Silently"</string>
+    <string name="Send_SMS">"Send SMS"</string>
+    <string name="Send_a_message">"Send a message"</string>
+    <string name="Send_a_silent_message">"Send a silent message"</string>
+    <string name="Send_a_silent_message_">"Send a silent message…"</string>
+    <string name="Send_by_Email">"Send by Email"</string>
+    <string name="Send_by_Text">"Send by Text"</string>
+    <string name="Send_message">"Send message…"</string>
+    <string name="Send_successfully">"Send successfully."</string>
+    <string name="Set_As_Team_Owner">"Set As Team Owner"</string>
+    <string name="Set_Empty_Binder">"Set Empty Binder"</string>
+    <string name="Set_due_date">"Set due date"</string>
+    <string name="Set_due_date_">Set due date</string>
+    <string name="Settings">"Settings"</string>
+    <string name="Share">"Share"</string>
+    <string name="Share_Moxtra_Clip">"Share Moxtra Clip"</string>
+    <string name="Share_Options">"Share Options"</string>
+    <string name="Share_Page">"Share Page"</string>
+    <string name="Share_Pages">"Share Files"</string>
+    <string name="Share_Screen">"Share Screen"</string>
+    <string name="Share_Source_File">"Share Source File"</string>
+    <string name="Share_View_Only_Link">"Share View Only Link"</string>
+    <string name="Share_files_from_any_repository_for_any_type_">"Share files from any repository, for any type."</string>
+    <string name="Share_the_link_below_so_people_can_join_your_Meet">"Share the link below so people can join your Meet"</string>
+    <string name="Share_voice_screens_and_pages_in_real_time_cross_any_device_">"Share voice, screens and pages in real-time cross any device."</string>
+    <string name="Share_your_document_and_screen_remotely">"Share your document and screen remotely"</string>
+    <string name="Shared_Binder">"Shared Binder"</string>
+    <string name="Shared_Binders">"Shared Binders"</string>
+    <string name="Shared_by">"Shared by: %1$s"</string>
+    <string name="Shared_from">"Shared from %1$s"</string>
+    <string name="Sharing">"Sharing"</string>
+    <string name="Shelf">"Shelf"</string>
+    <string name="Sign_In">"Sign In"</string>
+    <string name="Sign_Out">"Sign Out"</string>
+    <string name="Sign_Up">"Sign Up"</string>
+    <string name="Sign_Up_Failed">"Sign Up Failed"</string>
+    <string name="Sign_annotate_voice_over_and_comment_on_top_of_your_file_together_">"Sign, annotate, voice over and comment on top of your file together."</string>
+    <string name="Sign_here">"Sign here"</string>
+    <string name="Signature">"Signature"</string>
+    <string name="Signing_Up">"Signing Up…"</string>
+    <string name="Silent_messages_OFF">"Silent messages OFF"</string>
+    <string name="Silent_messages_ON">"Silent messages ON"</string>
+    <string name="Similar_Binders">"Similar Binders"</string>
+    <string name="Sketch">"Sketch"</string>
+    <string name="Skip">"Skip"</string>
+    <string name="Slide_up_to_cancel">"Slide up to cancel"</string>
+    <string name="Snap_Area">"Snap Area"</string>
+    <string name="Snap_Page">"Snap Page"</string>
+    <string name="Sort_Alphabetically">"Sort Alphabetically"</string>
+    <string name="Sort_by_Assignee">"Sort by Assignee"</string>
+    <string name="Sort_by_Due_Date">"Sort by Due Date"</string>
+    <string name="Sort_by_Priority">"Sort by Priority"</string>
+    <string name="Speech_Bubble">"Speech Bubble"</string>
+    <string name="Start">"Start"</string>
+    <string name="Start_Chat">"Start Chat"</string>
+    <string name="Start_Meet">"Start Meet"</string>
+    <string name="Start_MyVideo">"Start MyVideo"</string>
+    <string name="Start_New_conversation">"Start New conversation"</string>
+    <string name="Start_Now">"Start Now"</string>
+    <string name="Start_Record">"Start Record"</string>
+    <string name="Start_a_voice_call">"Start a voice call"</string>
+    <string name="Start_an_online_meeting_with_below_team_members">"Start an online meeting with below team members."</string>
+    <string name="Start_with_a_conversation_">"Start with a conversation."</string>
+    <string name="Starting">"Starting…"</string>
+    <string name="Starting_to_record_">"Starting to record... "</string>
+    <string name="Starts">"Starts"</string>
+    <string name="Stay_in_touch_always">"Stay in touch always"</string>
+    <string name="Stop_MyVideo">"Stop MyVideo"</string>
+    <string name="Stop_Sharing">"Stop Sharing"</string>
+    <string name="Submit">"Submit"</string>
+    <string name="Success">"Success"</string>
+    <string name="Suggestion_You_can_go_to_https_www_youtube_com_to_create_your_own_channels_and_then_you_can_upload">"Suggestion: You can go to https://www.youtube.com \nto create your own channels and then you can upload"</string>
+    <string name="Switch_Camera">"Switch Camera"</string>
+    <string name="Sync_with_presenter">"Sync with presenter"</string>
+    <string name="TAM">"%1$s has accepted your invitation to connect"</string>
+    <string name="TASM">"%1$s assigned a to-do item to %2$s in \"%3$s\"."</string>
+    <string name="TATM">"%1$s added an attachment for a to-do item in \"%2$s\"."</string>
+    <string name="TCMM">"%1$s added a comment for a to-do item in \"%2$s\"."</string>
+    <string name="TCPM">"%1$s completed a to-do item in \"%2$s\"."</string>
+    <string name="TCRM">"%1$s added a to-do item to \"%2$s\"."</string>
+    <string name="TDAM">"%1$s is due"</string>
+    <string name="TDDM">"%1$s set a due date for a to-do item in \"%2$s\"."</string>
+    <string name="TDLM">"%1$s deleted a to-do item in \"%2$s\"."</string>
+    <string name="TIA">"View"</string>
+    <string name="TIM">"%1$s has invited you to connect"</string>
+    <string name="TRMM">"Just a friendly reminder. Your \"%1$s\" is due!"</string>
+    <string name="TRPM">"%1$s reopened a to-do item in \"%2$s\"."</string>
+    <string name="TUPM">"%1$s updated a to-do item in \"%2$s\"."</string>
+    <string name="Tags">"Tags"</string>
+    <string name="Take_Photo">"Take Photo"</string>
+    <string name="Take_Video">"Take Video"</string>
+    <string name="Tap_and_Hold">"Tap &amp; Hold"</string>
+    <string name="Tap_here_to_create_your_first_binder">"Tap here to create your first binder."</string>
+    <string name="Tap_here_to_share_a_binder_with_your_friends">"Tap here to share a binder with your friends."</string>
+    <string name="Tap_screen_to_add_bubble">"Tap screen to add bubble"</string>
+    <string name="Tap_screen_to_add_picture">"Tap screen to add picture"</string>
+    <string name="Tap_screen_to_add_signature">"Tap screen to add signature"</string>
+    <string name="Tap_screen_to_add_text">"Tap screen to add text"</string>
+    <string name="Tap_screen_to_add_text_tag">"Tap screen to add text tag"</string>
+    <string name="Tap_screen_to_add_voice_tag">"Tap screen to add voice tag"</string>
+    <string name="Tap_to_Stop">"Tap to Stop"</string>
+    <string name="Tap_to_add_a_topic">"Tap to Add Topic"</string>
+    <string name="Tap_to_add_caption_">"Tap to add caption..."</string>
+    <string name="Tap_to_add_content_to_Meet">"Tap \"+\" to add content to Meet."</string>
+    <string name="Tap_to_change_topic">"Tap to change topic"</string>
+    <string name="Tap_to_set_cover">"Tap to set cover"</string>
+    <string name="Tap_to_view_messages">"Tap to view messages"</string>
+    <string name="Team">"Team"</string>
+    <string name="Team_Binder">"Team Binder"</string>
+    <string name="Team_Messaging">"Team Messaging"</string>
+    <string name="Team_Name">"Team Name"</string>
+    <string name="Team_Owner">"Team Owner"</string>
+    <string name="Team_Profile">"Team Profile"</string>
+    <string name="Team_Work_Reimagined">"Team Work Reimagined"</string>
+    <string name="Team_has_other_members">"Team has other members"</string>
+    <string name="Teams">"Teams"</string>
+    <string name="Terms_of_Service">"Terms of Service"</string>
+    <string name="Text">"Text"</string>
+    <string name="Text_Link">"Text Link"</string>
+    <string name="Text_Tag">"Text Tag"</string>
+    <string name="Thank_you_for_using_Moxtra_Please_take_a_moment_to_write_a_review">"Thank you for using Moxtra. Please take a moment to write a review."</string>
+    <string name="The_Meet_has_not_started">"The Meet has not started."</string>
+    <string name="The_administrator_of_has_invited_you_to_join_Moxtra_for_Business_The_business_version_of_Moxtra_includes_extended_capabilities_If_you_accept_this_invitation_all_your_content_will_become_manageable_by_your_administrator">"The administrator of [%1$s] has invited you to join Moxtra for Business. The business version of Moxtra includes extended capabilities. If you accept this invitation, all your content will become manageable by your administrator."</string>
+    <string name="The_content_is_no_longer_available_for_viewing">"The content is no longer available for viewing"</string>
+    <string name="The_device_cannot_send_Email_now_Please_check_your_system_settings">"The device can't send Email now. Please check your system settings."</string>
+    <string name="The_device_cannot_send_SMS_now_Please_check_your_system_settings">"The device can't send SMS now. Please check your system settings."</string>
+    <string name="The_following_binders_have_the_same_members">"The following binders have the same members as the one you are trying to create. Would you use one of them instead? Or, just tap the \"Create\" button on the right-top navigator bar."</string>
+    <string name="The_invitation_was_sent_to_Log_in_as_to_accept_this_invitation">"The invitation was sent to %1$s. Log in as %2$s to accept this invitation."</string>
+    <string name="The_link_is_not_ready_for_sharing_Please_try_again_later_">"The link is not ready for sharing. Please try again later."</string>
+    <string name="The_operation_did_not_complete_successfully">"The operation did not complete successfully: %1$s"</string>
+    <string name="The_user_has_declined_access_to_it">"The user has declined access to it."</string>
+    <string name="There_are_no_contacts_in_your_network_Do_you_want_to_invite_your_friends_now">"There are no contacts in your network. Do you want to invite your friends now?"</string>
+    <string name="There_is_a_Meet_in_progress">"There is a Meet in progress."</string>
+    <string name="There_is_a_problem_connecting_to_the_network_Please_check_your_network_connectivity_and_try_again">"There is a problem connecting to the network. Please check your network connectivity and try again."</string>
+    <string name="There_is_already_an_account_with_this_email_address">"There is already an account with this email address"</string>
+    <string name="These_page_imagevideo_have_been_saved_to_your_photo_album">"These page(s) image/video have been saved to your photo album"</string>
+    <string name="This_binder_is_not_in_your_binder_list">"This binder is not in your binder list"</string>
+    <string name="This_chat_will_be_ended_and_the_history_will_be_permanently_deleted_for_all_members_Do_you_want_to_continue">"This chat will be ended, and the history will be permanently deleted for all members. Do you want to continue?"</string>
+    <string name="This_computer_is_offline">"This computer is offline"</string>
+    <string name="This_file_format_is_not_currently_supported">"This file format is not currently supported."</string>
+    <string name="This_file_has_the_same_file_name_with_the_file_in_this_binder_Do_you_want_to_replace_the_old_file_and_pages_with_this_new_file">"This file %1$s has the same file name with the file in this binder. Do you want to replace the old file (%2$d comments, %3$d annotations) and pages with this new file?"</string>
+    <string name="This_file_has_the_same_file_name_with_the_file_in_this_binder_Do_you_want_to_replace_the_old_file_and_pages_with_this_new_file_">"This file %1$s has the same file name with the file in this binder. Do you want to replace the old file (%2$d pages, %3$d comments, %4$d annotations) and pages with this new file?"</string>
+    <string name="This_invitation_doesn_t_match_this_account_email">"This invitation doesn't match this account email."</string>
+    <string name="This_invitation_has_expired">"This invitation has expired"</string>
+    <string name="This_is_the_beginning_of_the_binder">"This is the beginning of the \"%1$s\" binder, which was created by %2$s on %3$s."</string>
+    <string name="This_is_the_beginning_of_the_chat_binder">"This is the beginning of the chat binder with \"%1$s\", which was created by %2$s on %3$s."</string>
+    <string name="This_meeting_has_been_canceled">"This_meeting_has_been_canceled"</string>
+    <string name="This_public_link_has_expired">"This public link has expired"</string>
+    <string name="This_share_link_has_been_copied_to_clipboard">"This share link has been copied to clipboard."</string>
+    <string name="This_task_is_deleted">"This task is deleted"</string>
+    <string name="This_team_was_already_reached_the_maximum_team_members_you_can_t_invite_more_people_into_this_team_now">"This team was already reached the maximum team members(%1$s), you can't invite more people into this team now."</string>
+    <string name="Time">"Time"</string>
+    <string name="Timeline">"Timeline"</string>
+    <string name="Timeout_Connect_To_Server">"Timeout Connect To Server!"</string>
+    <string name="Title">"Title"</string>
+    <string name="To_Do">"To-Do (%1$d)"</string>
+    <string name="To_Do_">"To-Do"</string>
+    <string name="Today">"Today"</string>
+    <string name="Tomorrow">"Tomorrow"</string>
+    <string name="Top_Shelf">"Top Shelf"</string>
+    <string name="Topic">"Topic"</string>
+    <string name="Try_Again">"Try Again?"</string>
+    <string name="Try_again">"Try again"</string>
+    <string name="Type_email_to_invite">"Type email to invite"</string>
+    <string name="URL">"URL"</string>
+    <string name="UnMute">"UnMute"</string>
+    <string name="Unable_to_access_files">"Unable to access files."</string>
+    <string name="Unable_to_establish_audio_connection_Please_contact_your_network_administrator_">"Unable to establish audio connection. Please contact your network administrator."</string>
+    <string name="Unable_to_send_your_invitation_Please_try_again">"Unable to send your invitation. Please try again."</string>
+    <string name="Unable_to_upload_the_file_Please_try_again">"Unable to upload the file %1$s. Please try again."</string>
+    <string name="Ungroup">"Ungroup"</string>
+    <string name="Unknown">"Unknown"</string>
+    <string name="Unlimited_used_day_left_in_cycle">"Unlimited - %1$s used | %2$d day(s) left in cycle"</string>
+    <string name="Unlisted">"Unlisted"</string>
+    <string name="Unlock">"Unlock"</string>
+    <string name="Unmute">"Unmute"</string>
+    <string name="Unmute_to_talk_">"Unmute to talk?"</string>
+    <string name="Unnamed">"Unnamed"</string>
+    <string name="Unread">"Unread"</string>
+    <string name="Update_Account">"Update Account"</string>
+    <string name="Update_team_failed">"Update team failed"</string>
+    <string name="Update_to_do_content">Update to-do content</string>
+    <string name="Updated_Invitation">"Updated_Invitation"</string>
+    <string name="Updated_the_attachment">Updated the attachment</string>
+    <string name="Updated_title">"Updated title"</string>
+    <string name="Updating">"Updating"</string>
+    <string name="Upgrade">"Upgrade"</string>
+    <string name="Upload">"Upload"</string>
+    <string name="Upload_failed">"Upload failed"</string>
+    <string name="Upload_limitation">"Upload limitation"</string>
+    <string name="Upload_successfully">"Upload successfully."</string>
+    <string name="Uploading">"Uploading"</string>
+    <string name="Uploading_is_in_progress_Large_files_or_slow_network_connection_may_take_longer_to_upload">"Uploading is in progress. Large files or slow network connection may take longer to upload"</string>
+    <string name="Usage_will_be_counted_toward_binder_owner_s_quota">"Usage will be counted toward binder owner's quota."</string>
+    <string name="Use">"Use"</string>
+    <string name="Use_this_option_to_send_a_copy_of_the_flattened_document_with_annotations_">"Use this option to send a copy of the flattened document with annotations."</string>
+    <string name="Use_this_option_to_send_a_link_to_pages_Receivers_get_up_to_date_view_of_annotations_made_to_the_pages_">"Use this option to send a link to pages. Receivers get up-to-date view of annotations made to the pages."</string>
+    <string name="Use_this_option_to_share_a_copy_of_the_content_in_original_format_without_annotations_">"Use this option to share a copy of the content in original format, without annotations."</string>
+    <string name="User">"User"</string>
+    <string name="Username">"Username"</string>
+    <string name="Using">"Using"</string>
+    <string name="Version">"Version"</string>
+    <string name="Via_Email">"Via Email"</string>
+    <string name="Via_Google_Map">"Via Google Map"</string>
+    <string name="Via_SMS">"Via SMS"</string>
+    <string name="Video_File">"Video"</string>
+    <string name="Video_is_not_available_yet_Please_try_again_later">"Video is not available yet. Please try again later"</string>
+    <string name="Video_is_not_existed">"Video is not existed"</string>
+    <string name="Video_is_too_big_to_upload_Video_is_saved_to_photo_album_instead">"Video is too big to upload. Video is saved to photo album instead"</string>
+    <string name="Video_size_is_over_the_limit">"Video size is over the limit."</string>
+    <string name="View_Original_Image">"View Original Image"</string>
+    <string name="Viewer">"Viewer"</string>
+    <string name="Voice_Bubble">"Voice Bubble"</string>
+    <string name="Voice_Call">"Voice Call"</string>
+    <string name="Voice_Tag">"Voice Tag"</string>
+    <string name="Voice_Your_Thoughts">"Voice Your Thoughts"</string>
+    <string name="Voice_calls_with_screen_sharing_and_presentation">"Voice calls with screen sharing and presentation."</string>
+    <string name="Waiting_to_join">"Waiting to join…"</string>
+    <string name="Warning">"Warning"</string>
+    <string name="Web_Clip">"Web Clip"</string>
+    <string name="Web_Page">"Web Page"</string>
+    <string name="Welcome_To_Join_My_Meet">"Welcome To Join My Meet"</string>
+    <string name="When">"When"</string>
+    <string name="Whiteboard">"Whiteboard"</string>
+    <string name="Whole_File">"Whole File"</string>
+    <string name="With_document_sharing_and_screen_share">"With document sharing and screen share"</string>
+    <string name="YES">"YES"</string>
+    <string name="Yes">"Yes"</string>
+    <string name="Yesterday">"Yesterday"</string>
+    <string name="You_already_accepted_the_Binder">"You already accepted the Binder: %1$s"</string>
+    <string name="You_already_accepted_the_meet_">"You already accepted the meet: %1$s"</string>
+    <string name="You_are_invited_as_member_of_the_Binder">"You are invited as member of the Binder: %1$s"</string>
+    <string name="You_are_muted">"You are muted"</string>
+    <string name="You_are_not_a_member_of_this_binder">"You aren't a member of this binder."</string>
+    <string name="You_are_not_allowed_to_delete_this_binder">"You aren't allowed to delete this binder."</string>
+    <string name="You_are_sharing_your_screen_now">"You are sharing your screen now."</string>
+    <string name="You_are_the_presenter_now">"You are the presenter now."</string>
+    <string name="You_are_unmuted">"You are unmuted"</string>
+    <string name="You_call_in_via_telephone">"You call in via telephone"</string>
+    <string name="You_can_email_notes_photos_and_files_from_your_computer_or_phone_right_into_this_binder">"You can email notes, photos, and files from your computer or phone right into this binder."</string>
+    <string name="You_can_now_schedule_a_Meet_and_view_all_your_upcoming_Meets_right_within_Moxtra_Also_instantly_start_a_pre_scheduled_Meet_or_join_a_Meet_right_from_the_timeline_">"You can now schedule a Meet, and view all your upcoming Meets right within Moxtra. Instantly start a pre-scheduled Meet, or join a Meet right from the timeline."</string>
+    <string name="You_cannot_accept_this_invitation_sent_to_Ask_the_sender_to_resend_the_invitation_to">"You can't accept this invitation sent to %1$s. Ask the sender to resend the invitation to %2$s."</string>
+    <string name="You_do_not_have_required_privileges_to_change_copy_or_share_the_binder">"You don't have required privileges to change, copy or share the binder '%1$s'"</string>
+    <string name="You_hangup_telephone">"You hangup telephone"</string>
+    <string name="You_have_denied_Moxtra_access_to_your_Contacts_To_enable_by_going_to_device_Settings_Privacy_Contacts_and_turning_Moxtra_ON">"You have denied Moxtra access to your Contacts. To enable by going to device [Settings] > [Privacy] > [Contacts] and turning Moxtra ON."</string>
+    <string name="You_have_denied_Moxtra_access_to_your_microphone_This_can_be_changed_in_your_device_Privacy_Setting_">"You have denied Moxtra access to your microphone. This can be changed in your device's Privacy Setting."</string>
+    <string name="You_have_exceeded_the_limit_on_file_size">"You have exceeded the limit on file size"</string>
+    <string name="You_have_exceeded_the_limit_on_file_size_">"You have exceeded the limit on file size."</string>
+    <string name="You_have_invited_as_many_people_as_maximal_attendees">"This team was already reached the maximum team members(%1$s), you can't invite more people into this team now."</string>
+    <string name="You_have_no_privilege_to_use_the_microphone">"You have no privilege to use the microphone"</string>
+    <string name="You_have_reached_the_limit_on_number_of_participants_allowed">"You have reached the limit on number of participants allowed."</string>
+    <string name="You_have_reached_the_limit_on_number_of_participants_allowed_in_this_Meet_Please_inform_the_Moxtra_Meet_host">"You have reached the limit on number of participants allowed in this Meet. Please inform the Moxtra Meet host."</string>
+    <string name="You_have_reached_the_limit_on_the_number_of_binders_allowed">"You have reached the limit on the number of binders allowed."</string>
+    <string name="You_have_reached_the_limit_on_the_number_of_pages_allowed_in_a_binder">"You have reached the limit on the number of pages allowed in a binder."</string>
+    <string name="You_must_be_logged_in_to_Moxtra_to_accept_the_invitation">"You must be logged in to Moxtra to accept the invitation."</string>
+    <string name="You_stopped_sharing">"You stopped sharing."</string>
+    <string name="Your_Facebook_session_has_expired">"Your Facebook session has expired."</string>
+    <string name="Your_Meet_Link">"Your Meet Link"</string>
+    <string name="Your_Meet_will_end_in_5_minutes">"Your Meet will end in 5 minutes"</string>
+    <string name="Your_Monthly_Usage">"Your Monthly Usage"</string>
+    <string name="Your_binder_Share_selectively">"Your binder. Share selectively."</string>
+    <string name="Your_email_address_has_not_been_verified_Confirm_your_email_address_to_access_all_features_of_Moxtra">"Your email address has not been verified. Confirm your email address to access all features of Moxtra."</string>
+    <string name="Your_invitation_has_been_sent_out">"Your invitation has been sent out."</string>
+    <string name="Your_mobile_device_is_not_setup_for_Email">"Your mobile device is not setup for Email"</string>
+    <string name="Your_mobile_device_is_not_setup_for_SMS">"Your mobile device is not setup for SMS."</string>
+    <string name="_Binders">"%1$d Binders"</string>
+    <string name="_Comment">"%1$d Comment"</string>
+    <string name="_Comments">"%1$d Comments"</string>
+    <string name="_Meet">"%s's Meet"</string>
+    <string name="_Member">"%1$d Member(s)"</string>
+    <string name="_More">"More"</string>
+    <string name="_Page">"%1$d Page(s)"</string>
+    <string name="_Page_Group">"%1$d Page(s), %2$d Group(s)"</string>
+    <string name="_Pages">"%1$d Pages"</string>
+    <string name="_Remaining_day_left_in_cycle">"%1$s Remaining | %2$d day(s) left in cycle"</string>
+    <string name="_Remaining_day_until_reset">"%1$s Remaining | %2$d day(s) until reset"</string>
+    <string name="_Shared_Binder">"%1$d Shared Binder(s)"</string>
+    <string name="_add_a_to_do_entry_">%1$s add a To-Do Entry.</string>
+    <string name="_added">"%1$s added:"</string>
+    <string name="_added_new_pages">"%1$d added new pages "</string>
+    <string name="_are_speaking">" are speaking"</string>
+    <string name="_binder">"%1$d binder(s)"</string>
+    <string name="_call_in_via_telephone">"%1$s call in via telephone"</string>
+    <string name="_commented_">%1$s commented:</string>
+    <string name="_contact_selected">"%1$d contact(s) selected"</string>
+    <string name="_delete_this_to_do_entry_">%1$s delete this To-Do Entry.</string>
+    <string name="_hangup_telephone">"%1$s hangup telephone"</string>
+    <string name="_has_invited_to_join_this_chat">"%1$s has invited %2$s to join this chat."</string>
+    <string name="_has_invited_to_join_this_group_chat">"%1$s has invited %2$s to join this group chat."</string>
+    <string name="_has_invited_you_for_a_Meet_">"%1$s has invited you for a Meet: %2$s @ %3$s"</string>
+    <string name="_has_shared_the_file_with_your">"%1$s %2$s has shared the file \"%3$s\" with your"</string>
+    <string name="_has_started_a_new_group_chat">"%1$s has started a new group chat."</string>
+    <string name="_hr">"%1$d hr"</string>
+    <string name="_hrs">"%1$d hrs"</string>
+    <string name="_invited_you_to_join_the_Meet">"%1$s invited you to join the Meet: %2$s"</string>
+    <string name="_invited_you_to_join_the_Meet_but_there_is_a_Meet_in_progress">"%1$s invited you to join the Meet: %2$s, but there is a Meet in progress."</string>
+    <string name="_is_due">"\"%1$s\" is due"</string>
+    <string name="_is_muted">"%1$s is muted"</string>
+    <string name="_is_speaking">" is speaking"</string>
+    <string name="_is_unmuted">"%1$s is unmuted"</string>
+    <string name="_items">" items"</string>
+    <string name="_joined_Meet">"%1$s joined Meet"</string>
+    <string name="_left_Meet">"%1$s left Meet"</string>
+    <string name="_left_audio_session">"%1$s left audio session"</string>
+    <string name="_min">"%1$d min"</string>
+    <string name="_mins">"%1$d mins"</string>
+    <string name="_page_selected">"%1$s page selected"</string>
+    <string name="_pages_selected">"%1$s pages selected"</string>
+    <string name="_s_Binder">"%1$s's Binder"</string>
+    <string name="_s_Call">"%1$s's Call"</string>
+    <string name="_s_Copy">"%1$s's Copy"</string>
+    <string name="_s_Moxtra_Clip">"s Moxtra Clip"</string>
+    <string name="_s_Screen">"%1$s's Screen"</string>
+    <string name="_sec">"%1$d sec"</string>
+    <string name="_updated_">%1$s updated:</string>
+    <string name="added_a_file">"added a file."</string>
+    <string name="added_a_file_">"added a file \"%1$s\""</string>
+    <string name="added_a_link">"added a link: %1$s."</string>
+    <string name="added_a_link_">"added a link."</string>
+    <string name="added_a_new_page">"added a new page."</string>
+    <string name="added_a_note">"added a note."</string>
+    <string name="added_a_note_">"added a note \"%1$s\"."</string>
+    <string name="added_a_page">"added a page"</string>
+    <string name="added_a_photo">"added a photo."</string>
+    <string name="added_a_photo_">"added a photo \"%1$s\"."</string>
+    <string name="added_a_to_do_item">added a to-do item.</string>
+    <string name="added_a_video">"added a video."</string>
+    <string name="added_a_video_">"added a video \"%1$s\"."</string>
+    <string name="added_a_voice_comment">"added a voice comment"</string>
+    <string name="added_a_web_link">"added a web link"</string>
+    <string name="added_a_whiteboard">"added a whiteboard."</string>
+    <string name="added_a_whiteboard_">"added a whiteboard \"%1$s\"."</string>
+    <string name="added_an_attachment_for_a_to_do_item">added an attachment for a to-do item.</string>
+    <string name="added_an_audio">"added an audio."</string>
+    <string name="added_an_audio_">"added an audio \"%1$s\"."</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="added_favorite">Added to Favorites</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="added_new_pages">"added %1$d new pages."</string>
+    <string name="added_pages">"added %1$d pages"</string>
+    <string name="added_to_this_binder">"added %1$s to this binder."</string>
+    <string name="added_to_this_chat">"added %1$s to this chat."</string>
+    <string name="annotated_a_page">"annotated a page"</string>
+    <string name="annotated_a_page_">"annotated a page."</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings_no_i10n.xml -->
+    <eat-comment/>
+    <string name="app_id">"400731083336840"</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">File Explorer</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-ambilwarna/values/strings.xml -->
+    <eat-comment/>
+    <string name="arrow_content_desc">Arrow image</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="assigned_a_to_do_item_to_">assigned a to-do item to %1$s.</string>
+    <string name="assigned_to">"assigned to %1$s."</string>
+    <string name="binder_renamed">"binder renamed."</string>
+    <string name="bookmark">"Bookmark"</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="cancel">Cancel</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="cancelled_the_invitation_to">"cancelled the invitation to %s."</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="category_all">All</string>
+    <string name="category_apk">APKs</string>
+    <string name="category_document">Docs</string>
+    <string name="category_favorite">Favorites</string>
+    <string name="category_music">Music</string>
+    <string name="category_other">Misc</string>
+    <string name="category_picture">Pics</string>
+    <string name="category_theme">Themes</string>
+    <string name="category_video">Videos</string>
+    <string name="category_zip">Zips</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="changed_role_to_editor">"changed %s's role to editor"</string>
+    <string name="changed_role_to_viewer">"changed %s's role to viewer"</string>
+    <string name="changed_roles">"changed %1$s's roles."</string>
+    <string name="click_to_join_meet">"click_to_join_meet"</string>
+    <string name="click_to_start_meet">"click_to_start_meet"</string>
+    <string name="clip_screen">"Clip Screen"</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-ambilwarna/values/strings.xml -->
+    <eat-comment/>
+    <string name="color_picker_content_desc">Color picker image</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="commented_a_to_do_item">commented a to-do item.</string>
+    <string name="commented_on_a_page">"commented on a page"</string>
+    <string name="commented_on_a_page_">"commented on a page."</string>
+    <string name="completed_a_to_do_item">completed a to-do item.</string>
+    <string name="completed_this_to_do">"completed this to-do."</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="confirm">OK</string>
+    <string name="confirm_know">OK</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="created_a_Moxtra_Clip">"created a Moxtra Clip"</string>
+    <string name="created_a_clip">"created a clip."</string>
+    <string name="created_a_clip_">"created a clip \"%1$s\"."</string>
+    <string name="created_a_folder">"created a folder."</string>
+    <string name="created_a_folder_">"created a folder \"%1$s\"."</string>
+    <string name="created_binder">"created binder"</string>
+    <string name="created_this_binder">"created this binder."</string>
+    <string name="created_this_to_do">"created this to-do."</string>
+    <string name="declined_to_join_this_binder">"declined to join this binder."</string>
+    <string name="declined_to_join_this_chat">"declined to join this chat."</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="default_primary_folder">/mnt/sdcard</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="deleted_a_comment">"deleted a comment"</string>
+    <string name="deleted_a_file">"deleted a file."</string>
+    <string name="deleted_a_file_">"deleted a file \"%1$s\"."</string>
+    <string name="deleted_a_folder">"deleted a folder."</string>
+    <string name="deleted_a_folder_">"deleted a folder \"%1$s\"."</string>
+    <string name="deleted_a_to_do_item">deleted a to-do item.</string>
+    <string name="deleted_this_to_do">"deleted this to-do."</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="dialog_select_type">Select file type</string>
+    <string name="dialog_type_audio">Audio</string>
+    <string name="dialog_type_image">Image</string>
+    <string name="dialog_type_text">Text</string>
+    <string name="dialog_type_video">Video</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="discard_changes_confirm">"Do you want to discard the changes?"</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="enable_sd_card">SD card is not available, please connect one</string>
+    <string name="error_info_cant_send_folder">Unable to send the folder</string>
+    <string name="fail_to_create_folder">Failed to create the folder, the folder already exists</string>
+    <string name="fail_to_rename">Failed to rename the file or folder as it already exists</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="failed_to_generate_preview_page_for_this_file">"failed to generate preview page for this file."</string>
+    <string name="failed_to_generate_preview_pages">"failed to generate preview pages for %1$s."</string>
+    <string name="failed_to_upload">"failed to upload %1$s."</string>
+    <string name="failed_to_upload_a_file">"failed to upload a file."</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="favorite_photo">Photo</string>
+    <string name="favorite_ringtone">Ringtone</string>
+    <string name="favorite_screen_cap">MIUI Screen Shot</string>
+    <string name="favorite_sdcard">SD Card</string>
+    <string name="favourite_root">Root</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings_no_i10n.xml -->
+    <eat-comment/>
+    <string name="feedback_mailto">"support@moxtra.com"</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="file_info_canread">Readable:</string>
+    <string name="file_info_canwrite">Writable:</string>
+    <string name="file_info_ishidden">Hidden:</string>
+    <string name="file_info_location">Path:</string>
+    <string name="file_info_modified">Modified:</string>
+    <string name="file_info_size">Size:</string>
+    <string name="file_size">%d Bytes</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="for_options">"for options"</string>
+    <string name="has_invited_to_join_this_chat">"has invited %1$s to join this chat."</string>
+    <string name="has_started_a_chat_">"has started a chat."</string>
+    <string name="has_started_a_new_group_chat">"has started a new group chat."</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-ambilwarna/values/strings.xml -->
+    <eat-comment/>
+    <string name="hue_cursor_content_desc">Hue image cursor</string>
+    <string name="hue_view_content_desc">Hue image</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="incorrect_url">"incorrect url"</string>
+    <string name="insert_link">"Insert Link</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="install_failed">Installation failed</string>
+    <string name="install_successful">Installation successful</string>
+    <string name="instruction">Enter the following address into your FTP Client:</string>
+    <string name="instruction_pre">Start service to enable FTP server</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="invited_to_join_this_binder">"invited %s to join this binder."</string>
+    <string name="invited_to_join_this_chat">"invited %s to join this chat."</string>
+    <string name="is_due">"is due."</string>
+    <string name="joined_this_binder">"joined this binder."</string>
+    <string name="joined_this_chat">"joined this chat."</string>
+    <string name="joined_this_group">"joined this group"</string>
+    <string name="joined_this_group_">"joined this group."</string>
+    <string name="left_this_binder">"left this binder."</string>
+    <string name="left_this_chat">"left this chat."</string>
+    <string name="meet_reclaim_host_failed">"Unable to reclaim host. Please try again."</string>
+    <string name="meet_reclaim_host_success">"Host reclaimed."</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_item_search">Search</string>
+    <string name="menu_item_sort">Sort by</string>
+    <string name="menu_item_sort_date">Date</string>
+    <string name="menu_item_sort_name">Name</string>
+    <string name="menu_item_sort_size">Size</string>
+    <string name="menu_item_sort_type">Type</string>
+    <string name="menu_setting">Preferences</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="min">"min"</string>
+    <string name="mins">"mins"</string>
+    <string name="moved_a_file">"moved a file."</string>
+    <string name="moved_a_file_">"moved a file \"%1$s\"."</string>
+    <string name="moved_a_file_to">"moved a file \"%1$s\" to \"%2$s\"."</string>
+    <string name="moxtra_app_name">"Moxtra"</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="multi_select_title">Selected <ns1:g id="number">%1$s</ns1:g> item(s)</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="mx_notification_title" type="string">@string/moxtra_app_name</item>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="n_pages_saved_pages_failed">"%1$d page(s) saved, %2$d page(s) failed"</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="new_folder_name">New folder</string>
+    <string name="no">No</string>
+    <string name="no_file">No files</string>
+    <string name="no_wifi">No Wi-Fi network</string>
+    <string name="no_wifi_hint">No Wi-Fi network, press to check WiFi settings</string>
+    <string name="notif_server_starting">FTP Server started</string>
+    <string name="notif_title">FTP Server</string>
+    <string name="operation_cancel">Cancel</string>
+    <string name="operation_cancel_selectall">Deselect All</string>
+    <string name="operation_copy">Copy</string>
+    <string name="operation_copy_path">Copy file path</string>
+    <string name="operation_create_folder">New folder</string>
+    <string name="operation_create_folder_message">Enter folder name</string>
+    <string name="operation_delete">Delete</string>
+    <string name="operation_delete_confirm_message">Confirm Deletion?</string>
+    <string name="operation_deleting">Deleting...</string>
+    <string name="operation_favorite">Add to Favorites</string>
+    <string name="operation_hide_sys">Hide hidden files</string>
+    <string name="operation_info">Details</string>
+    <string name="operation_move">Move</string>
+    <string name="operation_moving">Moving...</string>
+    <string name="operation_paste">Paste</string>
+    <string name="operation_pasting">Pasting...</string>
+    <string name="operation_refresh">Refresh</string>
+    <string name="operation_rename">Rename</string>
+    <string name="operation_rename_message">Enter a new name</string>
+    <string name="operation_selectall">Select All</string>
+    <string name="operation_send">Send</string>
+    <string name="operation_show_sys">Show hidden files</string>
+    <string name="operation_unfavorite">Remove from Favorites</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="please_add_ics_to_calendar">"please_add_ics_to_calendar"</string>
+    <string name="please_remove_ics_from_calendar">"please_remove_ics_from_calendar"</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_primary_folder">Home folder</string>
+    <string name="pref_primary_folder_summary">The folder that appears when the app starts, and current value is <ns1:g id="string">%1$s</ns1:g></string>
+    <string name="pref_read_root">Read root</string>
+    <string name="pref_show_real_path">Display real path</string>
+    <string name="pref_show_real_path_summary">Show real path in navigation bar</string>
+    <string name="preference_title">General Settings</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="reclaim_host">"Reclaim Host"</string>
+    <string name="recorded_a_video">"recorded a video"</string>
+    <string name="recorded_a_video_">"recorded a video."</string>
+    <string name="recorded_a_video_clip">"recorded a video clip."</string>
+    <string name="recorded_a_video_clip_">"recorded a video clip \"%1$s\"."</string>
+    <string name="recycled_a_file">"recycled a file."</string>
+    <string name="recycled_a_file_">"recycled a file \"%1$s\"."</string>
+    <string name="recycled_a_folder">"recycled a folder."</string>
+    <string name="recycled_a_folder_">"recycled a folder \"%1$s\"."</string>
+    <string name="removed_a_page">"removed a page"</string>
+    <string name="removed_a_page_">"removed a page."</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="removed_favorite">Removed from Favorites</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="removed_from_this_binder">"removed %s from this binder."</string>
+    <string name="removed_from_this_chat">"removed %s from this chat."</string>
+    <string name="removed_pages">"removed %1$d pages"</string>
+    <string name="removed_pages_">"removed %1$d pages."</string>
+    <string name="removed_the_assignee">"removed the assignee."</string>
+    <string name="removed_the_assignee_from_a_todo_item">"removed the assignee from a to-do item."</string>
+    <string name="renamed_a_file">"renamed a file."</string>
+    <string name="renamed_a_file_">"renamed a file to \"%1$s\"."</string>
+    <string name="renamed_a_folder">"renamed a folder."</string>
+    <string name="renamed_a_folder_to">"renamed a folder to \"%1$s\"."</string>
+    <string name="renamed_this_binder_to">"renamed this binder to %1$s."</string>
+    <string name="reopened_a_to_do_item">reopened a to-do item.</string>
+    <string name="reopened_this_to_do">"reopened this to-do."</string>
+    <string name="s_Moxtra_Clip">"%1$s's Moxtra Clip"</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="sd_card_available">Space available:<ns1:g id="available_size">%1$s</ns1:g></string>
+    <string name="sd_card_size">SD card:<ns1:g id="total_size">%1$s</ns1:g></string>
+    <string name="sd_folder">SD card</string>
+    <string name="search_hint">Search Files</string>
+    <string name="search_title">Search Files</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="second">"second"</string>
+    <string name="seconds">"seconds"</string>
+    <string name="select_photos">Select photos</string>
+    <string name="sent_a_message_via_email">sent a message via email.</string>
+    <string name="set_a_due_date_for_a_to_do_item">set a due date for a to-do item.</string>
+    <string name="set_due_date">"set due date: %1$s."</string>
+    <string name="set_due_date_to_a_to_do_item">"set due date to a to-do item"</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="start_server">Start Service</string>
+    <string name="stop_server">Stop Service</string>
+    <string name="storage_warning">External storage is not available or cannot be read</string>
+    <string name="tab_category">Browse</string>
+    <string name="tab_remote">FTP</string>
+    <string name="tab_sd">File</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="updated_a_Note">"updated a Note."</string>
+    <string name="updated_a_to_do_item">updated a to-do item.</string>
+    <string name="updated_the_attachment">"updated the attachment."</string>
+    <string name="updated_the_attachment_to_a_to_do_item">"updated the attachment to a to-do item."</string>
+    <string name="updated_this_to_do">"updated this to-do."</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings_no_i10n.xml -->
+    <eat-comment/>
+    <string name="upgrade_url">""http://www.moxtra.com/upgrade""</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="viewed_a_page">"viewed a page"</string>
+    <string name="viewed_page">"viewed page"</string>
+    <string name="viewed_pages">"viewed %1$d pages"</string>
+    <string name="viewed_pages_">"viewed %1$d pages."</string>
+    <string name="web">"Web"</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/strings.xml -->
+    <eat-comment/>
+    <string name="wifi_state">WLAN Status</string>
+    <string name="yes">Yes</string>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/styles.xml -->
+    <eat-comment/>
+    <style name="ActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.ActionButton</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/as_theme.xml -->
+    <eat-comment/>
+    <style name="ActionSheetStyleIOS7">
+        <item name="actionSheetBackground">@android:color/transparent</item>
+        <item name="cancelButtonBackground">@drawable/slt_as_ios7_cancel_bt</item>
+        <item name="otherButtonTopBackground">@drawable/slt_as_ios7_other_bt_top</item>
+        <item name="otherButtonMiddleBackground">@drawable/slt_as_ios7_other_bt_middle</item>
+        <item name="otherButtonBottomBackground">@drawable/slt_as_ios7_other_bt_bottom</item>
+        <item name="otherButtonSingleBackground">@drawable/slt_as_ios7_other_bt_single</item>
+        <item name="cancelButtonTextColor">#1E82FF</item>
+        <item name="otherButtonTextColor">#1E82FF</item>
+        <item name="actionSheetPadding">10dp</item>
+        <item name="otherButtonSpacing">0dp</item>
+        <item name="cancelButtonMarginTop">10dp</item>
+        <item name="actionSheetTextSize">16sp</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Animations"/>
+    <style name="Animations.PopDownMenu"/>
+    <style name="Animations.PopDownMenu.Center">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+	</style>
+    <style name="Animations.PopDownMenu.Left">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+	</style>
+    <style name="Animations.PopDownMenu.Reflect">
+		<item name="@android:windowEnterAnimation">@anim/pump_top</item>
+		<item name="@android:windowExitAnimation">@anim/disappear</item>
+	</style>
+    <style name="Animations.PopDownMenu.Right">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+	</style>
+    <style name="Animations.PopUpMenu"/>
+    <style name="Animations.PopUpMenu.Appear">
+		<item name="@android:windowEnterAnimation">@anim/appear</item>
+		<item name="@android:windowExitAnimation">@anim/disappear</item>
+	</style>
+    <style name="Animations.PopUpMenu.Center">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+	</style>
+    <style name="Animations.PopUpMenu.Left">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+	</style>
+    <style name="Animations.PopUpMenu.Reflect">
+		<item name="@android:windowEnterAnimation">@anim/pump_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/disappear</item>
+	</style>
+    <style name="Animations.PopUpMenu.Right">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+	</style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/styles.xml -->
+    <eat-comment/>
+    <style name="BottomButton">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmallInverse</item>
+        <item name="android:textColor">#cc000000</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:shadowColor">#80ffffff</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/btn_bottom</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="BottomButton.Left">
+    </style>
+    <style name="BottomButton.Right">
+        <item name="android:background">@drawable/btn_bottom_last</item>
+    </style>
+    <style name="BottomButtonBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:background">@drawable/bottom_button_bar</item>
+    </style>
+    <style name="CategoryButtonCountTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">15px</item>
+        <item name="android:textColor">#A6A6A6</item>
+    </style>
+    <style name="CategoryButtonIconStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">3px</item>
+    </style>
+    <style name="CategoryButtonStyle">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="CategoryButtonTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">19px</item>
+        <item name="android:textColor">#111111</item>
+    </style>
+    <style name="CategoryLegendStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">left</item>
+        <item name="android:drawablePadding">5px</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:textSize">10dip</item>
+        <item name="android:layout_marginLeft">2dip</item>
+    </style>
+    <style name="CategoryLegendStyleLand">
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">left</item>
+        <item name="android:drawablePadding">5px</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:textSize">10dip</item>
+        <item name="android:layout_marginLeft">2dip</item>
+    </style>
+    <style name="DeepStyle">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">-0.5</item>
+        <item name="android:shadowDy">-0.5</item>
+        <item name="android:shadowRadius">0.5</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/abc_slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/abc_slide_out_bottom</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/styles.xml -->
+    <eat-comment/>
+    <style name="Dialog_Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="FileViewOperationButtonStytle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/operation_button_background</item>
+    </style>
+    <style name="FileViewOperationMoveButtonStytle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:layout_marginRight">5dip</item>
+        <item name="android:background">@drawable/remote_button_bg</item>
+    </style>
+    <style name="FileViewToolbarButtonStytle">
+        <item name="android:padding">10dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="GreenStyle">
+        <item name="android:shadowColor">#003300</item>
+        <item name="android:shadowDx">-0.5</item>
+        <item name="android:shadowDy">-0.5</item>
+        <item name="android:shadowRadius">0.5</item>
+    </style>
+    <style name="HomeButtonStytle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">10dip</item>
+    </style>
+    <style name="InformationDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/popup_bg</item>
+    </style>
+    <style name="InformationItemContentStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14dip</item>
+        <item name="android:layout_marginLeft">5dip</item>
+    </style>
+    <style name="InformationItemStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:layout_marginBottom">5dip</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="InformationItemTitleStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">60dip</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">14dip</item>
+    </style>
+    <style name="InformationTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:textSize">12dip</item>
+        <item name="android:drawablePadding">5dip</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="JHKLeftSlidingSpace">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="MXActionSheet" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="MXActionSheet.Phone">
+        <item name="android:windowAnimationStyle">@style/MXActionSheetSlideAnimation</item>
+    </style>
+    <style name="MXActionSheetSlideAnimation">
+        <item name="android:windowEnterAnimation">@anim/abc_slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/abc_slide_out_bottom</item>
+    </style>
+    <style name="MXActivityDialog" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionSheetStyle">@style/ActionSheetStyleIOS7</item>
+    </style>
+    <style name="MXAddComment">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:background">@drawable/add_message_edit_text_selector</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dip</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="MXAlertDialog" parent="Theme.AppCompat.Light.Dialog">
+        <!--<item name="android:windowBackground">@drawable/activity_dialog_border</item>-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">stateHidden|adjustResize</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="MXAnimationDialog" parent="MXDialog">
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+    <style name="MXAppBaseTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    <style name="MXBlueMenuText">
+        <item name="android:textColor">@color/color_text_moxtra_blue</item>
+    </style>
+    <style name="MXChatBeginning">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+    <style name="MXCheckBox">
+        <item name="android:background">@null</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">0dip</item>
+    </style>
+    <style name="MXDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:listChoiceIndicatorSingle">@null</item>
+        <item name="android:listChoiceIndicatorMultiple">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:listChoiceBackgroundIndicator">@null</item>
+        <item name="android:activatedBackgroundIndicator">@null</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="MXNotificationCounter">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/notification_count_bg</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:paddingBottom">1.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">@android:color/darker_gray</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="MXPageDetailAnnotationToolbar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="MXPageDetailArrowToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="MXPageDetailColorToolbar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">40dp</item>
+    </style>
+    <style name="MXRedBadge">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/badge_bg</item>
+    </style>
+    <style name="MXSearchBox">
+        <item name="android:background">@drawable/search_bar_bg</item>
+        <item name="android:drawableLeft">@drawable/search_icon</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+    <style name="MXSegmentIndicatorSelected">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="MXSegmentIndicatorUnselected">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="MXStoryPageSubtitle">
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/moxtra_darkgray</item>
+    </style>
+    <style name="MXStoryPageTitle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="MXTaskNameTextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:textColor">@color/text_task_tasktitle_color_selector</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <!--<item name="android:shadowColor">@color/textview_text_normal_shadow</item>-->
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="MXThemeDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="MXTranslucentActivity" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/translucent_activity_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="MoxActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/slidein_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slideout_to_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slidein_from_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slideout_to_right</item>
+    </style>
+    <style name="MoxBarBlueBackButtonStyle" parent="MoxButtonBase">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/blue_navigation_back</item>
+    </style>
+    <style name="MoxBarButtonStyle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.1</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+    </style>
+    <style name="MoxBarGrayBackButtonStyle" parent="MoxButtonBase">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/gray_navigation_back</item>
+    </style>
+    <style name="MoxBarLeftButtonStyle" parent="MoxTabbarButtonStyle">
+         <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+    </style>
+    <style name="MoxBarRightButtonStyle" parent="MoxTabbarButtonStyle">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_marginRight">5.0dp</item>
+    </style>
+    <style name="MoxBarTitleTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="MoxBlueButtonBarStyle" parent="MoxButtonBase">
+        <item name="android:background">@drawable/blue_bar_button</item>
+    </style>
+    <style name="MoxBlueButtonStyle" parent="MoxButtonBase">
+        <item name="android:background">@drawable/blue_flat_round_button</item>
+    </style>
+    <style name="MoxBlueButtonStyle2" parent="MoxButtonBase">
+        <item name="android:background">@drawable/create_button</item>
+    </style>
+    <style name="MoxButtonBase">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.1</item>
+    </style>
+    <style name="MoxCircleButtonStyle" parent="MoxButtonBase">
+	    <item name="android:background">@drawable/btn_circle</item>
+	</style>
+    <style name="MoxDarkGrayButtonStyle" parent="MoxButtonBase">
+        <item name="android:background">@drawable/dark_gray_button</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="MoxDarkerGrayTextView" parent="MoxTextViewBase">
+		<item name="android:textColor">@android:color/tertiary_text_dark</item>
+		<item name="android:textSize">13sp</item>
+	</style>
+    <style name="MoxDialogText">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/text_dialog_message</item>
+        <item name="android:shadowColor">@color/text_dialog_message_shadow</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.1</item>
+    </style>
+    <style name="MoxFacebookButtonStyle" parent="MoxButtonBase">
+        <item name="android:drawableTop">@drawable/login_facebook</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@null</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="MoxFadeWindowStyle" parent="android:Animation">
+	    <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+	</style>
+    <style name="MoxFlatButton">
+        <item name="android:textColor">@color/flat_btn_text_color</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/header_bar_action_button_text_size</item>
+    </style>
+    <style name="MoxFlatImageButton">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="MoxFullTranslucentActivity" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/full_trans_activity_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+    </style>
+    <style name="MoxGoogleButtonStyle" parent="MoxButtonBase">
+        <item name="android:drawableTop">@drawable/login_google</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@null</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="MoxGrayButtonStyle" parent="MoxButtonBase">
+        <item name="android:background">@drawable/button_gray_bg</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="MoxGreenButtonStyle" parent="MoxButtonBase">
+        <item name="android:background">@drawable/button_green_bg</item>
+    </style>
+    <style name="MoxLightGrayButtonStyle" parent="MoxButtonBase">
+        <item name="android:background">@drawable/button_oval_gray_bg</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/darker_white_text_color_style</item>
+    </style>
+    <style name="MoxListViewBase" parent="android:Widget.ListView">
+		<item name="android:cacheColorHint">@android:color/transparent</item>
+		<item name="android:listSelector">@color/color_gray_light</item>
+	</style>
+    <style name="MoxLoginButtonStyle" parent="MoxButtonBase">
+        <item name="android:background">@drawable/dark_gray_button</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="MoxOrangeButtonStyle" parent="MoxButtonBase">
+        <item name="android:background">@drawable/button_oval_orange_bg</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="MoxOtherButtonStyle" parent="MoxButtonBase">
+        <item name="android:drawableTop">@drawable/login_sso</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@null</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="MoxPushWindowStyle" parent="android:Animation">
+	    <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+	</style>
+    <style name="MoxRedButtonStyle" parent="MoxButtonBase">
+        <item name="android:background">@drawable/red_flat_round_button</item>
+    </style>
+    <style name="MoxSegmentedLeftButton" parent="MxSegmentedButtonBase">
+        <item name="android:background">@drawable/segment_blue_left_button</item>
+    </style>
+    <style name="MoxSegmentedMiddleButton" parent="MxSegmentedButtonBase">
+        <item name="android:background">@drawable/segment_blue_middle_button</item>
+    </style>
+    <style name="MoxSegmentedRightButton" parent="MxSegmentedButtonBase">
+        <item name="android:background">@drawable/segment_blue_right_button</item>
+    </style>
+    <style name="MoxSmallLightBlueTextView" parent="MoxDarkerGrayTextView">
+        <item name="android:textColor">@color/light_blue</item>
+    </style>
+    <style name="MoxTabButton">
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/stateful_tabbar_text_color</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:drawablePadding">-8dp</item>
+    </style>
+    <style name="MoxTabbarButtonStyle" parent="MoxBarButtonStyle">
+        <item name="android:background">@drawable/button_text_gray_bg</item>
+        <item name="android:minWidth">58dp</item>
+        <item name="android:minHeight">28dp</item>
+        <item name="android:maxHeight">36dp</item>
+    </style>
+    <style name="MoxTextViewBase" parent="@android:style/Widget.TextView">
+		<item name="android:textColor">@android:color/black</item>
+        <item name="fontPath">fonts/ProximaNova-Reg.otf</item>
+	</style>
+    <style name="MoxTransparentActivity">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item> 
+	</style>
+    <style name="MoxTransparentButtonStyle" parent="MoxButtonBase">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="MoxtraTheme" parent="MXAppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/MoxActivityAnimation</item>
+        <item name="android:textViewStyle">@style/MoxTextViewBase</item>
+        <!--<item name="android:listViewStyle">@style/MoxListViewBase</item>-->
+        <item name="segmentedControlButtonStyle">@style/Widget.Holo.SegmentedControl</item>
+        <item name="tabControlButtonStyle">@style/Widget.Holo.TabControl</item>
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+        <item name="actionSheetStyle">@style/ActionSheetStyleIOS7</item>
+    </style>
+    <style name="MxSegmentedButtonBase">
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/blue_white_text_color_style</item>
+        <item name="android:button">@null</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:lines">2</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/styles.xml -->
+    <eat-comment/>
+    <style name="OrangeStyle">
+        <item name="android:shadowColor">#742061</item>
+        <item name="android:shadowDx">-0.5</item>
+        <item name="android:shadowDy">-0.5</item>
+        <item name="android:shadowRadius">0.5</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ProgressHUD" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-file-explorer/values/styles.xml -->
+    <eat-comment/>
+    <style name="ShadowStyle">
+        <item name="android:shadowColor">#6e6e6e</item>
+        <item name="android:shadowDx">0.5</item>
+        <item name="android:shadowDy">0.5</item>
+        <item name="android:shadowRadius">0.5</item>
+    </style>
+    <style name="TextAppearance" parent="android:TextAppearance">
+    </style>
+    <style name="TextAppearance.ActionButton">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/vpi__styles.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__light_theme</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Floating" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/translucent_black</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/vpi__styles.xml -->
+    <eat-comment/>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/uitableview2_styles.xml -->
+    <eat-comment/>
+    <style name="UITableView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#f1f6f9</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Widget"/>
+    <style name="Widget.Holo"/>
+    <style name="Widget.Holo.SegmentedControl" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minWidth">45dp</item>
+        <item name="android:minHeight">@dimen/segmented_control_default_height</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:stretchColumns">0</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/segmented_control_background</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/segmented_control_text</item>
+
+        <item name="segLineColor">@null</item>
+        <item name="segLineHeightUnselected">0dp</item>
+        <item name="segLineHeightSelected">0dp</item>
+    </style>
+    <style name="Widget.Holo.TabControl" parent="Widget.Holo.SegmentedControl">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:minHeight">@dimen/tab_bar_default_height</item>
+
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/tab_control_text</item>
+
+        <item name="segTextAllCaps">false</item>
+
+        <item name="segLineColor">@android:color/white</item>
+        <item name="segLineHeightUnselected">0dp</item>
+        <item name="segLineHeightSelected">4dp</item>
+    </style>
+    <style name="Widget.Holo.TabWidget">
+        <!-- <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:showDividers">middle</item> -->
+        <item name="android:dividerPadding">8dip</item>
+        <item name="android:measureWithLargestChild">true</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/vpi__styles.xml -->
+    <eat-comment/>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values/uitableview_styles.xml -->
+    <eat-comment/>
+    <style name="content_page_large_count_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ff8295bf</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+    </style>
+    <style name="content_page_large_text">
+		<item name="android:duplicateParentState">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/uitableview_text_color_selector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="content_page_small_text">
+		<item name="android:duplicateParentState">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/uitableview_text_color_selector</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="list_container">
+		<item name="android:background">@drawable/background_view_rounded_container</item>
+	</style>
+    <style name="list_item_bottom">
+		<item name="android:clickable">true</item>
+		<item name="android:paddingTop">10dip</item>
+		<item name="android:paddingBottom">10dip</item>
+		<item name="android:paddingLeft">10dip</item>
+    	<item name="android:paddingRight">10dip</item>
+    	<item name="android:gravity">center_vertical</item>
+    	<item name="android:background">@drawable/background_view_rounded_bottom</item>
+	</style>
+    <style name="list_item_chevron">
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/chevron</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+    <style name="list_item_middle">
+		<item name="android:clickable">true</item>
+		<item name="android:paddingTop">10dip</item>
+		<item name="android:paddingBottom">10dip</item>
+		<item name="android:paddingLeft">10dip</item>
+    	<item name="android:paddingRight">10dip</item>
+    	<item name="android:gravity">center_vertical</item>
+    	<item name="android:background">@drawable/background_view_rounded_middle</item>
+	</style>
+    <style name="list_item_single">
+		<item name="android:clickable">true</item>
+		<item name="android:paddingTop">10dip</item>
+		<item name="android:paddingBottom">10dip</item>
+		<item name="android:paddingLeft">10dip</item>
+    	<item name="android:paddingRight">10dip</item>
+    	<item name="android:gravity">center_vertical</item>
+    	<item name="android:background">@drawable/background_view_rounded_single</item>
+	</style>
+    <style name="list_item_top">
+		<item name="android:clickable">true</item>
+		<item name="android:focusable">true</item>
+		<item name="android:paddingTop">10dip</item>
+		<item name="android:paddingBottom">10dip</item>
+		<item name="android:paddingLeft">10dip</item>
+    	<item name="android:paddingRight">10dip</item>
+    	<item name="android:gravity">center_vertical</item>
+    	<item name="android:background">@drawable/background_view_rounded_top</item>
+	</style>
+</resources>

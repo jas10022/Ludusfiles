@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/textview_text_disabled" android:state_enabled="false" />
+    <item android:color="@color/text_tasklist_title" />
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/color/text_task_tasktitle_color_selector.xml -->

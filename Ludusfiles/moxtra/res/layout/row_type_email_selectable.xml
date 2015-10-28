@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:minHeight="?android:attr/listPreferredItemHeightLarge">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginLeft="@dimen/list_item_margin"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/checkbox"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/Unknown"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tv_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="30dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textStyle="italic"
+            android:text="@string/Type_email_to_invite"
+            android:textColor="@color/moxtra_darkgray" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/list_item_margin"
+        android:layout_toLeftOf="@+id/btn_action"
+        android:button="@drawable/stateful_member_check"
+        android:focusable="false" />
+
+</RelativeLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/row_type_email_selectable.xml -->

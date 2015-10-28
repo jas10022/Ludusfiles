@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tv_timer_stamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="12min ago"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/darker_gray_36"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/tv_timer_stamp" />
+
+    <LinearLayout
+        android:id="@+id/layout_todo_container"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@id/separator"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/chat_avatar_margin"
+        android:background="@drawable/row_chat_from_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_todo_title"
+                android:textColor="@color/color_black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Tom Cruise add a attachment"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_todo_activities"
+                style="@style/MoxSmallLightBlueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/Activities"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_due_date_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            >
+
+            <ImageView
+                android:id="@+id/iv_todo_due_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/todo_due_date" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_due_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/moxtra_blue" />
+
+                <ImageView
+                    android:id="@+id/iv_due_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/moxtra_blue" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--<RelativeLayout
+            android:id="@+id/layout_due_date_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/iv_todo_due_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/todo_due_date" />
+
+            <TextView
+                android:id="@+id/tv_due_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/iv_due_line"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/iv_todo_due_logo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/moxtra_blue" />
+
+            <ImageView
+                android:id="@id/iv_due_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignBottom="@id/iv_todo_due_logo"
+                android:layout_alignLeft="@id/tv_due_date"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/moxtra_blue" />
+        </RelativeLayout>-->
+
+        <com.moxtra.binder.chat.TodoActionContent
+            android:id="@+id/tv_todo_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp" />
+
+        <com.moxtra.binder.chat.TodoContent
+            android:id="@+id/layout_todo_text_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" />
+
+    </LinearLayout>
+
+    <com.moxtra.binder.widget.MXAvatarImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/chat_avatar_size"
+        android:layout_height="@dimen/chat_avatar_size"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/separator" />
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/row_chat_todo_from.xml -->

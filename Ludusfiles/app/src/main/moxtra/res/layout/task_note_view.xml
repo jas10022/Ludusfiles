@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:fadingEdge="none"
+    android:fillViewport="true">
+
+    <EditText
+        android:id="@+id/note_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/task_details_note_bg"
+        android:gravity="top"
+        android:hint="@string/Notes"
+        android:inputType="textCapSentences|textAutoCorrect|textMultiLine"
+        android:lineSpacingExtra="6dip"
+        android:maxLength="10000"
+        android:paddingLeft="12.0dip"
+        android:paddingRight="12.0dip"
+        android:paddingTop="7.0dip"
+        android:textSize="14.0sp" />
+</ScrollView><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/task_note_view.xml -->

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/darker_gray_36"
+        android:orientation="vertical">
+
+        <GridView
+            android:id="@android:id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clipToPadding="false"
+            android:fastScrollEnabled="true"
+            android:horizontalSpacing="0dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="@integer/row_grid_count"
+            android:paddingBottom="@dimen/participants_grid_view_paddingBottom"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="@dimen/participants_grid_view_paddingTop"
+            android:scrollbarStyle="outsideOverlay"
+            android:stretchMode="spacingWidthUniform"
+            android:verticalSpacing="15dp" />
+
+        <!--
+        <RelativeLayout
+            android:id="@android:id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/iv_invite_attendees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/liveshare_invite_attendee"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp"
+                android:gravity="center"
+                android:text="Invite Attendees"
+                android:textColor="@android:color/white"
+                android:layout_alignLeft="@+id/iv_invite_attendees"
+                android:layout_alignRight="@+id/iv_invite_attendees"
+                android:layout_alignBottom="@+id/iv_invite_attendees" />
+
+        </RelativeLayout>
+        -->
+
+    </RelativeLayout>
+
+    <ToggleButton
+        android:id="@+id/toggle_speaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toggle_speaker"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/participants_grid_view_paddingTop"
+        android:textOff=""
+        android:textOn=""/>
+
+</FrameLayout>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_meet_control.xml -->

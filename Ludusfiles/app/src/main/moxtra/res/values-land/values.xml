@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values-land/booleans.xml -->
+    <eat-comment/>
+    <bool name="is_landscape">true</bool>
+    <bool name="is_portrait">false</bool>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-ambilwarna/values-land/dimen.xml -->
+    <eat-comment/>
+    <dimen name="ambilwarna_color_height">24dp</dimen>
+    <dimen name="ambilwarna_color_width">50dp</dimen>
+    <dimen name="ambilwarna_hsvHeight">180dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">190dp</dimen>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values-land/dimens.xml -->
+    <eat-comment/>
+    <dimen name="page_detail_main_button_margin">2dp</dimen>
+    <dimen name="page_detail_secondary1_button_margin">2dp</dimen>
+    <dimen name="row_binder_interspace">20dp</dimen>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values-land/integers.xml -->
+    <eat-comment/>
+    <item format="integer" name="row_binder_interspace" type="integer">10</item>
+    <item format="integer" name="row_pages_count" type="integer">3</item>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values-land/styles.xml -->
+    <eat-comment/>
+    <style name="MXPageDetailAnnotationToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="MXPageDetailArrowToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">right</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="MXPageDetailColorToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+</resources>

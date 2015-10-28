@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.moxtra.binder.widget.MXResizeLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_voice_bubble"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <EditText
+            android:id="@+id/edt_bubble_text"
+            android:layout_width="276dp"
+            android:layout_height="266dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="@drawable/speech_bubble_6_noaudio" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_voice_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray">
+
+        <include layout="@layout/layout_audio_recorder"></include>
+    </FrameLayout>
+
+    <include layout="@layout/widget_text_font_menu"  />
+</com.moxtra.binder.widget.MXResizeLinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_bubble_edit.xml -->

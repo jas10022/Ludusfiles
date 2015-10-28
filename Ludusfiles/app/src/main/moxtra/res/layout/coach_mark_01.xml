@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/translucent_activity_bg">
+
+    <LinearLayout
+        android:layout_width="@dimen/coach_mark_down_textview_min_width"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/arrow_down"
+        android:padding="10dp"
+        android:layout_alignRight="@+id/arrow_down"
+        android:background="@drawable/coachmark_text_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Start_New_conversation"
+            android:textColor="@android:color/white"
+            android:id="@+id/label_title" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"
+            android:text="@string/Power_messaging_with_document_sharing_annotation_to_do_and_realtime_voice_call"
+            android:textColor="@android:color/white"
+            android:id="@+id/label_subtitle" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/arrow_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coachmark_arrow_down"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/iv_add_binder"
+        android:layout_marginBottom="30dp" />
+
+    <ImageView
+        android:id="@+id/iv_add_binder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/add_binder_shape" />
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/coach_mark_01.xml -->

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.moxtra.binder.livemeet.MXMeetIndicatorFloatView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/fl_meet_bubble"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/frame_iphone"
+                android:gravity="center_horizontal">
+
+                <FrameLayout
+                    android:id="@+id/fl_page_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:background="@drawable/orange_solid_shape">
+
+                    <TextView
+                        android:id="@+id/tv_meet_topic"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="32dp"
+                        android:gravity="center"
+                        android:lines="2"
+                        android:text="CallID:123456789"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/translucent_black_shape"
+                    android:gravity="center"
+                    android:minHeight="30dp"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/iv_audio_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/liveshare_float_audio_on_indicator"></ImageView>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <com.moxtra.binder.widget.Indicator
+                        android:id="@+id/iv_chat_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/liveshare_float_chat_indicator" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/frame_iphone"
+                android:gravity="center_horizontal"
+                android:visibility="visible" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/iv_rec_indication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/record_circle"
+        android:layout_gravity="top|right"/>
+</com.moxtra.binder.livemeet.MXMeetIndicatorFloatView><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_meet_indicator.xml -->

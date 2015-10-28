@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="2dp"
+              android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1.0">
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="40dp"
+                android:hint="@string/Username"
+                android:id="@+id/edt_user_name"
+                android:textColor="@color/color_black"
+                android:background="@drawable/input_top"
+                android:singleLine="true"
+                android:gravity="center|center_horizontal"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="40dp"
+                android:password="true"
+                android:hint="@string/Password"
+                android:id="@+id/edt_password"
+                android:background="@drawable/input_bottom"
+                android:textColor="@color/color_black"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:gravity="center|center_horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Add Comments here!"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:text="@string/Done"
+            android:background="@drawable/blue_flat_round_button"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/orange_button"
+            android:text="@string/Cancel"/>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_userpass.xml -->

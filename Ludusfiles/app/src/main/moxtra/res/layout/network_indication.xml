@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MX_NetworkIndication"
+    android:layout_width="20px"
+    android:layout_height="20px"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_gravity="top|right"
+    android:src="@drawable/network_indicator"
+    android:visibility="gone" /><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/network_indication.xml -->

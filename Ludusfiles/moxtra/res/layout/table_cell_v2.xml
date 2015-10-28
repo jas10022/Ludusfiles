@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mx="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cellContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/table_cell_item_height">
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/header_bar_margin"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/accessory"
+        android:orientation="vertical">
+
+        <com.moxtra.binder.widget.RoundedImageView
+            android:id="@+id/image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            mx:border_color="@android:color/darker_gray"
+            mx:border_width="1dip"
+            mx:corner_radius="3dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/right"
+            android:layout_toRightOf="@id/image"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Title"
+                android:textColor="@color/uitableview_text_color_selector" />
+
+            <EditText
+                android:id="@+id/edit_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:singleLine="true"
+                android:minEms="10"
+                android:visibility="gone"
+                android:imeOptions="actionDone"
+                android:textColor="@color/uitableview_text_color_selector" />
+
+            <TextView
+                android:id="@+id/subtitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="subtitle2"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="italic"
+                android:textColor="@android:color/darker_gray"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" >
+
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textColor="@color/uitableview_text_color_selector"
+                android:visibility="gone" />
+
+            <com.moxtra.binder.widget.RoundedImageView
+                android:id="@+id/right_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:visibility="gone"
+                mx:border_color="@android:color/darker_gray"
+                mx:border_width="1dip"
+                mx:corner_radius="3dip"
+                android:scaleType="centerCrop"
+                mx:round_background="true" />
+
+            <EditText
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:background="@null"
+                android:imeOptions="actionDone"
+                android:maxEms="10"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/accessory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/header_bar_margin"
+        android:visibility="gone" />
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/table_cell_v2.xml -->

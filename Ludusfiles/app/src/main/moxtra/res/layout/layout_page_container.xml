@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.moxtra.binder.widget.MXScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/page_vscroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:fillViewport="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:descendantFocusability="beforeDescendants"
+    android:scrollbars="none" >
+
+  <com.moxtra.binder.widget.MXHScrollView
+       android:id="@+id/page_hscroll_view"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal"
+       android:scrollbars="none" >
+		
+<!-- 		<com.moxtra.binder.meet.PageContainerView
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/page_container_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:eventsInterceptionEnabled="false"
+            android:gestureStrokeType="multiple"
+            android:orientation="vertical">
+		    
+		</com.moxtra.binder.meet.PageContainerView> -->
+
+    </com.moxtra.binder.widget.MXHScrollView>
+</com.moxtra.binder.widget.MXScrollView><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_page_container.xml -->

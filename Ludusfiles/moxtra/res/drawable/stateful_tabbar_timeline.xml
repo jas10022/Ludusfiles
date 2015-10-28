@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/slide_timeline_selected" android:state_checked="true" />
+    <item android:drawable="@drawable/slide_timeline" android:state_checked="false"/>
+    <item android:drawable="@drawable/slide_timeline"></item>
+</selector>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/stateful_tabbar_timeline.xml -->

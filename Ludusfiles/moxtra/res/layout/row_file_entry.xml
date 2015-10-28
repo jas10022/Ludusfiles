@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_entry"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_row_cell_menu"
+        android:layout_width="match_parent"
+        android:clickable="false"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/iv_icon_left"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="32dp"
+            android:scaleType="centerCrop"
+            android:clickable="false" />
+
+        <ImageView
+            android:id="@+id/iv_disclosure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="false"
+            android:src="@drawable/accessory_disclosure_default"
+            android:clickable="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@id/iv_disclosure"
+            android:layout_toRightOf="@id/iv_icon_left"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@android:id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="test1"
+                android:clickable="false"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@android:id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="left|top"
+                android:singleLine="true"
+                android:text="test2"
+                android:clickable="false"
+                android:textColor="#BBB"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/row_file_entry.xml -->

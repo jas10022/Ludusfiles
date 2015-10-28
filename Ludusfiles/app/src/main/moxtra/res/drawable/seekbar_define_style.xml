@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- unselect -->
+    <item android:id="@android:id/background">
+        <nine-patch android:src="@drawable/seekbar_bg" />
+    </item>
+
+    <!-- selected -->
+    <item android:id="@android:id/progress">
+        <clip>
+         <nine-patch android:src="@drawable/seekbar_progress" />
+        </clip>
+    </item>
+
+</layer-list><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/seekbar_define_style.xml -->

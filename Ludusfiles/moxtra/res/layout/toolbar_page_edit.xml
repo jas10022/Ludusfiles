@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <Button
+        android:id="@+id/btn_page_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/page_move_selector"
+        android:background="@null"
+        android:layout_weight="1.0" />
+
+    <Button
+        android:id="@+id/btn_page_copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/page_copy_selector"
+        android:background="@null"
+        android:layout_weight="1.0" />
+
+    <Button
+        android:id="@+id/btn_page_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/page_group_selector"
+        android:background="@null"
+        android:layout_weight="1.0" />
+
+    <Button
+        android:id="@+id/btn_page_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/page_share_selector"
+        android:background="@null"
+        android:layout_weight="1.0" />
+
+    <Button
+        android:id="@+id/btn_page_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:drawableLeft="@drawable/page_rotate_selector"
+        android:background="@null"
+        android:layout_weight="1.0" />
+
+    <Button
+        android:id="@+id/btn_page_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/page_delete_selector"
+        android:background="@null"
+        android:layout_weight="1.0" />
+
+    <Button
+        android:id="@+id/btn_done"
+        style="@style/MoxFlatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Cancel" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/toolbar_page_edit.xml -->

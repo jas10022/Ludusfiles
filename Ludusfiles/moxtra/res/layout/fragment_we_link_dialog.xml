@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    android:minWidth="320dp"
+    android:layout_height="wrap_content">
+
+    <com.moxtra.binder.widget.ClearableEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL (required)"
+        android:id="@+id/cw_et_link_url"/>
+
+    <com.moxtra.binder.widget.ClearableEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:id="@+id/cw_et_link_title"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/cw_btn_cancel"
+            android:text="Cancel"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/cw_btn_insert"
+            android:text="Insert"/>
+        </LinearLayout>
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_we_link_dialog.xml -->

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MX_RootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.moxtra.binder.support.v4.FragmentTabHost
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@android:id/tabhost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:orientation="horizontal" />
+
+                    <FrameLayout
+                        android:id="@android:id/tabcontent"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0" />
+
+                    <FrameLayout
+                        android:id="@+id/realtabcontent"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+            </com.moxtra.binder.support.v4.FragmentTabHost>
+
+            <!--
+            <ImageButton
+                android:id="@+id/iv_add_binder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:src="@drawable/add_binder_shape"
+                android:visibility="gone" />
+                -->
+        </RelativeLayout>
+
+        <fragment
+            android:id="@+id/left_sliding_panel"
+            android:name="com.moxtra.binder.sliding.LeftSlidingFragment"
+            android:layout_width="@dimen/left_sliding_or_pane_min_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="start" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>
+
+
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/activity_moxtra_main.xml -->

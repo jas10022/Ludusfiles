@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.moxtra.binder.livemeet.MXSDKMeetChatView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:moxtra="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:id="@+id/ll_chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/pageview_comment_background"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:focusable="false"
+            android:listSelector="#00000000"
+            android:stackFromBottom="true"
+            android:transcriptMode="alwaysScroll" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_comments"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/pageview_comment_input"
+                android:hint="@string/Send_message"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" >
+            </EditText>
+
+            <ImageView
+                android:id="@+id/iv_close_comments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pageview_toolbar_comments_selected" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/white_popover_arrow_down"
+        android:visibility="gone" >
+    </ImageView>
+
+</com.moxtra.binder.livemeet.MXSDKMeetChatView><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/meet_sdk_livechat_messages.xml -->

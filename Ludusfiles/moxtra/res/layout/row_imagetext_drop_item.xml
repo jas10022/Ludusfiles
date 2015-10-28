@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+   <RelativeLayout
+        android:id="@+id/layout_drop_item"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/input_middle" >
+
+        <com.moxtra.binder.widget.MoxIconView
+            android:id="@+id/iv_icon"
+            android:layout_width="@dimen/row_drop_icon_height"
+            android:layout_height="@dimen/row_drop_icon_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="1dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/options_email" />
+
+       <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/iv_icon"
+            android:layout_marginLeft="2dp"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/tv_row_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Label"
+                android:textSize="11sp"
+                android:lines="1"
+                android:textColor="@android:color/black"
+                android:maxLength="40"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_disclosure_row_simple_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/list_tappable"/>
+    </RelativeLayout>
+
+</FrameLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/row_imagetext_drop_item.xml -->

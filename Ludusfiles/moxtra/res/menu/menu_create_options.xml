@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_create_binder" android:icon="@drawable/create_binder_indicator" android:title="@string/Create_Binder" />
+
+    <!--remove add team menu by new design-->
+    <!--<item android:id="@+id/menu_create_team" android:icon="@drawable/create_team_indicator" android:title="@string/Create_Team" />-->
+
+    <item android:id="@+id/menu_add_contacts" android:icon="@drawable/create_contact_indicator" android:title="@string/Add_Contacts" />
+</menu><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/menu/menu_create_options.xml -->

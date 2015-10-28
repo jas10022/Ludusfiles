@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:moxtra="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <com.moxtra.binder.widget.MXAvatarImageView
+        android:id="@+id/iv_member_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        moxtra:border_color="@android:color/white"
+        moxtra:border_width="1dip"
+        moxtra:corner_radius="25dp"
+        moxtra:round_background="true" />
+
+    <TextView
+        android:id="@+id/tv_member_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="10sp"
+        android:maxEms="4"
+        android:ellipsize="middle"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_member_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        fontPath="fonts/ProximaNova-RegIt.otf"
+        android:textColor="@android:color/black"
+        tools:ignore="MissingPrefix" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/row_invited_member.xml -->

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/title_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/general_navigatorbar_bg"
+        android:orientation="horizontal">
+
+        <!--Jeffery It is strange that we need set minHeight/minWidth for CheckBox to show it-->
+        <CheckBox
+            android:id="@+id/chk_task_completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@drawable/task_checkbox_selector"
+            android:clickable="true"
+            android:focusable="false"
+            android:minHeight="40dp"
+            android:minWidth="40dp" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:shadowColor="@color/white"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/title_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:imeOptions="actionDone"
+                android:inputType="none"
+                android:focusable="true"
+                android:maxLines="6"
+                android:focusableInTouchMode="true"
+                android:singleLine="false"
+                android:visibility="gone" />
+        </FrameLayout>
+
+
+        <CheckBox
+            android:id="@+id/chk_task_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@drawable/task_starred_selector"
+            android:clickable="true"
+            android:focusable="false"
+            android:minHeight="40dp"
+            android:minWidth="40dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/details_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/gray_middle"
+        android:dividerHeight="1.0px"
+        android:fadingEdge="none"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:listSelector="@android:color/transparent" />
+
+    <LinearLayout
+        android:id="@+id/content_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/general_toolbar_bg"
+        android:orientation="vertical">
+
+        <include layout="@layout/row_todo_last_activity" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dip" />
+
+        <TextView
+            style="@style/MXAddComment"
+            android:id="@+id/tv_add_comment"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center_vertical"
+            android:hint="@string/Add_a_comment" />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_task_details.xml -->

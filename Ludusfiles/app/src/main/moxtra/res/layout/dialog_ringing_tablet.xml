@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:moxtra="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="600dp"
+        android:padding="10dp"
+        android:background="@drawable/splash_background"
+        android:layout_centerInParent="true">
+
+        <com.moxtra.binder.widget.RoundedImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            moxtra:border_color="@android:color/white"
+            moxtra:border_width="1dp"
+            moxtra:corner_radius="80dp"
+            moxtra:round_background="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_caller_name"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/iv_avatar"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Unknown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_status"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv_caller_name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Calling_" />
+
+        <Space
+            android:id="@+id/separator"
+            android:layout_below="@+id/tv_status"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/ring_decline_meet"
+            android:drawablePadding="10dp"
+            android:layout_toLeftOf="@+id/iv_avatar"
+            android:layout_below="@+id/separator"
+            android:text="@string/Dismiss"
+            android:id="@+id/btn_decline" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/ring_join_meet"
+            android:layout_toRightOf="@+id/iv_avatar"
+            android:layout_below="@+id/separator"
+            android:drawablePadding="10dp"
+            android:text="@string/Accept"
+            android:id="@+id/btn_accept" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/dialog_ringing_tablet.xml -->

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_login_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_login_background"
+    android:orientation="vertical"
+    android:padding="@dimen/login_signup_padding" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:src="@drawable/login_back" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/Account_Sign_Up"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:minWidth="340dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edit_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_cell_height"
+            android:background="@drawable/input_top"
+            android:gravity="center"
+            android:hint="@string/First_Name"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:nextFocusDown="@+id/edit_lastname"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edit_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_cell_height"
+            android:background="@drawable/input_middle"
+            android:gravity="center"
+            android:hint="@string/Last_Name"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:nextFocusUp="@+id/edit_email"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_cell_height"
+            android:background="@drawable/input_middle"
+            android:gravity="center"
+            android:hint="@string/Email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:nextFocusUp="@+id/edit_password"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_cell_height"
+            android:background="@drawable/input_bottom"
+            android:gravity="center"
+            android:hint="@string/Password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            style="@style/MoxOrangeButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Sign_Up" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+        <include layout="@layout/international_third_party_login_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:minLines="2"
+        android:text="@string/By_clicking_Sign_Up_I_agree_to_the_Terms_of_Service_and_Privacy_Policy"
+        android:textColorLink="@color/darker_blue" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_signup.xml -->

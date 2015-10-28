@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MXPageDetailAnnotationToolbar"
+    android:id="@+id/annotation_button_group"
+    android:background="@color/page_detail_bar_background"
+    android:clickable="true"
+    android:visibility="gone">
+
+    <RadioButton
+        android:id="@+id/annotation_draw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_draw"
+        android:button="@null"
+        android:background="@null" />
+
+    <RadioButton
+        android:id="@+id/annotation_highlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_highlight"
+        android:button="@null"
+        android:background="@null" />
+    <RadioButton
+        android:id="@+id/annotation_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_bubble"
+        android:button="@null"
+        android:background="@null" />
+    <RadioButton
+        android:id="@+id/annotation_signature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_signature"
+        android:button="@null"
+        android:background="@null" />
+
+    <RadioButton
+        android:id="@+id/annotation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_text"
+        android:button="@null"
+        android:background="@null" />
+
+    <RadioButton
+        android:id="@+id/annotation_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_picture"
+        android:button="@null"
+        android:background="@null" />
+
+    <RadioButton
+        android:id="@+id/annotation_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_arrow"
+        android:button="@null"
+        android:background="@null" />
+
+    <RadioButton
+        android:id="@+id/annotation_selecttool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_selecttool"
+        android:button="@null"
+        android:background="@null" />
+
+    <RadioButton
+        android:id="@+id/annotation_eraser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/page_detail_button_margin"
+        android:drawableLeft="@drawable/selector_annotation_eraser"
+        android:button="@null"
+        android:background="@null" />
+
+</RadioGroup>
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/page_detail_edit_toolbar.xml -->

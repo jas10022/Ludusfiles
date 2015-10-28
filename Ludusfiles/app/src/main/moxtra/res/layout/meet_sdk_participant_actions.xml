@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.moxtra.binder.livemeet.MXParticipantActionsView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:moxtra="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_header"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minWidth="220dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <com.moxtra.binder.widget.RoundedImageView
+            android:id="@+id/iv_user_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY"
+            moxtra:border_color="@android:color/white"
+            moxtra:border_width="0dip"
+            moxtra:corner_radius="25dp"
+            moxtra:round_background="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_roster_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:text="Jeffery xu"
+                android:textColor="@color/holo_orange_dark"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tv_roster_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:text="Jeffery@moxtra.com"
+                android:textColor="@color/holo_orange_dark"
+                android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_horizontal_seperator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_bg"/>
+
+    <LinearLayout
+        android:id="@+id/ll_footer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_mute"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_audio_status"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+                android:src="@drawable/liveshare_toolbar_audio_disabled"/>
+
+            <TextView
+                android:id="@+id/tv_audio_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_weight="1"
+                android:text="@string/Mute"
+                android:textColor="@color/darker_blue">
+            </TextView>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/v_horizontal_seperator1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_bg"/>
+
+        <LinearLayout
+            android:id="@+id/ll_presenter"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_presenter_action"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+                android:src="@drawable/meet_sdk_liveshare_change_presenter"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Make_Presenter"
+                android:textColor="@color/darker_blue">
+            </TextView>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/v_hseperator_muteall"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/gray_bg"/>
+
+        <LinearLayout
+            android:id="@+id/ll_muteall"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal|left"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/iv_muteall"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+                android:src="@drawable/liveshare_toolbar_audio_muted">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/Mute_All"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darker_blue"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_reinvite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <View
+                android:id="@+id/v_hsepeartor_reinvite"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@color/gray_bg"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="@string/Reinvite"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darker_blue"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/v_hseperator_leave_audio"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/gray_bg"/>
+
+        <LinearLayout
+            android:id="@+id/ll_leave_audio"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal|left"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/iv_leave_audio"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+
+                android:visibility="gone"
+                android:src="@drawable/liveshare_audio_off">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/Leave_Audio"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darker_blue"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.moxtra.binder.livemeet.MXParticipantActionsView><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/meet_sdk_participant_actions.xml -->

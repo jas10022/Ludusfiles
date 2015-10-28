@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/table_cell_item_height"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_group_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/iv_group_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/section_collapsed_darkgray" />
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="wrap_content" />
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/user_profile_first_group_view.xml -->

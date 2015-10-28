@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.moxtra.binder.note.MXNoteFloatView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/base_panel"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="110dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:src="@color/page_detail_bar_background"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/btn_annotation"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:src="@drawable/page_annotation"-->
+            <!--android:visibility="gone"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_cancel"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal|bottom"-->
+            <!--android:layout_marginBottom="30dp"-->
+            <!--android:text="@string/Cancel"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textStyle="bold" />-->
+
+    <!--</FrameLayout>-->
+
+    <com.moxtra.binder.widget.RecordPanel
+        android:id="@+id/record_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+</com.moxtra.binder.note.MXNoteFloatView><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/clip_sdk_note_float.xml -->

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mx="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:minHeight="?android:attr/listPreferredItemHeightLarge"
+    android:paddingTop="@dimen/timeline_item_padding"
+    android:paddingBottom="@dimen/timeline_item_padding">
+
+    <com.moxtra.binder.widget.RoundedImageView
+        android:id="@+id/iv_thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/layout_badge"
+        android:scaleType="fitXY"
+        android:src="@drawable/meet_logo_timeline"
+        mx:border_color="@android:color/darker_gray"
+        mx:border_width="0dp"
+        mx:corner_radius="4dp"
+        mx:round_background="true" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/timeline_item_padding"
+        android:text="7:00 AM"
+        android:textColor="@color/darker_gray_36"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time"
+        android:layout_toRightOf="@+id/layout_badge"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Unknown"
+        android:textColor="@android:color/black"
+        android:textSize="21sp" />
+
+    <Space
+        android:id="@+id/layout_badge"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/time"
+        android:paddingBottom="@dimen/timeline_separator_padding_phone" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/layout_badge"
+        android:layout_below="@+id/text2"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/btn_panel"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/darker_gray_36"
+                android:text="@string/Unknown"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <com.moxtra.binder.widget.EllipsizedMultilineTextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_marginTop="5dp"
+                android:text="@string/has_invited_to_join_this_chat"
+                android:textColor="@color/darker_gray_36"
+                android:textSize="@dimen/text_size_14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/timeline_item_padding"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btn_accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/topiclist_approve_background"
+                android:minWidth="67dp"
+                android:text="@string/Accept"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/btn_reject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/topiclist_reject"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/right_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/topiclist_favorite"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/timeline_item_meet.xml -->

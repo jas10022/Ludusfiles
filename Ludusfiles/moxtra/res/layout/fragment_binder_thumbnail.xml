@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drag_layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_tiled_background"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0">
+
+        <View
+            android:id="@+id/MX_DummyView"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerInParent="true"/>
+
+        <ProgressBar
+            android:id="@+id/pb_binder_loading"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:visibility="visible"
+            android:layout_centerInParent="true"/>
+
+        <com.moxtra.binder.widget.BounceGridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:listSelector="@android:color/transparent"
+            android:fastScrollEnabled="true"
+            android:gravity="center"
+            android:numColumns="@integer/pages_thumb_grid_columns"
+            android:clipToPadding="false"
+            android:scrollbarStyle="outsideOverlay"
+            android:horizontalSpacing="0dp"
+            android:verticalSpacing="15dp"
+            android:stretchMode="spacingWidthUniform" />
+
+        <RelativeLayout
+            android:id="@android:id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_margin="@dimen/header_bar_margin"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/arrow_down"
+                android:layout_alignWithParentIfMissing="true"
+                android:drawableTop="@drawable/page_indicator"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:ems="6"
+                style="@style/MoxDarkerGrayTextView"
+                android:textSize="22sp"
+                android:text="@string/Add_content_here" />
+
+            <ImageView
+                android:id="@+id/arrow_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="44dp"
+                android:minHeight="44dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:scaleType="center"
+                android:src="@drawable/down_arrow" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ViewStub
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/page_thumbnail_bottom_bar" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_binder_thumbnail.xml -->

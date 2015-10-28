@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btn_back_to_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:background="@drawable/files_previous_folder" />
+
+    <Button
+        android:id="@+id/btn_folder_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/btn_view_mode"
+        android:layout_toRightOf="@+id/btn_back_to_parent"
+        android:background="@null"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:ellipsize="end" />
+
+    <ImageButton
+        android:id="@+id/btn_view_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/btn_file_action_menu"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:src="@drawable/files_thumbnail" />
+
+    <ImageButton
+        android:id="@+id/btn_file_action_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:src="@drawable/files_action_menu" />
+
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-files/layout/mx_file_list_footer.xml -->

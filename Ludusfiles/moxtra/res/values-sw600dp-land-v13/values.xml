@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values-sw600dp-land/booleans.xml -->
+    <eat-comment/>
+    <bool name="is_tablet">true</bool>
+    <bool name="is_two_panes">true</bool>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values-sw600dp-land/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_search_margin">50dp</dimen>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res-ambilwarna/values-sw600dp-land/dimen.xml -->
+    <eat-comment/>
+    <dimen name="ambilwarna_hsvHeight">210dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">380dp</dimen>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values-sw600dp-land/dimens.xml -->
+    <eat-comment/>
+    <dimen name="pop_dialog_height">400dp</dimen>
+    <dimen name="pop_dialog_width">300dp</dimen>
+    <dimen name="row_cell_padding">10dp</dimen>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values-sw600dp-land/integers.xml -->
+    <eat-comment/>
+    <integer name="grid_pick_photo_count">5</integer>
+    <integer name="meetlist_left_weight">4</integer>
+    <integer name="meetlist_right_weight">6</integer>
+    <integer name="pages_thumb_grid_columns">4</integer>
+    <integer name="row_binder_count">4</integer>
+    <integer name="row_grid_count">4</integer>
+    <!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/values-sw600dp-land/references.xml -->
+    <eat-comment/>
+    <item name="activity_live_meet" type="layout">@layout/activity_live_meet_tablet</item>
+    <item name="fragment_landing_page" type="layout">@layout/fragment_landing_page_tablet_land</item>
+    <item name="layout_login" type="layout">@layout/layout_login_tablet_land</item>
+    <item name="layout_signup" type="layout">@layout/layout_signup_tablet_land</item>
+    <item name="meet_control_headerbar" type="layout">@layout/meet_control_headerbar_tablet</item>
+    <item name="meet_control_toolbar" type="layout">@layout/meet_control_toolbar_tablet</item>
+</resources>

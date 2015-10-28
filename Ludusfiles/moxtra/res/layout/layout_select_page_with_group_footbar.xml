@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/general_toolbar_bg">
+
+    <CheckBox
+        android:id="@+id/btn_select_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/header_bar_margin"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:button="@null"
+        android:drawableLeft="@drawable/selector_select_all"
+        android:textColor="@color/select_all_text_color_selector"
+        android:text="@string/Select_All" />
+
+    <TextView
+        android:id="@+id/tv_number_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/_page_selected"
+        android:textColor="@color/moxtra_blue"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginRight="@dimen/header_bar_margin" />
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_select_page_with_group_footbar.xml -->

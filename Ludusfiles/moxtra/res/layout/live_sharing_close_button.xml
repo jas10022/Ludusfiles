@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/page_detail_close"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/page_close_bg"
+        android:minWidth="60dp"
+        android:text="@string/Close"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/live_sharing_close_button.xml -->

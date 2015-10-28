@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/moxtra_gray"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="@dimen/header_bar_margin"
+        android:textStyle="bold"
+        android:text="@string/Save_to_" />
+
+    <RelativeLayout
+        android:id="@+id/new_binder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/table_cell_item_height">
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/accessory"
+            android:orientation="vertical"
+            android:paddingRight="4dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/header_bar_margin"
+                android:layout_toLeftOf="@+id/right"
+                android:layout_toRightOf="@id/image"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/Create_a_new_binder"
+                    android:textColor="@color/uitableview_text_color_selector" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/accessory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/moxtra_gray"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="@dimen/header_bar_margin"
+        android:textStyle="bold"
+        android:text="@string/Other_Binders" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/save_page_list_header.xml -->
