@@ -30,5 +30,32 @@
     <string name="stamina">Stamina</string>
     <string name="power">Power</string>
     <string name="paragraph">Even though your speed and power has vastly increased, you need to improve your stamina in order too be top competition league.</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Login</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="title_activity_coach_profile">CoachProfile</string>
+    <string name="student">Students</string>
+    <string name="calender">Calender</string>
+    <string name="connect">Connect</string>
+    <string name="learn">Learn</string>
+    <string name="title_activity_coaches__students">Coaches_Students</string>
+    <string name="title_activity_student_view">StudentView</string>
+    <string name="title_activity_student_edit">StudentEditActivity</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="Email_Input">Email</string>
+    <string name="Password_Input">Password</string>
+    <string name="Confirm_Password">Confirm your password</string>
+    <string name="Create_Account">Create acount</string>
+    <string name="choose_person">You need to choose if you are a student or a coach</string>
+    <string name="ok">Ok</string>
+    <string name="account_error">Username or Password is incorrect</string>
+    <string name="sign_in_error">There seems to be one or more fields of your account missing</string>
+    <string name="find_coaches">Find Coaches</string>
+    <string name="title_activity_find_coaches">FindCoaches</string>
+    <string name="connection_succes">u connected with ur coach successfully</string>
+    <string name="connection_error">There seems to be an error in ur code</string>
+
 
 </resources>

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background = "@drawable/background_black"
+                tools:context="edu.self.ludus.HomePage"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="70dp"
+            android:textColor="@color/white"
+            android:text="@string/Ludus"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+<Button
+    android:id="@+id/login"
+    android:text="@string/log_in"
+    android:background ="@drawable/background_blue"
+    android:layout_weight="50"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    />
+
+    <Button
+        android:id="@+id/sign_up"
+        android:text="@string/sign_up"
+        android:background ="@drawable/background_blue"
+        android:layout_weight="50"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>

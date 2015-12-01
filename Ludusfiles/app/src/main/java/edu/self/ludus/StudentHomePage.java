@@ -7,6 +7,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import com.parse.Parse;
+import com.parse.ParseUser;
 
 public class StudentHomePage extends ActionBarActivity {
 
@@ -22,12 +26,20 @@ public class StudentHomePage extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_home_page);
 
+        ParseUser currentUser = ParseUser.getCurrentUser();
+
         mProfileButton = (Button)findViewById(R.id.profile_button);
         mSkillsButton = (Button)findViewById(R.id.skills_button);
         mFeedbackButton = (Button)findViewById(R.id.feedback_button);
         mImportantDatesButton = (Button) findViewById(R.id.important_dates_button);
         mWorkoutsButton = (Button) findViewById(R.id.workouts_button);
         mGoalsButton = (Button)findViewById(R.id.goals_button);
+        Button findCoaches = (Button)findViewById(R.id.find_coaches);
+        TextView welcome_user = (TextView)findViewById(R.id.title);
+
+        String Username = currentUser.get("username").toString();
+
+        welcome_user.setText("Welcome " + Username);
 
         mProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,6 +85,13 @@ public class StudentHomePage extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(StudentHomePage.this, StudentGoals.class);
+                startActivity(i);
+            }
+        });
+        findCoaches.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(StudentHomePage.this,FindCoaches.class);
                 startActivity(i);
             }
         });

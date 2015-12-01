@@ -1,48 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.self.ludus" >
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-    <uses-permission android:name="android.permission.BLUETOOTH" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.CAMERA" />
+<manifest package="edu.self.ludus"
+          xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />\
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
 
-
-    <permission
-    android:name=".permission.C2D_MESSAGE"
-    android:protectionLevel="signature" />
-
-    <uses-permission android:name=".permission.C2D_MESSAGE" />
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-
-
-
-
+        android:theme="@style/AppTheme">
         <activity
             android:name="com.moxtra.binder.conversation.MXConversationActivity"
             android:launchMode="singleTask"
             android:theme="@style/MoxtraTheme"
-            android:windowSoftInputMode="stateHidden|adjustResize" />
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
         <activity
             android:name="com.moxtra.binder.pageview.PageViewActivity"
             android:launchMode="singleTask"
             android:theme="@style/MoxtraTheme"
-            android:windowSoftInputMode="stateHidden|adjustPan" />
-        <service android:name="com.moxtra.binder.service.AudioPlayerService" />
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
+
+        <service android:name="com.moxtra.binder.service.AudioPlayerService"/>
+
         <activity
             android:name="com.moxtra.binder.livemeet.LiveMeetActivity"
             android:launchMode="singleTask"
@@ -51,64 +46,104 @@
         <activity
             android:name="com.moxtra.binder.activity.MXStackActivity"
             android:theme="@style/MXActivityDialog"
-            android:windowSoftInputMode="stateHidden|adjustResize" />
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
         <activity
             android:name="com.moxtra.binder.member.MXInviteActivity"
             android:theme="@style/MXActivityDialog"
-            android:windowSoftInputMode="stateHidden" />
+            android:windowSoftInputMode="stateHidden"/>
         <activity
             android:name="com.moxtra.binder.multiimagepicker.MultiImagePickerActivity"
-            android:theme="@style/MoxtraTheme" />
+            android:theme="@style/MoxtraTheme"/>
         <activity
             android:name="com.moxtra.binder.util.MXAlertDialog"
             android:theme="@style/MoxFullTranslucentActivity"
-            android:windowSoftInputMode="stateHidden" />
+            android:windowSoftInputMode="stateHidden"/>
         <activity
             android:name="com.moxtra.sdk.MXRemoteNotificationActivity"
             android:noHistory="true"
-            android:theme="@style/MoxTransparentActivity" />
+            android:theme="@style/MoxTransparentActivity"/>
+
         <service android:name="com.moxtra.binder.service.MeetService">
             <intent-filter android:priority="1000">
-                <action android:name="moxtra.intent.action.START_MEET" />
+                <action android:name="moxtra.intent.action.START_MEET"/>
             </intent-filter>
         </service>
 
-        <activity android:name="com.moxtra.binder.search.MXSearchActivity" />
-        <activity android:name="com.moxtra.binder.webnote.MXWebNoteActivity" />
-        <activity android:name="com.moxtra.binder.webclip.MXWebClipActivity" />
-        <activity android:name="com.moxtra.binder.livemeet.MeetRingActivity" />
+        <activity android:name="com.moxtra.binder.search.MXSearchActivity"/>
+        <activity android:name="com.moxtra.binder.webnote.MXWebNoteActivity"/>
+        <activity android:name="com.moxtra.binder.webclip.MXWebClipActivity"/>
+        <activity android:name="com.moxtra.binder.livemeet.MeetRingActivity"/>
         <activity
             android:name=".StudentHomePage"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:label="@string/app_name">
         </activity>
         <activity
             android:name=".StudentProfile"
-            android:label="@string/title_activity_student_profile" >
+            android:label="@string/title_activity_student_profile">
         </activity>
         <activity
             android:name=".StudentSkills"
-            android:label="@string/title_activity_student_skills" >
+            android:label="@string/title_activity_student_skills">
         </activity>
         <activity
             android:name=".StudentFeedback"
-            android:label="@string/title_activity_student_feedback" >
+            android:label="@string/title_activity_student_feedback">
         </activity>
         <activity
             android:name=".StudentImportantDates"
-            android:label="@string/title_activity_student_important_dates" >
+            android:label="@string/title_activity_student_important_dates">
         </activity>
         <activity
             android:name=".StudentWorkout"
-            android:label="@string/title_activity_student_workout" >
+            android:label="@string/title_activity_student_workout">
         </activity>
         <activity
             android:name=".StudentGoals"
-            android:label="@string/title_activity_student_goals" >
+            android:label="@string/title_activity_student_goals">
+        </activity>
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginPage"
+            android:label="@string/title_activity_login_page"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".CoachProfile"
+            android:label="@string/title_activity_coach_profile"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Coaches_Students"
+            android:label="@string/title_activity_coaches__students"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".StudentView"
+            android:label="@string/title_activity_student_view"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".StudentEditActivity"
+            android:label="@string/title_activity_student_edit"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".FindCoaches"
+            android:label="@string/title_activity_find_coaches"
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>
 
