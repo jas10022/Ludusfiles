@@ -3,8 +3,4 @@
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
       tools:context="com.jas10022jbgmail.mycontacts.ContactViewActivity">
-    <item android:id="@+id/contact_view_edit"
-          android:title="@string/edit_contact"
-          android:icon="@drawable/ic_edit"
-          app:showAsAction="ifRoom"/>
 </menu>

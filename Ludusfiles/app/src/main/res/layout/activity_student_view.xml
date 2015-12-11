@@ -8,14 +8,5 @@
     android:fitsSystemWindows="true"
     tools:context="edu.self.ludus.StudentView">
 
-    <android.support.v7.widget.Toolbar
-            app:theme = "@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            android:id="@+id/contact_view_toolbar"
-            android:fitsSystemWindows="true"
-            android:minHeight="?attr/actionBarSize"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
     <include layout="@layout/content_student_view"/>
 </android.support.design.widget.CoordinatorLayout>

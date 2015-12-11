@@ -47,6 +47,7 @@ public class StudentView extends AppCompatActivity {
             int width = point.x;
             int height = point.y;
             RelativeLayout headerSection = (RelativeLayout) findViewById(R.id.contact_View_header);
+            ImageView editIcon = (ImageView)findViewById(R.id.edit_icon);
 
             headerSection.setLayoutParams(new LinearLayout.LayoutParams(width, (int) (width * (9.0 / 16.0))));
 
@@ -59,7 +60,7 @@ public class StudentView extends AppCompatActivity {
                 @Override
                 public boolean onMenuItemClick(MenuItem item) {
                     int id = item.getItemId();
-                    if (id == R.id.contact_view_edit) {
+                    if (id == R.id.edit_icon) {
                         Intent i = new Intent(StudentView.this, StudentEditActivity.class);
                         i.putExtra(StudentEditActivity.EXTRA ,  mPosition);
                         startActivity(i);
