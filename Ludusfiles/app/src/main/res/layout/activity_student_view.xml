@@ -8,5 +8,6 @@
     android:fitsSystemWindows="true"
     tools:context="edu.self.ludus.StudentView">
 
+
     <include layout="@layout/content_student_view"/>
 </android.support.design.widget.CoordinatorLayout>

@@ -7,6 +7,7 @@ import android.graphics.Point;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Display;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -32,6 +33,7 @@ public class StudentView extends AppCompatActivity {
     private int mPosition;
     private TextView mContactName;
     private FieldsAdapter mAdapter;
+    private ImageView mEditIcon;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,27 +49,38 @@ public class StudentView extends AppCompatActivity {
             int width = point.x;
             int height = point.y;
             RelativeLayout headerSection = (RelativeLayout) findViewById(R.id.contact_View_header);
-            ImageView editIcon = (ImageView)findViewById(R.id.edit_icon);
+
 
             headerSection.setLayoutParams(new LinearLayout.LayoutParams(width, (int) (width * (9.0 / 16.0))));
 
 
-            mPosition = getIntent().getIntExtra(EXTRA , 0);
+            mPosition = getIntent().getIntExtra(EXTRA, 0);
             mStudents = StudentList.getInstance().get(mPosition);
             mContactName = (TextView)findViewById(R.id.contact_view_name);
+            ImageView editIcon = (ImageView)findViewById(R.id.edit_icon);
+
+            editIcon.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent i = new Intent(StudentView.this, StudentEditActivity.class);
+                    i.putExtra(StudentEditActivity.EXTRA ,  mPosition);
+                    startActivity(i);
+                }
+            });
 
             toolbar.setOnMenuItemClickListener(new android.support.v7.widget.Toolbar.OnMenuItemClickListener() {
                 @Override
                 public boolean onMenuItemClick(MenuItem item) {
                     int id = item.getItemId();
+                    Log.d("StudentView","it was clicked " + id);
                     if (id == R.id.edit_icon) {
                         Intent i = new Intent(StudentView.this, StudentEditActivity.class);
                         i.putExtra(StudentEditActivity.EXTRA ,  mPosition);
                         startActivity(i);
                         return true;
+                    }else {
+                        return false;
                     }
-
-                    return false;
                 }
             });
             toolbar.inflateMenu(R.menu.menu_student_feedback);

@@ -116,6 +116,15 @@ public class SignUp extends AppCompatActivity {
                               }
                           }else{
                               Log.d("SignUp","error is "+ e);
+                              AlertDialog.Builder builder = new AlertDialog.Builder(SignUp.this);
+                              builder.setMessage(R.string.acc_exists)
+                                      .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+                                          public void onClick(DialogInterface dialog, int id) {
+                                              return;
+                                          }
+                                      });
+                              // Create the AlertDialog object and return it
+                              builder.show();
                           }
                       }
                   });

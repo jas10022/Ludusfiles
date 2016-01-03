@@ -56,6 +56,7 @@
     <string name="title_activity_find_coaches">FindCoaches</string>
     <string name="connection_succes">u connected with ur coach successfully</string>
     <string name="connection_error">There seems to be an error in ur code</string>
+    <string name="acc_exists">This account username already exists</string>
 
 
 </resources>
