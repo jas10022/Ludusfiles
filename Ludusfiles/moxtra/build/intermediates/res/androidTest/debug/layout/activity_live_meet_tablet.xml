@@ -54,4 +54,4 @@
             android:background="@drawable/meet_chat_bg"
             android:orientation="horizontal" />
     </LinearLayout>
-</FrameLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/activity_live_meet_tablet.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/layout/activity_live_meet_tablet.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/layout/activity_live_meet_tablet.xml -->
+</FrameLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/activity_live_meet_tablet.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/layout/activity_live_meet_tablet.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/layout/activity_live_meet_tablet.xml -->

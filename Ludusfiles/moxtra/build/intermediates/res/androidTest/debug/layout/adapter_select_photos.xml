@@ -38,4 +38,4 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
         android:src="@drawable/agipc_checkmark"
         android:layout_gravity="right|bottom"
         android:visibility="gone" />
-</FrameLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/adapter_select_photos.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/layout/adapter_select_photos.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/layout/adapter_select_photos.xml -->
+</FrameLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/adapter_select_photos.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/layout/adapter_select_photos.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/layout/adapter_select_photos.xml -->

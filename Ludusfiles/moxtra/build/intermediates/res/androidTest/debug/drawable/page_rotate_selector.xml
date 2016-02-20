@@ -3,4 +3,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/page_rotate_disabled" android:state_enabled="false" />
     <item android:drawable="@drawable/page_rotate" />
-</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/page_rotate_selector.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/drawable/page_rotate_selector.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/drawable/page_rotate_selector.xml -->
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/page_rotate_selector.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/drawable/page_rotate_selector.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/drawable/page_rotate_selector.xml -->

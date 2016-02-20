@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-it/values-it.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-it/values-it.xml -->
     <eat-comment/>
     <plurals name="activities">
         <item quantity="other">"%d attività"</item>
@@ -1037,7 +1037,7 @@
     <string name="_s_Copy">"Copia di %1$s"</string>
     <string name="_sec">"%1$d sec"</string>
     <string name="_updated_">"%1$s ha aggiornato:"</string>
-    <!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-it/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-it/values.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
@@ -1052,7 +1052,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
-    <!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-it/values-it.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-it/values-it.xml -->
     <eat-comment/>
     <string name="added_a_file">"ha aggiunto un file."</string>
     <string name="added_a_file_">"ha aggiunto un file \"%1$s\""</string>

@@ -9,8 +9,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="bottom"
-        >
+        android:gravity="bottom">
         <Button
             android:id="@+id/find_coaches"
             android:textColor="@color/white"
@@ -85,6 +84,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView
+            android:text="test"
             android:textSize="40dp"
             android:textColor="@color/white"
             android:id="@+id/title"

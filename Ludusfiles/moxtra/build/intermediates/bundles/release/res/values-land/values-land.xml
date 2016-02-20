@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/values-land/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/values-land/values.xml -->
     <eat-comment/>
     <bool name="is_landscape">true</bool>
     <bool name="is_portrait">false</bool>

@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/todo_priority_finished" android:state_checked="true" android:state_enabled="false" />
     <item android:drawable="@drawable/todo_priority_selected" android:state_checked="true" />
     <item android:drawable="@drawable/todo_priority" />
-</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/task_starred_selector.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/drawable/task_starred_selector.xml -->
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/task_starred_selector.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/drawable/task_starred_selector.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/values-ko/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/values-ko/values.xml -->
     <eat-comment/>
     <plurals name="activities">
         <item quantity="other">"%d 개의 활동"</item>

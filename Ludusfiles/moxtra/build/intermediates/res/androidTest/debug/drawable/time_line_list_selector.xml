@@ -3,4 +3,4 @@
     <item android:drawable="@color/list_cell_selected" android:state_pressed="true" />
     <item android:drawable="@color/list_bg_color" />
     <item android:drawable="@color/list_cell_selected" android:state_selected="true" />
-</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/time_line_list_selector.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/drawable/time_line_list_selector.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/drawable/time_line_list_selector.xml -->
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/time_line_list_selector.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/drawable/time_line_list_selector.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/drawable/time_line_list_selector.xml -->

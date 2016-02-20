@@ -54,4 +54,4 @@
         android:text="@string/You_can_email_notes_photos_and_files_from_your_computer_or_phone_right_into_this_binder"
         android:id="@+id/textView2"
         android:layout_gravity="center_horizontal" />
-</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/binder_email_address.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/layout/binder_email_address.xml -->
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/binder_email_address.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/layout/binder_email_address.xml -->

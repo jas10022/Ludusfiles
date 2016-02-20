@@ -7,4 +7,4 @@
     <item android:drawable="@drawable/annotation_done" android:state_pressed="true" mx:is_checked="false"/>
     <item android:drawable="@drawable/page_annotation" android:state_pressed="false" mx:is_checked="false"/>
 
-</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/livesharing_annotation_button.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/drawable/livesharing_annotation_button.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/drawable/livesharing_annotation_button.xml -->
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/livesharing_annotation_button.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/drawable/livesharing_annotation_button.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/drawable/livesharing_annotation_button.xml -->

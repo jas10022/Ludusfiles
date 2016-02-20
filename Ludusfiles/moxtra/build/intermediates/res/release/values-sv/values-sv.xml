@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/values-sv/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/values-sv/values.xml -->
     <eat-comment/>
     <plurals name="activities">
         <item quantity="other">"%d aktiviteter"</item>
@@ -1048,7 +1048,7 @@
     <string name="_s_Copy">"%1$ss kopia"</string>
     <string name="_sec">"%1$d sek"</string>
     <string name="_updated_">"%1$s uppdaterad:"</string>
-    <!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-sv/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-sv/values.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Visa startsidan"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navigera uppåt"</string>
@@ -1063,7 +1063,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Röstsökning"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Dela med"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Dela med %s"</string>
-    <!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/values-sv/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/values-sv/values.xml -->
     <eat-comment/>
     <string name="added_a_file">"la till en fil."</string>
     <string name="added_a_file_">"har lagt till en fil \"%1$s\""</string>

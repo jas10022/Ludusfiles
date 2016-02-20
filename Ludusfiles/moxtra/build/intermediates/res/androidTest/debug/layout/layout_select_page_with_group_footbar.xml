@@ -28,4 +28,4 @@
         android:textColor="@color/moxtra_blue"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_marginRight="@dimen/header_bar_margin" />
-</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_select_page_with_group_footbar.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/layout/layout_select_page_with_group_footbar.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/layout/layout_select_page_with_group_footbar.xml -->
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/layout_select_page_with_group_footbar.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/layout/layout_select_page_with_group_footbar.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/layout/layout_select_page_with_group_footbar.xml -->

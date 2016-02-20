@@ -3,4 +3,4 @@
     <item android:state_enabled="false" android:state_pressed="false" android:drawable="@drawable/note_chat_normal" />
     <item android:state_enabled="true" android:state_pressed="false" android:drawable="@drawable/note_chat_normal" />
     <item android:state_enabled="true" android:state_pressed="true" android:drawable="@drawable/note_chat_pressed" />
-</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/note_chat.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/drawable/note_chat.xml --><!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/drawable/note_chat.xml -->
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/note_chat.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/drawable/note_chat.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/drawable/note_chat.xml -->

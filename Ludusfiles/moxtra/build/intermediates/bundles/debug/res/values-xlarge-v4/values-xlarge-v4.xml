@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/Users/sbakshi/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/values-xlarge-v4/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/values-xlarge-v4/values.xml -->
     <eat-comment/>
     <bool name="is_tablet">true</bool>
     <dimen name="action_bar_text_button_height">40dp</dimen>
