@@ -6,4 +6,4 @@
 		android:fromAlpha="1.0" android:toAlpha="0.0"
 		android:duration="300"
 	/>
-</set><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/anim/disappear.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/anim/disappear.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/anim/disappear.xml -->
+</set><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/anim/disappear.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/anim/disappear.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/anim/disappear.xml -->

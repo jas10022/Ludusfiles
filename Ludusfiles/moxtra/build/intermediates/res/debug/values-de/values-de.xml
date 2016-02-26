@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/values-de/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/values-de/values.xml -->
     <eat-comment/>
     <plurals name="activities">
         <item quantity="other">"%d Aktivitäten"</item>
@@ -1014,7 +1014,7 @@
     <string name="_s_Copy">"%1$ss Kopie"</string>
     <string name="_sec">"%1$d Sek."</string>
     <string name="_updated_">"%1$s aktualisiert:"</string>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-de/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-de/values.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nach oben"</string>
@@ -1029,7 +1029,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sprachsuche"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/values-de/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/values-de/values.xml -->
     <eat-comment/>
     <string name="added_a_file">"hat eine Datei hinzugefügt."</string>
     <string name="added_a_file_">"hat eine Datei \"%1$s\" hinzugefügt"</string>

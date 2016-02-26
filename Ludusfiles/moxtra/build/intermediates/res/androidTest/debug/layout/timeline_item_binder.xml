@@ -169,4 +169,4 @@
         android:layout_toRightOf="@+id/iv_thumbnail"
         android:layout_below="@+id/iv_thumbnail" />
 
-</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/timeline_item_binder.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/layout/timeline_item_binder.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/layout/timeline_item_binder.xml -->
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/timeline_item_binder.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/layout/timeline_item_binder.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/layout/timeline_item_binder.xml -->

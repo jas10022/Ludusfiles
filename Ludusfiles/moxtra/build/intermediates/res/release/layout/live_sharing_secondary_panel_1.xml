@@ -65,4 +65,4 @@
         android:src="@drawable/annotation_draw_selected"
         android:visibility="gone" />
 
-</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/live_sharing_secondary_panel_1.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/layout/live_sharing_secondary_panel_1.xml -->
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/live_sharing_secondary_panel_1.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/layout/live_sharing_secondary_panel_1.xml -->

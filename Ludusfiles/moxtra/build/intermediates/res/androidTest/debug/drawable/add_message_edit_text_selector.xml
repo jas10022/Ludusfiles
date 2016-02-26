@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/add_message_edit_text_active" android:state_enabled="true" android:state_focused="true" />
     -->
     <item android:drawable="@drawable/add_message_edit_text" />
-</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/add_message_edit_text_selector.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/drawable/add_message_edit_text_selector.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/drawable/add_message_edit_text_selector.xml -->
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/add_message_edit_text_selector.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/drawable/add_message_edit_text_selector.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/drawable/add_message_edit_text_selector.xml -->

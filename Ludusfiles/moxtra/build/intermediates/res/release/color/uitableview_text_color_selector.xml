@@ -5,4 +5,4 @@
     <item android:state_enabled="false" android:color="@android:color/darker_gray" />
     <item android:color="@color/text_color_default" />
 </selector>
-<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/color/uitableview_text_color_selector.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/color/uitableview_text_color_selector.xml -->
+<!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/color/uitableview_text_color_selector.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/color/uitableview_text_color_selector.xml -->

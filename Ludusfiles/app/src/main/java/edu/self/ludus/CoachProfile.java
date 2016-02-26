@@ -10,18 +10,18 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.parse.ParseUser;
+import com.firebase.client.Firebase;
 
 public class CoachProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Firebase.setAndroidContext(this);
         setContentView(R.layout.activity_coach_profile);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        ParseUser currentUser = ParseUser.getCurrentUser();
 
 
         Button studentsButton = (Button)findViewById(R.id.student_button);
@@ -31,9 +31,8 @@ public class CoachProfile extends AppCompatActivity {
         Button learnButton = (Button)findViewById(R.id.learn_button);
         TextView welcome_user = (TextView)findViewById(R.id.title);
 
-        String Username = currentUser.get("username").toString();
 
-        welcome_user.setText("Welcome " + Username);
+        welcome_user.setText("Welcome " + LoginPage.username);
 
         studentsButton.setOnClickListener(new View.OnClickListener() {
             @Override

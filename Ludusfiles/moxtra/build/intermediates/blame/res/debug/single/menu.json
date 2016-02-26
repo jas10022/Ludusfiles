@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\menu\\menu_todo_sort.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\menu\\menu_todo_sort.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\menu\\menu_addview_camera.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\menu\\menu_addview_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\menu\\menu_addview_gallery.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\menu\\menu_addview_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\menu\\menu_contacts.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\menu\\menu_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\menu\\menu_binder_filter.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\menu\\menu_binder_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\menu\\menu_create_options.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\menu\\menu_create_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\menu\\menu_meet_actions.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\menu\\menu_meet_actions.xml"
+    }
+]

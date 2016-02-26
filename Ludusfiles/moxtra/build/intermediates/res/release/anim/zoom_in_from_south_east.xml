@@ -10,4 +10,4 @@
         android:pivotX="100%p"
         android:pivotY="100%p"
         android:duration="@android:integer/config_longAnimTime" />
-</set><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/anim/zoom_in_from_south_east.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/anim/zoom_in_from_south_east.xml -->
+</set><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/anim/zoom_in_from_south_east.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/anim/zoom_in_from_south_east.xml -->

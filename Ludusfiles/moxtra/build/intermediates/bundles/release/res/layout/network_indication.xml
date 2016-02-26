@@ -8,4 +8,4 @@
     android:layout_alignParentTop="true"
     android:layout_gravity="top|right"
     android:src="@drawable/network_indicator"
-    android:visibility="gone" /><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/network_indication.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/layout/network_indication.xml -->
+    android:visibility="gone" /><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/network_indication.xml -->

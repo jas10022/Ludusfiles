@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/values-zh-rTW/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/values-zh-rTW/values.xml -->
     <eat-comment/>
     <plurals name="activities">
         <item quantity="other">"%d 條動態"</item>
@@ -1045,7 +1045,7 @@
     <string name="_s_Copy">"%1$s的拷貝"</string>
     <string name="_sec">"%1$d秒"</string>
     <string name="_updated_">"%1$s 更新："</string>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-zh-rTW/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-zh-rTW/values.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
@@ -1060,7 +1060,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"與「%s」分享"</string>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/values-zh-rTW/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/values-zh-rTW/values.xml -->
     <eat-comment/>
     <string name="added_a_file">"上傳一個文件."</string>
     <string name="added_a_file_">"上傳一個文件 \"%1$s\""</string>

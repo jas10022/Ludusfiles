@@ -21,6 +21,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 
+import com.firebase.client.Firebase;
+
 import java.util.ArrayList;
 
 public class StudentView extends AppCompatActivity {
@@ -37,6 +39,7 @@ public class StudentView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Firebase.setAndroidContext(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_view);
         Toolbar toolbar = (Toolbar) findViewById(R.id.contact_view_toolbar);

@@ -6,4 +6,4 @@
 	<item android:state_pressed="true"  android:drawable="@drawable/segment_radio_grey_middle_press" /> 
 	<item android:state_checked="false" android:drawable="@drawable/segment_radio_white_middle" /> 
 	<item android:drawable="@drawable/segment_radio_grey_middle" /> 	<!-- default  -->
-</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/segment_radio_middle.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/drawable/segment_radio_middle.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/drawable/segment_radio_middle.xml -->
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/segment_radio_middle.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/drawable/segment_radio_middle.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/drawable/segment_radio_middle.xml -->

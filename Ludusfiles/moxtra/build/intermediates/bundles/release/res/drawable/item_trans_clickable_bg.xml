@@ -3,4 +3,4 @@
     <item android:state_enabled="false" android:state_pressed="false" android:drawable="@color/transparent_color" />
     <item android:state_enabled="true" android:state_pressed="false" android:drawable="@color/transparent_color" />
     <item android:state_enabled="true" android:state_pressed="true" android:drawable="@color/color_gray_light" />
-</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/item_trans_clickable_bg.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/drawable/item_trans_clickable_bg.xml -->
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/item_trans_clickable_bg.xml -->

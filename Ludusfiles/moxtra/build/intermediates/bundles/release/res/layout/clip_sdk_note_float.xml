@@ -42,4 +42,4 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
 
-</com.moxtra.binder.note.MXNoteFloatView><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/clip_sdk_note_float.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/layout/clip_sdk_note_float.xml -->
+</com.moxtra.binder.note.MXNoteFloatView><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/clip_sdk_note_float.xml -->

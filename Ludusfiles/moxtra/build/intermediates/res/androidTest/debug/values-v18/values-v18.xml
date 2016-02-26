@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-v18/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-v18/values.xml -->
     <eat-comment/>
     <dimen name="abc_switch_padding">0px</dimen>
 </resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="is_landscape">true</bool>
+    <bool name="is_portrait">false</bool>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_action_bar_default_padding_material">0dp</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
+    <dimen name="ambilwarna_color_height">24dp</dimen>
+    <dimen name="ambilwarna_color_width">50dp</dimen>
+    <dimen name="ambilwarna_hsvHeight">180dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">190dp</dimen>
+    <dimen name="page_detail_main_button_margin">2dp</dimen>
+    <dimen name="page_detail_secondary1_button_margin">2dp</dimen>
+    <dimen name="row_binder_interspace">20dp</dimen>
+    <item format="integer" name="row_binder_interspace" type="integer">10</item>
+    <item format="integer" name="row_pages_count" type="integer">3</item>
+    <style name="MXPageDetailAnnotationToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="MXPageDetailArrowToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">right</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="MXPageDetailColorToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+</resources>

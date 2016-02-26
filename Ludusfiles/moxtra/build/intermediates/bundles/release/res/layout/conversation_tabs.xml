@@ -33,4 +33,4 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:text="@string/Meet" />
-</RadioGroup><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/conversation_tabs.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/layout/conversation_tabs.xml -->
+</RadioGroup><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/conversation_tabs.xml -->

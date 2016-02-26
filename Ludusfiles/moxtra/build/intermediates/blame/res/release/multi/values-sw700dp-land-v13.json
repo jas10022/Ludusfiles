@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\release\\values-sw700dp-land-v13\\values-sw700dp-land-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 38,
+                    "endOffset": 89
+                },
+                "from": {
+                    "file": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\values-sw700dp-land-v13\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endColumn": 38,
+                        "endOffset": 261
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 94,
+                    "endColumn": 41,
+                    "endOffset": 131
+                },
+                "from": {
+                    "file": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\values-sw700dp-land-v13\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 266,
+                        "endColumn": 41,
+                        "endOffset": 303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 136,
+                    "endColumn": 49,
+                    "endOffset": 181
+                },
+                "from": {
+                    "file": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\values-sw700dp-land-v13\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 478,
+                        "endColumn": 49,
+                        "endOffset": 523
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 186,
+                    "endColumn": 48,
+                    "endOffset": 230
+                },
+                "from": {
+                    "file": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\values-sw700dp-land-v13\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 528,
+                        "endColumn": 48,
+                        "endOffset": 572
+                    }
+                }
+            }
+        ]
+    }
+]

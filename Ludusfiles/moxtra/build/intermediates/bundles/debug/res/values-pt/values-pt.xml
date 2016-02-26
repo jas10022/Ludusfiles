@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/values-pt/values.xml -->
-    <eat-comment/>
     <plurals name="activities">
         <item quantity="other">"%d atividades"</item>
         <item quantity="one">"%d atividades"</item>

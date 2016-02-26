@@ -219,4 +219,4 @@
         android:layout_toRightOf="@+id/layout_avatars"
         android:layout_below="@+id/layout_avatars" />
 
-</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/timeline_item_group_chat.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/layout/timeline_item_group_chat.xml -->
+</RelativeLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/timeline_item_group_chat.xml -->

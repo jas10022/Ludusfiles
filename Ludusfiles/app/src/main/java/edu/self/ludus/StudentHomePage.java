@@ -9,8 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.parse.Parse;
-import com.parse.ParseUser;
+import com.firebase.client.Firebase;
 
 public class StudentHomePage extends ActionBarActivity {
 
@@ -23,10 +22,10 @@ public class StudentHomePage extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Firebase.setAndroidContext(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_home_page);
 
-        ParseUser currentUser = ParseUser.getCurrentUser();
 
         mProfileButton = (Button)findViewById(R.id.profile_button);
         mSkillsButton = (Button)findViewById(R.id.skills_button);
@@ -37,9 +36,8 @@ public class StudentHomePage extends ActionBarActivity {
         Button findCoaches = (Button)findViewById(R.id.find_coaches);
         TextView welcome_user = (TextView)findViewById(R.id.title);
 
-        String Username = currentUser.get("username").toString();
 
-        welcome_user.setText("Welcome " + Username);
+        welcome_user.setText("Welcome " + LoginPage.username);
 
         mProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override

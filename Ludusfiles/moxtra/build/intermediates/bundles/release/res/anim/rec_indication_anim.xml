@@ -7,4 +7,4 @@
         android:repeatCount="infinite"
         android:repeatMode="reverse"
         android:toAlpha="1.0" />
-</set><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/anim/rec_indication_anim.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/anim/rec_indication_anim.xml -->
+</set><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/anim/rec_indication_anim.xml -->

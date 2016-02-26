@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-pt/values-pt.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-pt/values-pt.xml -->
     <eat-comment/>
     <plurals name="activities">
         <item quantity="other">"%d atividades"</item>
@@ -1043,7 +1043,7 @@
     <string name="_s_Copy">"Cópia de %1$s"</string>
     <string name="_sec">"%1$d seg"</string>
     <string name="_updated_">"%1$s atualizado:"</string>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-pt/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-pt/values.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
@@ -1058,7 +1058,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartilhar com %s"</string>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-pt/values-pt.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-pt/values-pt.xml -->
     <eat-comment/>
     <string name="added_a_file">"adicionou um arquivo."</string>
     <string name="added_a_file_">"adicionou um arquivo \"%1$s\""</string>

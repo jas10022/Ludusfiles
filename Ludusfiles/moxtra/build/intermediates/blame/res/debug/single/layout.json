@@ -1,0 +1,1590 @@
+[
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_simple_text.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_simple_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_listview.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_listview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bubble_edit.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_bubble_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tab_shelf.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_tab_shelf.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\table_cell_spinners.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\table_cell_spinners.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\network_indication.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\network_indication.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\clip_sdk_page_view_header.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\clip_sdk_page_view_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_grid_item_image.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_grid_item_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_add_team.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_add_team.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_select_page.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_select_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\task_note_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\task_note_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_attachment.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_attachment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_stack.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_stack.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\left_sliding_list_header.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\left_sliding_list_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\table_cell_text_horizontal.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\table_cell_text_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_todo_to.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_todo_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_task_comments.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_task_comments.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\people_list_division_department_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\people_list_division_department_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\popup_vertical.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\popup_vertical.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_audio_page_comment.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_audio_page_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\timeline_filter_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\timeline_filter_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_left_sliding.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_left_sliding.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_setting_usage_cell.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_setting_usage_cell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_liveshare_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_liveshare_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\meet_control_headerbar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\meet_control_headerbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_detail_record_panel.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_detail_record_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_signed_out_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_signed_out_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\table_cell_v2.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\table_cell_v2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\main_tasks_list_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\main_tasks_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_my_task_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_my_task_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bubble.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\live_sharing_action_panel.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\live_sharing_action_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_type.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_add_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_search_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_story_page1.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_story_page1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_board_task_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_board_task_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\action_bar_default_v2.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\action_bar_default_v2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\task_detailview_copy_or_move.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\task_detailview_copy_or_move.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_conversation.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_conversation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\action_sheet_button.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\action_sheet_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\task_detailview_add_reminder.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\task_detailview_add_reminder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_pic_to.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_pic_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_clip_preview.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_clip_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_we_link_dialog.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_we_link_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_import_contacts.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_import_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_grid_item_media.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_grid_item_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_faq.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_faq.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\widget_search_box.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\widget_search_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_landing_page.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_landing_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\timeline_empty_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\timeline_empty_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\widget_text_font_menu.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\widget_text_font_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_select_binder.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_select_binder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_story_page3.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_story_page3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\user_profile_first_group_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\user_profile_first_group_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_file_browser.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_file_browser.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_annotation_to.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_annotation_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_global_search.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_global_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_page_edit_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\toolbar_page_edit_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_page_detail.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_page_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_page_template.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_page_template.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\table_cell_date_time.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\table_cell_date_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\meet_control_toolbar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\meet_control_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\live_sharing_main_toolbar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\live_sharing_main_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_detail_color_picker.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_detail_color_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_file_from.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_file_from.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\people_list_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\people_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_todo_content.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_todo_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_meet_option.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_meet_option.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_detail_secondary_panel_1.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_detail_secondary_panel_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_email_from.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_email_from.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_item_file_option.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_item_file_option.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\section_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\section_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\table_cell_switch.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\table_cell_switch.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\task_listitem.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\task_listitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\popover.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\popover.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_todo_from.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_todo_from.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_searchresult_contact.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_searchresult_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_imagetext_drop_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_imagetext_drop_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_item_whiteboard_file.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_item_whiteboard_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_story_page1_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_story_page1_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\invited_member_avatar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\invited_member_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_signature.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_signature.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_invite_members.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_invite_members.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_auth_login.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_auth_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\clip_sdk_note_float.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\clip_sdk_note_float.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stack_dialog.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_stack_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_audio_comment_from.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_audio_comment_from.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\timeline_item_group_chat.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\timeline_item_group_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_comments.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_comments.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\clip_sdk_float_base.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\clip_sdk_float_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_input_dialog_edittext.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_input_dialog_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_detail_more_buttons.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_detail_more_buttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_participant_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_participant_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tab_business_library.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_tab_business_library.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_audio_from.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_audio_from.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\timeline_item_binder.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\timeline_item_binder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\task_detailview_assign_to.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\task_detailview_assign_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\table_cell_button.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\table_cell_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_team_details.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_team_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_detail_main_toolbar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_detail_main_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_copy_page.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_copy_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\new_page_template.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\new_page_template.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\team_list_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\team_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\meet_sdk_livechat_messages.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\meet_sdk_livechat_messages.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\binder_email_address.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\binder_email_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\copy_page_list_header.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\copy_page_list_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_image_thumbnail.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_image_thumbnail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_comment_to.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_comment_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_app.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transparent.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_transparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\settings_my_profile.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\settings_my_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\item_new_binder.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\item_new_binder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\dial_in_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\dial_in_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_audio_comment_to.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_audio_comment_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_meet_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_meet_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_date_time_picker.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_date_time_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\task_attachment_file_header.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\task_attachment_file_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_create_binder.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_create_binder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_logo_top.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_logo_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_video_to.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_video_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_item_media_file.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_item_media_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_comment_from.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_comment_from.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_conversation.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_conversation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_annotation_from.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_annotation_from.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_new_version.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_new_version.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_addview_gridview.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_addview_gridview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\clip_big_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\clip_big_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\task_detailview_note.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\task_detailview_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_page_group.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_page_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_binder_category.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_binder_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_item_folder_list_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_item_folder_list_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_detail_add_button.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_detail_add_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_new_discussion.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_new_discussion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_signed_out.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_signed_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_embeded_container.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_embeded_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\table_cell.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\table_cell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stack.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_stack.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\action_item_horizontal.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\action_item_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_item_file_tile_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_item_file_tile_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_select_page_with_group_footbar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_select_page_with_group_footbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_select_photos.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\adapter_select_photos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\non_moxtra_contact_list_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\non_moxtra_contact_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_todo_last_activity.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_todo_last_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\ambilwarna_dialog.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\ambilwarna_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\checkable_binder_list_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\checkable_binder_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_task_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_task_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_select_files.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_select_files.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_business_directory.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_business_directory.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main_task_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_main_task_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\bubble_text_tag.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\bubble_text_tag.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_story_page3_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_story_page3_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\timeline_indicator.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\timeline_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contacts_tab.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_contacts_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\timeline_item_top_info.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\timeline_item_top_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_story_page2_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_story_page2_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\table_header.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\table_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tab_binders_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_tab_binders_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_video_from.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_video_from.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_app.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_add_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\search_box.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\search_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_login_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_detail_arrow_toolbar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_detail_arrow_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\invited_members_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\invited_members_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_signup.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chat.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_left_sliding.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_left_sliding.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_meet_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_meet_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_detail_action_panel.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_detail_action_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_meet_control.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_meet_control.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_profile_avatar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_profile_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_addview_viewpager.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_addview_viewpager.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_todo_activity.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_todo_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_signup_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_signup_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_page_thumbnail.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_page_thumbnail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_normal_page_comment.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_normal_page_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\international_third_party_login_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\international_third_party_login_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_input_box.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_input_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_we_editor.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_we_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\timeline_item_meet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\timeline_item_meet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_join_meet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_join_meet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_photos.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_select_photos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\chat_tasks_list_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\chat_tasks_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\meet_list_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\meet_list_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_copyright.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_copyright.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_grid_item_web.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_grid_item_web.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_cell_header.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_cell_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_media_thumbnail.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_media_thumbnail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ringing_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\dialog_ringing_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_participant_grid.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_participant_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_searchresult_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_searchresult_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_userpass.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_userpass.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_task_comment_edit.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_task_comment_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_time_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_time_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\task_detailview_footer.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\task_detailview_footer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_sub_pages.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_sub_pages.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_chat_load_more.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_chat_load_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\task_detailview_header.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\task_detailview_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_file_option_dialog.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_file_option_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_live_chat.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_live_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_story_page0.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_story_page0.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_more_friends.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_more_friends.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\coach_mark_02.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\coach_mark_02.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_detail_set_stroke_size.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_detail_set_stroke_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\meet_sdk_row_participant.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\meet_sdk_row_participant.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\coach_mark_03.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\coach_mark_03.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_story_page2.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_story_page2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_add_team_member.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_add_team_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_add_friends.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_add_friends.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_teams.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_teams.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\task_label_listitem.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\task_label_listitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_task_details.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_task_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_item_file_list_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_item_file_list_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_item_image_file.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_item_image_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\clip_small_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\clip_small_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_multi_pages.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\dialog_multi_pages.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\action_item_vertical.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\action_item_vertical.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_review.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_with_edit.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\dialog_with_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_google_contact.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_google_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_searchresult_binder.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_searchresult_binder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login_tablet_land.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_login_tablet_land.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_book_mark_to.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_book_mark_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_signup_tablet_land.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_signup_tablet_land.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_beginning.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_beginning.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_guide_pages.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_guide_pages.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\live_sharing_close_button.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\live_sharing_close_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_schedule_meet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_schedule_meet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_people_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_people_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_create_team.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_create_team.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\invited_members.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\invited_members.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_detail_edit_toolbar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_detail_edit_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_resend_confirmation.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_resend_confirmation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_profile_editor.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_profile_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\timeline_item_chat.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\timeline_item_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\task_detailview_delete.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\task_detailview_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_item_multi_pages_file.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_item_multi_pages_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_dummy_binder.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_dummy_binder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tab_binders.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_tab_binders.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\task_attachment_file.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\task_attachment_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_assignee_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_assignee_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tab_contacts_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_tab_contacts_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_file_entry.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_file_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_page_comment_quick_actions.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_page_comment_quick_actions.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_participant_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_participant_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_team_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_team_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_meet_to.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_meet_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_story_page0_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_story_page0_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\live_sharing_secondary_panel_1.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\live_sharing_secondary_panel_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\progress_hud_countdown.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\progress_hud_countdown.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_searchresult_title.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_searchresult_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_file_list_footer.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_file_list_footer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_binder_cover.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_binder_cover.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_file_operation_bar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_file_operation_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_webclip.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_webclip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\avatar_initial.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\avatar_initial.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\table_cell_text.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\table_cell_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_timeline_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_timeline_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\action_item_vertical_separator.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\action_item_vertical_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\save_page_list_header.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\save_page_list_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\meet_sdk_livechat_header_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\meet_sdk_livechat_header_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_bindersearch_root.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_bindersearch_root.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_simple_cell_menu.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_simple_cell_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_meet_member.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_meet_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_biz_directory.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_biz_directory.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\file_browser_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\file_browser_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\international_third_party_login_phone.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\international_third_party_login_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_page_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_page_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\meet_sdk_participant_actions.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\meet_sdk_participant_actions.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_live_meet_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_live_meet_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_file_list_section.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_file_list_section.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_item_folder_tile_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_item_folder_tile_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\unknown_file_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\unknown_file_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_binder_thumbnail.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_binder_thumbnail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_member_profile.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_member_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_sliding_setting.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_sliding_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_cell_menu.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_cell_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\topics_filter.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\topics_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_type_email_selectable.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_type_email_selectable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\timeline_item_group_chat2.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\timeline_item_group_chat2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_page_container.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_page_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\file_explorer_list.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\file_explorer_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\progress_hud.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\progress_hud.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\meet_sdk_activity_main.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\meet_sdk_activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\meet_info_panel.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\meet_info_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dial_in.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_dial_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_binder_options.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_binder_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_local_contact.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_local_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\clip_sdk_fragment_note_share.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\clip_sdk_fragment_note_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_meet_list_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_meet_list_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_save_page.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_save_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\simple_page_container.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\simple_page_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\edit_meet_topic.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\edit_meet_topic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_book_mark_from.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_book_mark_from.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_video_player.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_video_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\coach_mark_01.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\coach_mark_01.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_audio_recorder.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_audio_recorder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ringing.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\dialog_ringing.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_info_from.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_info_from.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\ui_action_sheet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\ui_action_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_meet_indicator.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_meet_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_talk_from.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_talk_from.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_files.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_files.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\table_cell_icon_text.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\table_cell_icon_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_add_file_container.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_add_file_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_item_web_file.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_item_web_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\meet_control_toolbar_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\meet_control_toolbar_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_landing_page_tablet_land.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_landing_page_tablet_land.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_searchresult_binder_todo.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_searchresult_binder_todo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_binder_grid.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_binder_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_thumbnail_bottom_bar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_thumbnail_bottom_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_pic_from.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_pic_from.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_audio_to.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_audio_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\popup_horizontal.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\popup_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_live_meet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_live_meet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_todo_comment.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_todo_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_addview_gridview_cell.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_addview_gridview_cell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\popup_clip_control.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\popup_clip_control.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tag_edit.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_tag_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_talk_to.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_talk_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_grid_item_whiteboard.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_grid_item_whiteboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_searchresult_binder_detail.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_searchresult_binder_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\live_sharing_invite_attendees.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\live_sharing_invite_attendees.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_categories.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_page_edit.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\toolbar_page_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mxvideo.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_mxvideo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_header_bar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_dialog_header_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\meet_control_headerbar_tablet.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\meet_control_headerbar_tablet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_type_email.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_type_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_floating_actionbar.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_floating_actionbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_file_to.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_file_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\segment_indicator.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\segment_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_whiteboard_thumbnail.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_whiteboard_thumbnail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_info_to.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_info_to.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_signup.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_auth_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_auth_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\clip_sdk_fragment_annotate_preview.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\clip_sdk_fragment_annotate_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moxtra_main.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\activity_moxtra_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\action_sheet_table_cell.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\action_sheet_table_cell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\table_cell_edit.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\table_cell_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_detail_secondary_panel_2.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_detail_secondary_panel_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\user_profile_second_group_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\user_profile_second_group_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\task_detailview_set_date.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\task_detailview_set_date.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\page_grid_item_group.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\page_grid_item_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\mx_date_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\mx_date_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_todo_action_content.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_todo_action_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\member_profile_header.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\member_profile_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_page_group.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_page_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_choose_binder_cover.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_choose_binder_cover.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\item_similar_binder.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\item_similar_binder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_agent_login.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\fragment_agent_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_web_page.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_web_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_chat_meet_from.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_chat_meet_from.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_indicator.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\layout_searchresult_binder_user.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\layout_searchresult_binder_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\invite_via_email.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\invite_via_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\groupchat_tasks_list_item.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\groupchat_tasks_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\meet_sdk_footer_view.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\meet_sdk_footer_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_invite_via_sms.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_invite_via_sms.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\conversation_tabs.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\conversation_tabs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\row_invited_member.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\row_invited_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\clip_sdk_activity_save_note.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\clip_sdk_activity_save_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\layout\\horiz_separator.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\layout\\horiz_separator.xml"
+    }
+]

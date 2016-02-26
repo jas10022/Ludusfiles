@@ -49,4 +49,4 @@
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@color/white"
         android:textStyle="bold" />
-</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/widget_search_box.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/layout/widget_search_box.xml -->
+</LinearLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/widget_search_box.xml -->

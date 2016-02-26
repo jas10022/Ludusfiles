@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-ja/values-ja.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-ja/values-ja.xml -->
     <eat-comment/>
     <plurals name="activities">
         <item quantity="other">"%d アクティビティ"</item>
@@ -1049,7 +1049,7 @@
     <string name="_s_Copy">"%1$sさんのコピー"</string>
     <string name="_sec">"%1$d 秒"</string>
     <string name="_updated_">"%1$s 更新済み："</string>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ja/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-ja/values.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
@@ -1064,7 +1064,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-ja/values-ja.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-ja/values-ja.xml -->
     <eat-comment/>
     <string name="added_a_file">"ファイルを追加。"</string>
     <string name="added_a_file_">"ファイル \"%1$s\"を追加しました"</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-fi/values-fi.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-fi/values-fi.xml -->
     <eat-comment/>
     <plurals name="activities">
         <item quantity="other">"%d toimintaa"</item>
@@ -1049,7 +1049,7 @@
     <string name="_s_Copy">"%1$s:n kopio"</string>
     <string name="_sec">"%1$d s"</string>
     <string name="_updated_">"%1$s päivitetty:"</string>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-fi/values.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-fi/values.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Siirry etusivulle"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Siirry ylös"</string>
@@ -1064,7 +1064,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Puhehaku"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Jakaminen:"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Jakaminen: %s"</string>
-    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-fi/values-fi.xml -->
+    <!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/build/intermediates/bundles/debug/res/values-fi/values-fi.xml -->
     <eat-comment/>
     <string name="added_a_file">"lisäsi tiedoston."</string>
     <string name="added_a_file_">"lisäsi tiedoston \"%1$s\""</string>

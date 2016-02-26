@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\segmented_control_text.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\segmented_control_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\select_all_text_color_selector.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\select_all_text_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\vpi__light_theme.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\color_text_moxtra_blue.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\color_text_moxtra_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\vpi__dark_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\uitableview_text_color_selector.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\uitableview_text_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\color_text_gray_darker.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\color_text_gray_darker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\darker_white_text_color_style.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\darker_white_text_color_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\segment_indicator_text_color.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\segment_indicator_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\blue_white_text_color_style.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\blue_white_text_color_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\stateful_create_note_btn_text_color.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\stateful_create_note_btn_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\flat_btn_text_color.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\flat_btn_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\stateful_start_meet_btn_text_color.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\stateful_start_meet_btn_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\text_task_tasktitle_color_selector.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\text_task_tasktitle_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\tab_control_text.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\tab_control_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\build\\intermediates\\res\\merged\\debug\\color\\normal_button_text_color_selector.xml",
+        "source": "C:\\Users\\Jaskaran\\Documents\\GitHub\\Ludusfiles\\Ludusfiles\\moxtra\\res\\color\\normal_button_text_color_selector.xml"
+    }
+]

@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/actionsheet_middle_pressed" android:state_pressed="true"/>
     <item android:drawable="@drawable/actionsheet_middle_normal"/>
 
-</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/slt_as_ios7_other_bt_middle.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/drawable/slt_as_ios7_other_bt_middle.xml -->
+</selector><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/drawable/slt_as_ios7_other_bt_middle.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles/Ludusfiles/moxtra/res/drawable/slt_as_ios7_other_bt_middle.xml -->

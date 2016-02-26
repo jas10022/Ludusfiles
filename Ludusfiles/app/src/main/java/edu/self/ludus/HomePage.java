@@ -9,7 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import com.parse.ParseObject;
+import com.firebase.client.Firebase;
 
 public class HomePage extends ActionBarActivity {
 
@@ -17,6 +17,8 @@ public class HomePage extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
+
+        Firebase.setAndroidContext(this);
         Button login = (Button)findViewById(R.id.login);
         Button signUp = (Button)findViewById(R.id.sign_up);
 

@@ -4,12 +4,14 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <string name="sign_in_error_email_passwrod">There seems to be an error in your password or email</string>
     <string name="profile">Profile</string>
     <string name="skills">Skills</string>
     <string name="feedback">Feedback</string>
     <string name="important_date">Important Dates</string>
     <string name="workouts">Workouts</string>
     <string name="goals">Goals</string>
+    <string name="both_cant_be">You can only mark as a coach or a student</string>
     <string name="Ludus">Ludus</string>
     <string name="title_activity_student_profile">StudentProfile</string>
     <string name="title_activity_student_skills">StudentSkills</string>

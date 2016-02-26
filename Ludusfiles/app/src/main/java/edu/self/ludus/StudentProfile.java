@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.parse.ParseUser;
+import com.firebase.client.Firebase;
 
 import org.w3c.dom.Text;
 
@@ -23,9 +23,9 @@ public class StudentProfile extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Firebase.setAndroidContext(this);
         setContentView(R.layout.activity_student_profile);
 
-        ParseUser user = ParseUser.getCurrentUser();
 
         TextView nameUser = (TextView)findViewById(R.id.user_name);
         TextView userSport = (TextView)findViewById(R.id.user_sport);
@@ -35,24 +35,6 @@ public class StudentProfile extends ActionBarActivity {
         TextView userName = (TextView)findViewById(R.id.username);
         TextView v = (TextView)findViewById(R.id.coach);
 
-        if (user.get("Name") != null) {
-            mName = user.get("Name").toString();
-        }
-        if (user.get("Sport") != null) {
-            mSport = user.get("Sport").toString();
-        }
-        if (user.get("City") != null) {
-            mLocation = user.get("City").toString();
-        }
-        if (user.get("PhoneNumber") != null) {
-            mPhoneNumber = user.get("PhoneNumber").toString();
-        }
-        if ( user.get("email") != null) {
-            mEmail = user.get("email").toString();
-        }
-        if (user.get("username") !=null) {
-            mUserName = user.get("username").toString();
-        }
 
         nameUser.setText(mName);
         userSport.setText(mSport);

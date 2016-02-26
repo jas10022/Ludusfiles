@@ -31,4 +31,4 @@
         android:clickable="true"
         android:orientation="vertical" />
 
-</android.support.v4.widget.DrawerLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_my_task_list.xml --><!-- From: file:/C:/Users/Jaskaran/Documents/GitHub/Ludusfiles-master/Ludusfiles/moxtra/res/layout/fragment_my_task_list.xml -->
+</android.support.v4.widget.DrawerLayout><!-- From: file:/var/lib/jenkins/jobs/Build_2.9.2_Based_Chat_SDK/workspace/android/branches/2.9.2/resources/res/layout/fragment_my_task_list.xml -->
