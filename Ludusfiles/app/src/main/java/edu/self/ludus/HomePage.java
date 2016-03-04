@@ -1,9 +1,11 @@
 package edu.self.ludus;
 
+import android.app.LoaderManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -27,6 +29,7 @@ public class HomePage extends ActionBarActivity {
             public void onClick(View v) {
                 Intent i = new Intent (HomePage.this, LoginPage.class);
                 startActivity(i);
+                LoginPage.loginScene2 = true;
             }
         });
         signUp.setOnClickListener(new View.OnClickListener() {
@@ -34,7 +37,7 @@ public class HomePage extends ActionBarActivity {
             public void onClick(View v) {
                 Intent i = new Intent(HomePage.this, SignUp.class);
                 startActivity(i);
-
+                SignUp.loginScene = true;
             }
         });
     }
@@ -59,5 +62,10 @@ public class HomePage extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public LoaderManager getLoaderManager() {
+        return super.getLoaderManager();
     }
 }

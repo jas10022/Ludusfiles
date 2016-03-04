@@ -19,16 +19,19 @@ public class LoginPage extends AppCompatActivity {
 
     private EditText mPasswordInput;
     private EditText mEmailInput;
-    private String mPassword;
+    public static String mPassword;
     private String mUsername;
     private Firebase myFirebaseRef;
     private String ProfileType;
-    public static String username;
+    public static boolean loginScene2;
+    public static String id;
+    private Firebase user;
     public static String city;
     public static String name;
     public static String phoneNumber;
     public static String sport;
     public static String email;
+    public static String username;
 
 
     @Override
@@ -38,6 +41,13 @@ public class LoginPage extends AppCompatActivity {
         Firebase.setAndroidContext(this);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        loginScene2 = true;
+        if (SignUp.loginScene == true){
+            loginScene2 = false;
+        }else if(SignUp.loginScene == false){
+            loginScene2 = true;
+        }
 
         myFirebaseRef = new Firebase("https://mytennis.firebaseio.com/");
 
@@ -61,25 +71,48 @@ public class LoginPage extends AppCompatActivity {
                     public void onAuthenticated(AuthData authData) {
                         Log.d("LoginPage", "worked");
 
-                        Firebase user = myFirebaseRef;
-                        myFirebaseRef.addValueEventListener(new ValueEventListener() {
+                        user = new Firebase("https://mytennis.firebaseio.com/" + mPassword);
+
+                        id = authData.getUid().toString();
+
+                        user.addValueEventListener(new ValueEventListener() {
                             @Override
                             public void onDataChange(DataSnapshot dataSnapshot) {
-                                ProfileType = dataSnapshot.child(mPassword).child("ProfileType").getValue().toString();
-                                username = dataSnapshot.child(mPassword).child("Username").getValue().toString();
-                                city = dataSnapshot.child(mPassword).child("Username").getValue().toString();
-                                name = dataSnapshot.child(mPassword).child("Username").getValue().toString();
-                                phoneNumber = dataSnapshot.child(mPassword).child("Username").getValue().toString();
-                                sport = dataSnapshot.child(mPassword).child("Username").getValue().toString();
-                                email = dataSnapshot.child(mPassword).child("Username").getValue().toString();
+                                ProfileType = dataSnapshot.child("ProfileType").getValue().toString();
+
+                                username = dataSnapshot.child("Username").getValue().toString();
 
                                 Log.d("LoginPage", ProfileType);
 
+                                city = dataSnapshot.child("City").getValue().toString();
+                                name = dataSnapshot.child("Name").getValue().toString();
+                                phoneNumber = dataSnapshot.child("PhoneNumber").getValue().toString();
+                                sport = dataSnapshot.child("Sport").getValue().toString();
+                                email = dataSnapshot.child("Email").getValue().toString();
+                                username = dataSnapshot.child("Username").getValue().toString();
+
+
                                 if (ProfileType.equals("Student")) {
                                     Intent i = new Intent(LoginPage.this, StudentHomePage.class);
+                                    i.putExtra("Username", username);
+                                    i.putExtra("ID",id);
+                                    i.putExtra("Email", email);
+                                    i.putExtra("Name", name);
+                                    i.putExtra("PhoneNumber",phoneNumber);
+                                    i.putExtra("Sport", sport);
+                                    i.putExtra("City", city);
+                                    i.putExtra("Password",mPassword);
                                     startActivity(i);
-                                }else if (ProfileType.equals("Coach")) {
+                                } else if (ProfileType.equals("Coach")) {
                                     Intent a = new Intent(LoginPage.this, CoachProfile.class);
+                                    a.putExtra("Username", username);
+                                    a.putExtra("ID", id);
+                                    a.putExtra("Email", email);
+                                    a.putExtra("Name", name);
+                                    a.putExtra("PhoneNumber", phoneNumber);
+                                    a.putExtra("Sport", sport);
+                                    a.putExtra("City", city);
+                                    a.putExtra("Password",mPassword);
                                     startActivity(a);
                                 }
                             }
@@ -89,18 +122,11 @@ public class LoginPage extends AppCompatActivity {
 
                             }
                         });
-
-                        String username = user.child(mPassword).getKey().toString();
-
-
-
-                        Log.d("LoginPage", username);
-
                     }
 
                     @Override
                     public void onAuthenticationError(FirebaseError firebaseError) {
-                        Log.d("LoginPage","not");
+                        Log.d("LoginPage", "not");
                     }
                 });
 

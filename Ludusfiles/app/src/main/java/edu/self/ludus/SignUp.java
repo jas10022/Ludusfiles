@@ -13,10 +13,10 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
+import com.firebase.client.AuthData;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 
-import java.util.HashMap;
 import java.util.Map;
 
 
@@ -34,13 +34,17 @@ public class SignUp extends AppCompatActivity {
     private EditText mCityInput;
     private Firebase myFirebaseRef;
 
-    public String Username;
-    public String Password;
-    public String Email;
-    public String PhoneNumber;
-    public String Sport;
-    public String City;
-    public String Name;
+    public static String Username;
+    public static String Password;
+    public static String Email;
+    public static String PhoneNumber;
+    public static String Sport;
+    public static String City;
+    public static String Name;
+    public static boolean loginScene;
+    public static Firebase user;
+    private String id;
+    private Firebase userid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +53,14 @@ public class SignUp extends AppCompatActivity {
         setContentView(R.layout.activity_sign_up);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        loginScene = true;
+        if (LoginPage.loginScene2 == true){
+            loginScene = false;
+        }else if(LoginPage.loginScene2 == false){
+            loginScene = true;
+        }
+
 
         myFirebaseRef = new Firebase("https://mytennis.firebaseio.com/");
 
@@ -94,50 +106,89 @@ public class SignUp extends AppCompatActivity {
                           public void onSuccess(Map<String, Object> stringObjectMap) {
                               Log.d("SignUp", "works");
 
-                              Firebase user = myFirebaseRef.child(Password);
+                              user = myFirebaseRef.child(Password);
 
-                              user.child("Username").setValue(Username);
-                              user.child("Email").setValue(Email);
-                              user.child("PhoneNumber").setValue(PhoneNumber);
-                              user.child("Sport").setValue(Sport);
-                              user.child("City").setValue(City);
-                              user.child("Name").setValue(Name);
+                              myFirebaseRef.authWithPassword(Email, Password, new Firebase.AuthResultHandler() {
+                                  @Override
+                                  public void onAuthenticated(AuthData authData) {
 
-                              if (mCoachSignup.isChecked() && mStudentSignup.isChecked()) {
-                                  AlertDialog.Builder builder = new AlertDialog.Builder(SignUp.this);
-                                  builder.setMessage(R.string.both_cant_be)
-                                          .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
-                                              public void onClick(DialogInterface dialog, int id) {
-                                                  return;
+                                      id = authData.getUid().toString();
+
+                                      user.child("Username").setValue(Username);
+                                      user.child("Email").setValue(Email);
+                                      user.child("PhoneNumber").setValue(PhoneNumber);
+                                      user.child("Sport").setValue(Sport);
+                                      user.child("City").setValue(City);
+                                      user.child("Name").setValue(Name);
+
+                                      userid = myFirebaseRef.child(id);
+                                      userid.child("Message").setValue("It worked");
+                                      userid.child("Username").setValue(Username);
+                                      userid.child("Email").setValue(Email);
+                                      userid.child("PhoneNumber").setValue(PhoneNumber);
+                                      userid.child("Sport").setValue(Sport);
+                                      userid.child("City").setValue(City);
+                                      userid.child("Name").setValue(Name);
+
+
+                                      if (mCoachSignup.isChecked() && mStudentSignup.isChecked()) {
+                                          AlertDialog.Builder builder = new AlertDialog.Builder(SignUp.this);
+                                          builder.setMessage(R.string.both_cant_be)
+                                                  .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+                                                      public void onClick(DialogInterface dialog, int id) {
+                                                          return;
+                                                      }
+                                                  });
+                                          // Create the AlertDialog object and return it
+                                          builder.show();
+                                      } else {
+                                          if (mCoachSignup.isChecked() || mStudentSignup.isChecked()) {
+                                              if (mCoachSignup.isChecked()) {
+                                                  Intent i = new Intent(SignUp.this, CoachProfile.class);
+                                                  i.putExtra("Username", Username);
+                                                  i.putExtra("ID",id);
+                                                  i.putExtra("Email",Email);
+                                                  i.putExtra("Name", Name);
+                                                  i.putExtra("PhoneNumber",PhoneNumber);
+                                                  i.putExtra("Sport", Sport);
+                                                  i.putExtra("City", City);
+                                                  i.putExtra("Password",Password);
+                                                  startActivity(i);
+
+                                                  user.child("ProfileType").setValue("Coach");
+                                              } else if (mStudentSignup.isChecked()) {
+                                                  Intent i = new Intent(SignUp.this, StudentHomePage.class);
+                                                  i.putExtra("Username", Username);
+                                                  i.putExtra("ID",id);
+                                                  i.putExtra("Email",Email);
+                                                  i.putExtra("Name", Name);
+                                                  i.putExtra("PhoneNumber",PhoneNumber);
+                                                  i.putExtra("Sport", Sport);
+                                                  i.putExtra("City", City);
+                                                  i.putExtra("Password",Password);
+                                                  startActivity(i);
+                                                  user.child("ProfileType").setValue("Student");
                                               }
-                                          });
-                                  // Create the AlertDialog object and return it
-                                  builder.show();
-                              } else {
-                                  if (mCoachSignup.isChecked() || mStudentSignup.isChecked()) {
-                                      if (mCoachSignup.isChecked()) {
-                                          Intent i = new Intent(SignUp.this, CoachProfile.class);
-                                          startActivity(i);
+                                          } else {
+                                              AlertDialog.Builder builder = new AlertDialog.Builder(SignUp.this);
+                                              builder.setMessage(R.string.choose_person)
+                                                      .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+                                                          public void onClick(DialogInterface dialog, int id) {
+                                                              return;
+                                                          }
+                                                      });
+                                              // Create the AlertDialog object and return it
+                                              builder.show();
+                                          }
+                                      }
 
-                                          user.child("ProfileType").setValue("Coach");
-                                      }
-                                      if (mStudentSignup.isChecked()) {
-                                          Intent i = new Intent(SignUp.this, StudentHomePage.class);
-                                          startActivity(i);
-                                          user.child("ProfileType").setValue("Student");
-                                      }
-                                  } else {
-                                      AlertDialog.Builder builder = new AlertDialog.Builder(SignUp.this);
-                                      builder.setMessage(R.string.choose_person)
-                                              .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
-                                                  public void onClick(DialogInterface dialog, int id) {
-                                                      return;
-                                                  }
-                                              });
-                                      // Create the AlertDialog object and return it
-                                      builder.show();
                                   }
-                              }
+
+                                  @Override
+                                  public void onAuthenticationError(FirebaseError firebaseError) {
+
+                                  }
+                              });
                           }
 
                           @Override
