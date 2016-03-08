@@ -120,6 +120,8 @@ public class SignUp extends AppCompatActivity {
                                       user.child("Sport").setValue(Sport);
                                       user.child("City").setValue(City);
                                       user.child("Name").setValue(Name);
+                                      user.child("Coach").setValue("");
+                                      user.child("Student").setValue("");
 
                                       userid = myFirebaseRef.child(id);
                                       userid.child("Message").setValue("It worked");
@@ -129,7 +131,8 @@ public class SignUp extends AppCompatActivity {
                                       userid.child("Sport").setValue(Sport);
                                       userid.child("City").setValue(City);
                                       userid.child("Name").setValue(Name);
-
+                                      userid.child("Coach").setValue("");
+                                      userid.child("Student");
 
                                       if (mCoachSignup.isChecked() && mStudentSignup.isChecked()) {
                                           AlertDialog.Builder builder = new AlertDialog.Builder(SignUp.this);
@@ -153,8 +156,8 @@ public class SignUp extends AppCompatActivity {
                                                   i.putExtra("Sport", Sport);
                                                   i.putExtra("City", City);
                                                   i.putExtra("Password",Password);
+                                                  i.putExtra("StudentID","");
                                                   startActivity(i);
-
                                                   user.child("ProfileType").setValue("Coach");
                                               } else if (mStudentSignup.isChecked()) {
                                                   Intent i = new Intent(SignUp.this, StudentHomePage.class);
@@ -166,6 +169,7 @@ public class SignUp extends AppCompatActivity {
                                                   i.putExtra("Sport", Sport);
                                                   i.putExtra("City", City);
                                                   i.putExtra("Password",Password);
+                                                  i.putExtra("CoachID","");
                                                   startActivity(i);
                                                   user.child("ProfileType").setValue("Student");
                                               }

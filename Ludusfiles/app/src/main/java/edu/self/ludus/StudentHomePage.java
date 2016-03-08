@@ -33,6 +33,10 @@ public class StudentHomePage extends ActionBarActivity {
     private String email;
     private String id;
     private String password;
+    private String coachID;
+    private Firebase coachUser;
+    private  String coachusername;
+    private String message;
 
 
     @Override
@@ -54,6 +58,26 @@ public class StudentHomePage extends ActionBarActivity {
         email = intentextra.getStringExtra("Email");
         id = intentextra.getStringExtra("ID");
         password = intentextra.getStringExtra("Password");
+        coachID = intentextra.getStringExtra("CoachID");
+
+        Firebase user = new Firebase("https://mytennis.firebaseio.com/" + password);
+
+        user.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                city = dataSnapshot.child("City").getValue().toString();
+                name = dataSnapshot.child("Name").getValue().toString();
+                phoneNumber = dataSnapshot.child("PhoneNumber").getValue().toString();
+                sport = dataSnapshot.child("Sport").getValue().toString();
+                email = dataSnapshot.child("Email").getValue().toString();
+                username = dataSnapshot.child("Username").getValue().toString();
+            }
+
+            @Override
+            public void onCancelled(FirebaseError firebaseError) {
+
+            }
+        });
 
         mProfileButton = (Button)findViewById(R.id.profile_button);
         mSkillsButton = (Button)findViewById(R.id.skills_button);
@@ -66,6 +90,26 @@ public class StudentHomePage extends ActionBarActivity {
 
         welcome_user.setText("Welcome " + username);
 
+        if (coachID.equals("")){
+            coachusername = "Add Coach";
+        }else {
+            coachUser = new Firebase(coachID);
+
+            coachUser.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    coachusername = dataSnapshot.child("Username").getValue().toString();
+                    message = dataSnapshot.child("Message").getValue().toString();
+                }
+
+                @Override
+                public void onCancelled(FirebaseError firebaseError) {
+
+                }
+            });
+
+        }
+
 
         mProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,6 +121,7 @@ public class StudentHomePage extends ActionBarActivity {
                 i.putExtra("PhoneNumber", phoneNumber);
                 i.putExtra("Sport", sport);
                 i.putExtra("Email", email);
+                i.putExtra("CoachUsername",coachusername);
                 startActivity(i);
             }
         });
@@ -93,6 +138,7 @@ public class StudentHomePage extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(StudentHomePage.this, StudentFeedback.class);
+                i.putExtra("Message",message);
                 startActivity(i);
             }
         });
@@ -126,6 +172,7 @@ public class StudentHomePage extends ActionBarActivity {
                 Intent i = new Intent(StudentHomePage.this,FindCoaches.class);
                 i.putExtra("ID", id);
                 i.putExtra("Password", password);
+                i.putExtra("Username",username);
                 startActivity(i);
             }
         });
@@ -153,4 +200,5 @@ public class StudentHomePage extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }

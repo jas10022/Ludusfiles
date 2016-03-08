@@ -25,6 +25,7 @@
         android:layout_height="20dp"/>
     <TextView
         android:textSize="@dimen/text_size"
+        android:id="@+id/message"
         android:textColor="@color/white"
         android:layout_below="@+id/space"
         android:text="@string/paragraph"

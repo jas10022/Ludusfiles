@@ -32,6 +32,11 @@ public class LoginPage extends AppCompatActivity {
     public static String sport;
     public static String email;
     public static String username;
+    private String coachUser;
+    private Intent i;
+    private String studentuseer;
+    private Firebase userData;
+    private String studentAmount;
 
 
     @Override
@@ -75,6 +80,22 @@ public class LoginPage extends AppCompatActivity {
 
                         id = authData.getUid().toString();
 
+                        userData = new Firebase("https://mytennis.firebaseio.com/" + id);
+
+                        userData.addValueEventListener(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
+
+
+                            }
+
+                            @Override
+                            public void onCancelled(FirebaseError firebaseError) {
+
+                            }
+                        });
+
+
                         user.addValueEventListener(new ValueEventListener() {
                             @Override
                             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -90,18 +111,20 @@ public class LoginPage extends AppCompatActivity {
                                 sport = dataSnapshot.child("Sport").getValue().toString();
                                 email = dataSnapshot.child("Email").getValue().toString();
                                 username = dataSnapshot.child("Username").getValue().toString();
+                                coachUser = dataSnapshot.child("Coach").getValue().toString();
 
 
                                 if (ProfileType.equals("Student")) {
-                                    Intent i = new Intent(LoginPage.this, StudentHomePage.class);
+                                    i = new Intent(LoginPage.this, StudentHomePage.class);
                                     i.putExtra("Username", username);
-                                    i.putExtra("ID",id);
+                                    i.putExtra("ID", id);
                                     i.putExtra("Email", email);
                                     i.putExtra("Name", name);
-                                    i.putExtra("PhoneNumber",phoneNumber);
+                                    i.putExtra("PhoneNumber", phoneNumber);
                                     i.putExtra("Sport", sport);
                                     i.putExtra("City", city);
-                                    i.putExtra("Password",mPassword);
+                                    i.putExtra("Password", mPassword);
+                                    i.putExtra("CoachID",coachUser);
                                     startActivity(i);
                                 } else if (ProfileType.equals("Coach")) {
                                     Intent a = new Intent(LoginPage.this, CoachProfile.class);
@@ -120,13 +143,14 @@ public class LoginPage extends AppCompatActivity {
                             @Override
                             public void onCancelled(FirebaseError firebaseError) {
 
+                                Log.d("LoginPage",firebaseError.toString());
                             }
                         });
                     }
 
                     @Override
                     public void onAuthenticationError(FirebaseError firebaseError) {
-                        Log.d("LoginPage", "not");
+                        Log.d("LoginPage", firebaseError.toString());
                     }
                 });
 

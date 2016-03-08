@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.firebase.client.DataSnapshot;
@@ -27,6 +28,12 @@ public class FindCoaches extends AppCompatActivity {
     private String findCoaches;
     public static String coachUsername;
     private Firebase studentUser;
+    private String username;
+    private String city;
+    private String name;
+    private String phoneNumber;
+    private String sport;
+    private String email;
 
 
     @Override
@@ -40,14 +47,35 @@ public class FindCoaches extends AppCompatActivity {
         intentextra = getIntent();
         mStudentId = intentextra.getStringExtra("ID").toString();
         password = intentextra.getStringExtra("Password").toString();
+        username = intentextra.getStringExtra("Username").toString();
+        ImageView back = (ImageView) findViewById(R.id.btnBack);
 
         final TextView studentId = (TextView)findViewById(R.id.student_id);
         mFindCoaches = (EditText)findViewById(R.id.add_coach);
-        Button add = (Button)findViewById(R.id.add);
+        final Button add = (Button)findViewById(R.id.add);
 
-
+        city = intentextra.getStringExtra("City");
+        name = intentextra.getStringExtra("Name");
+        phoneNumber = intentextra.getStringExtra("PhoneNumber");
+        sport = intentextra.getStringExtra("Sport");
+        email = intentextra.getStringExtra("Email");
+        password = intentextra.getStringExtra("Password");
 
         studentId.setText(mStudentId);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(FindCoaches.this, StudentHomePage.class);
+                if (add.isActivated()) {
+                    i.putExtra("CoachID", coachUser.toString());
+                } else {
+                    i.putExtra("CoachID", "");
+                }
+                i.putExtra("Password",password);
+                startActivity(i);
+            }
+        });
 
         add.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,13 +94,14 @@ public class FindCoaches extends AppCompatActivity {
                         coachUsername = dataSnapshot.child("Username").getValue().toString();
                         Log.d("FindCoaches", Coach);
 
-                        studentUser.child("Coach").setValue(findCoaches);
+                        studentUser.child("Coach").setValue(coachUser.toString());
+                        coachUser.child("Students").child(username).setValue("https://mytennis.firebaseio.com/" + mStudentId);
 
                     }
 
                     @Override
                     public void onCancelled(FirebaseError firebaseError) {
-
+                        Log.d("FindCoach",firebaseError.toString());
                     }
                 });
 

@@ -6,6 +6,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
@@ -23,6 +24,7 @@ public class Coaches_Students extends AppCompatActivity {
     public static final String EXTRA = "CVA_Contact";
     public StudentList mStudents;
     public StudentAdapter mAdapter;
+    private Intent intentextra;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,11 @@ public class Coaches_Students extends AppCompatActivity {
         setContentView(R.layout.activity_coaches__students);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        intentextra = getIntent();
+
+        Log.d("Coaches_Students","student username is = " + intentextra.getStringExtra("StudentUsername").toString());
+
 
         mStudents = StudentList.getInstance();
 

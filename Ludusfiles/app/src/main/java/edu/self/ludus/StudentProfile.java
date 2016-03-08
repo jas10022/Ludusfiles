@@ -8,7 +8,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
 
 
 public class StudentProfile extends ActionBarActivity {
@@ -20,6 +23,9 @@ public class StudentProfile extends ActionBarActivity {
     private String mEmail;
     private String mUserName;
     private Intent intent;
+    private String coachID;
+    private Firebase coachUser;
+    private String coachusername;
 
 
     @Override
@@ -36,9 +42,10 @@ public class StudentProfile extends ActionBarActivity {
         TextView userPhoneNumber = (TextView)findViewById(R.id.user_phone_number);
         TextView userEmail = (TextView)findViewById(R.id.email);
         TextView userName = (TextView)findViewById(R.id.username);
-        TextView v = (TextView)findViewById(R.id.coach);
+        TextView coach = (TextView)findViewById(R.id.coach);
 
 
+        coachusername = intent.getStringExtra("CoachUsername");
         mName = intent.getStringExtra("Name");
         mSport = intent.getStringExtra("Sport");
         mLocation = intent.getStringExtra("City");
@@ -46,14 +53,17 @@ public class StudentProfile extends ActionBarActivity {
         mEmail = intent.getStringExtra("Email");
         mUserName = intent.getStringExtra("Username");
 
-        Log.d("StudentProfile","name is " + mName);
 
+        Log.d("StudentProfile","Coach url is " + coachusername);
+        Log.d("StudentProfile", "name is " + mName);
+        coach.setText(coachusername);
         nameUser.setText(mName);
         userSport.setText(mSport);
         userLocation.setText(mLocation);
         userPhoneNumber.setText(mPhoneNumber);
         userEmail.setText(mEmail);
         userName.setText(mUserName);
+
     }
 
     @Override

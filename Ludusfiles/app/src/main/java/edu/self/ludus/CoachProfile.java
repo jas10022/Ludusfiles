@@ -24,7 +24,9 @@ public class CoachProfile extends AppCompatActivity {
     public static String username;
     public static String id;
     public static String password;
-
+    private String studentID;
+    private String studentusername;
+    private String studentMessage;
 
 
     @Override
@@ -48,14 +50,33 @@ public class CoachProfile extends AppCompatActivity {
         email = intentextra.getStringExtra("Email");
         id = intentextra.getStringExtra("ID");
         password = intentextra.getStringExtra("Password");
+        studentID = intentextra.getStringExtra("StudentID");
 
-        Button studentsButton = (Button)findViewById(R.id.student_button);
+        final Button studentsButton = (Button)findViewById(R.id.student_button);
         Button profileButton = (Button)findViewById(R.id.profile_button);
         Button calenderButton = (Button)findViewById(R.id.calender_button);
         Button connectButton = (Button)findViewById(R.id.connect_button);
         Button learnButton = (Button)findViewById(R.id.learn_button);
         TextView welcome_user = (TextView)findViewById(R.id.title);
 
+        if (studentID.equals("")){
+            studentusername = "Add Student";
+        }else {
+            Firebase Studentuser = new Firebase(studentID);
+
+            Studentuser.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    studentusername = dataSnapshot.child("Username").getValue().toString();
+                    studentMessage = dataSnapshot.child("Message").getValue().toString();
+                }
+
+                @Override
+                public void onCancelled(FirebaseError firebaseError) {
+
+                }
+            });
+        }
 
         welcome_user.setText("Welcome " + username);
 
@@ -63,7 +84,7 @@ public class CoachProfile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(CoachProfile.this , Coaches_Students.class);
-
+                i.putExtra("StudentUsername",studentusername);
                 startActivity(i);
             }
         });
@@ -77,6 +98,7 @@ public class CoachProfile extends AppCompatActivity {
                 i.putExtra("Sport",sport);
                 i.putExtra("Email", email);
                 i.putExtra("Username",username);
+                i.putExtra("StudentMessage", studentMessage);
                 startActivity(i);
             }
         });
