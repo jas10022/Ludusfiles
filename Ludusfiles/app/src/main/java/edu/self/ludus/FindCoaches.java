@@ -16,6 +16,8 @@ import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
 
+import java.util.ArrayList;
+
 public class FindCoaches extends AppCompatActivity {
 
     private EditText mFindCoaches;
@@ -34,6 +36,7 @@ public class FindCoaches extends AppCompatActivity {
     private String phoneNumber;
     private String sport;
     private String email;
+    private Firebase studentUSerid;
 
 
     @Override
@@ -83,6 +86,7 @@ public class FindCoaches extends AppCompatActivity {
                 findCoaches = mFindCoaches.getText().toString();
 
                 studentUser = new Firebase("https://mytennis.firebaseio.com/" + password);
+                studentUSerid = new Firebase("https://mytennis.firebaseio.com/" + mStudentId);
 
                 coachUser = new Firebase("https://mytennis.firebaseio.com/" + findCoaches);
 
@@ -94,9 +98,19 @@ public class FindCoaches extends AppCompatActivity {
                         coachUsername = dataSnapshot.child("Username").getValue().toString();
                         Log.d("FindCoaches", Coach);
 
+                        studentUSerid.child("Coach").setValue(coachUser.toString());
                         studentUser.child("Coach").setValue(coachUser.toString());
-                        coachUser.child("Students").child(username).setValue("https://mytennis.firebaseio.com/" + mStudentId);
 
+                        StudentUserArray studentUserArray = new StudentUserArray();
+
+                        studentUserArray.studentUsersname = new ArrayList<String>();
+                        studentUserArray.studentIDcreation = new ArrayList<String>();
+                        studentUserArray.studentUsersname.add(username);
+                        studentUserArray.studentIDcreation.add("https://mytennis.firebaseio.com/" + mStudentId);
+
+
+                        coachUser.child("Students").setValue(studentUserArray.studentUsersname);
+                        coachUser.child("StudentsID").setValue(studentUserArray.studentIDcreation);
                     }
 
                     @Override

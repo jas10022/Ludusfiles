@@ -17,6 +17,7 @@ import android.widget.TextView;
 
 import com.firebase.client.Firebase;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Coaches_Students extends AppCompatActivity {
@@ -25,6 +26,10 @@ public class Coaches_Students extends AppCompatActivity {
     public StudentList mStudents;
     public StudentAdapter mAdapter;
     private Intent intentextra;
+    private String studentUser;
+    private  String students;
+    private ArrayList<String> studentuserarray;
+    private  ArrayList<String> studentIDarray;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,19 +40,23 @@ public class Coaches_Students extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         intentextra = getIntent();
+        //studentUser = intentextra.getStringExtra("StudentUsername");
+        studentuserarray = intentextra.getStringArrayListExtra("StudentUsername");
+        studentIDarray = intentextra.getStringArrayListExtra("StudentID");
 
-        Log.d("Coaches_Students","student username is = " + intentextra.getStringExtra("StudentUsername").toString());
-
+        Log.d("Coaches_Students", "student username is = " + studentuserarray.get(0));
 
         mStudents = StudentList.getInstance();
 
-        for (int i = 0; i <30; i++){
+        for (int i = 0; i < studentuserarray.size(); i++){
             Students contact1 = new Students();
-            contact1.setName("Jas Bakshi");
+            contact1.setName(studentuserarray.get(i));
             contact1.sports = new ArrayList<String>();
             contact1.sports.add("Tennis");
             contact1.skillLevel = new ArrayList<String>();
             contact1.skillLevel.add("5/10");
+            contact1.StudentID = new ArrayList<String>();
+            contact1.StudentID.add(studentIDarray.get(i));
             mStudents.add(contact1);
         }
         ListView listView = (ListView)findViewById(R.id.student_list_view);

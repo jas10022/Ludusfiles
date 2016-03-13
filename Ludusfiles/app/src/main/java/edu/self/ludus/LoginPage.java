@@ -37,6 +37,7 @@ public class LoginPage extends AppCompatActivity {
     private String studentuseer;
     private Firebase userData;
     private String studentAmount;
+    private String studentID;
 
 
     @Override
@@ -86,6 +87,7 @@ public class LoginPage extends AppCompatActivity {
                             @Override
                             public void onDataChange(DataSnapshot dataSnapshot) {
 
+                                studentID = dataSnapshot.child("StudentsID").getChildren().toString();
 
                             }
 
@@ -136,6 +138,7 @@ public class LoginPage extends AppCompatActivity {
                                     a.putExtra("Sport", sport);
                                     a.putExtra("City", city);
                                     a.putExtra("Password",mPassword);
+                                    a.putExtra("StudentID",studentID);
                                     startActivity(a);
                                 }
                             }

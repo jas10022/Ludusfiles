@@ -2,16 +2,26 @@ package edu.self.ludus;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.firebase.client.ChildEventListener;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
+import com.firebase.client.GenericTypeIndicator;
 import com.firebase.client.ValueEventListener;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
 
 public class CoachProfile extends AppCompatActivity {
 
@@ -27,6 +37,17 @@ public class CoachProfile extends AppCompatActivity {
     private String studentID;
     private String studentusername;
     private String studentMessage;
+    private String usernames;
+    private String studentURL;
+    private String  studentNames;
+    private String studentuserarray;
+    public Intent i;
+    private String[] studentArray;
+    private List<String> StudentUSers;
+    public int a;
+    public  Students students;
+    private Students studentid;
+    public List<String> StudentIDs;
 
 
     @Override
@@ -62,13 +83,24 @@ public class CoachProfile extends AppCompatActivity {
         if (studentID.equals("")){
             studentusername = "Add Student";
         }else {
-            Firebase Studentuser = new Firebase(studentID);
+            final Firebase Studentuser = new Firebase("https://mytennis.firebaseio.com/" + id + "/Students");
+            Firebase StudentID = new Firebase("https://mytennis.firebaseio.com/" + id + "/StudentsID");
 
-            Studentuser.addValueEventListener(new ValueEventListener() {
+            StudentID.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
-                    studentusername = dataSnapshot.child("Username").getValue().toString();
-                    studentMessage = dataSnapshot.child("Message").getValue().toString();
+                    GenericTypeIndicator<List<String>> t = new GenericTypeIndicator<List<String>>() {
+                    };
+                    StudentIDs = dataSnapshot.getValue(t);
+
+                    studentid = new Students();
+                    studentid.StudentID = new ArrayList<String>();
+
+                    for (int b = 0; b < dataSnapshot.getChildrenCount(); b++) {
+                        studentid.StudentID.add(StudentIDs.get(b));
+
+                        Log.d("CoachProfile", "student url is = " + studentid.StudentID);
+                    }
                 }
 
                 @Override
@@ -76,6 +108,35 @@ public class CoachProfile extends AppCompatActivity {
 
                 }
             });
+
+      Studentuser.addValueEventListener(new ValueEventListener() {
+          @Override
+          public void onDataChange(DataSnapshot dataSnapshot) {
+
+              GenericTypeIndicator<List<String>> t = new GenericTypeIndicator<List<String>>() {
+              };
+              StudentUSers = dataSnapshot.getValue(t);
+
+              Log.d("CoachProfile", StudentUSers.toString());
+
+              students = new Students();
+              students.Students = new ArrayList<String>();
+
+              for (a = 0; a < dataSnapshot.getChildrenCount(); a++) {
+
+                  students.Students.add(StudentUSers.get(a));
+
+                  Log.d("CoachProfile", "student names r = " + students.Students);
+
+              }
+
+          }
+
+          @Override
+          public void onCancelled(FirebaseError firebaseError) {
+
+          }
+      });
         }
 
         welcome_user.setText("Welcome " + username);
@@ -83,8 +144,9 @@ public class CoachProfile extends AppCompatActivity {
         studentsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CoachProfile.this , Coaches_Students.class);
-                i.putExtra("StudentUsername",studentusername);
+                i = new Intent(CoachProfile.this , Coaches_Students.class);
+                i.putExtra("StudentUsername",students.Students);
+                i.putExtra("StudentID", students.StudentID);
                 startActivity(i);
             }
         });
@@ -118,4 +180,6 @@ public class CoachProfile extends AppCompatActivity {
             }
         });
     }
-}
+    }
+
+

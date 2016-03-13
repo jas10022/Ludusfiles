@@ -16,6 +16,8 @@ public class Students implements Serializable{
     }
 
     private String mName;
+    public ArrayList<String> Students;
+    public ArrayList<String> StudentID;
     public ArrayList<String> sports;
     public ArrayList<String> skillLevel;
 }
